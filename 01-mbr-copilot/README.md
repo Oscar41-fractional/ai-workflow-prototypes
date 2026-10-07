@@ -1,5 +1,7 @@
 # 01 · MBR Copilot
 
+**See the output:** [sample monthly business reviews](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-01-mbr.html)
+
 **Origin (real):** As partner marketing manager for 19 ISV partners (The Channel Company for AWS Canada, 2024–2026), I produced joint marketing plans (JMPs) and monthly business reviews (MBRs) by hand. I rebuilt that workflow around AI prompt workflows plus a session-time tracker, which cut JMP/MBR production time by about 60%. The workflow was evaluated for program-wide adoption.
 
 **This repo:** an open rebuild of the same pattern with fictional partners and data.
@@ -21,5 +23,5 @@ ANTHROPIC_API_KEY=... MBR_MODEL=<model-id> python mbr.py --data sample/partner_a
 ```
 Outputs `out/<partner>_mbr.md` and the exact prompt in `out/<partner>_prompt.md`. `SKILL.md` packages the same workflow as a Claude/Cowork skill.
 
-## Design choice that matters
+## Design choices
 Numbers are calculated before the model writes anything. The model drafts the story and never does the arithmetic. That is where current AI is reliable (structure, tone, synthesis) and where it falls over (unchecked math, invented figures).

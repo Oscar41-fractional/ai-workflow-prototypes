@@ -24,7 +24,10 @@ section{padding-block:44px}h2{font-size:32px;margin-bottom:6px}.sub{color:#555;m
 .origin{font-size:14px;background:var(--paper);border-left:3px solid var(--red);padding:8px 10px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:12px;background:var(--bone);padding:2px 8px;border-radius:99px}
 .card code{font-size:12.5px;background:var(--ink);color:var(--bone);padding:8px 10px;border-radius:5px;display:block;overflow-x:auto;white-space:pre}
-.card .go{margin-top:auto;font-weight:600}
+.acts{margin-top:auto;display:flex;flex-direction:column;gap:10px;padding-top:6px}
+.btn{display:block;text-align:center;background:var(--deep);color:#fff;font-weight:600;padding:10px 14px;border-radius:6px;text-decoration:none}.btn:hover{background:var(--red)}
+.btn2{display:block;text-align:center;border:1px solid var(--ink);color:var(--ink);font-weight:600;padding:9px 14px;border-radius:6px;text-decoration:none}.btn2:hover{border-color:var(--red);color:var(--deep)}
+.det{font-size:13.5px;display:flex;flex-wrap:wrap;gap:4px 12px}.det a{color:var(--deep)}
 .tw{overflow-x:auto;border:1px solid #ddd;border-radius:8px;background:#fff}table{border-collapse:collapse;width:100%;font-size:14.5px}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid #eee;vertical-align:top}th{background:var(--ink);color:#fff;font-weight:600}
 tr:nth-child(even) td{background:var(--paper)}.pill{font-size:12px;font-weight:600;padding:2px 9px;border-radius:99px;white-space:nowrap;color:#fff}
@@ -45,33 +48,33 @@ footer{padding-block:28px;color:var(--smoke);font-size:13px}
 
 <section><div class="w">
   <h2>The prototypes</h2>
-  <p class="sub">Each runs in seconds with standard Python. Click through for the code, sample data, the solution path and the design choices.</p>
+  <p class="sub">Each prototype runs in seconds with standard Python. <b>See the output</b> shows the finished result on sample data. The links below each card open the code, the sample data, the solution path and the design choices on GitHub.</p>
   <div class="cards">
     <div class="card"><span class="n">01 · Script + Claude skill + LLM prompt</span><h3>MBR Copilot</h3>
       <div class="origin"><b>Origin:</b> AWS Canada partner program (via The Channel Company). Rebuilding JMP/MBR production around AI cut the time by about 60%.</div>
       <p>Raw partner activity data → cleaned → KPIs calculated → activities ranked and flagged → one-page review drafted for human sign-off.</p>
       <div class="tags"><span class="tag">AI workflow redesign</span><span class="tag">Calculate, then generate</span><span class="tag">Quant</span></div>
-      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><a class="go" data-path="01-mbr-copilot" href="#">Open prototype →</a></div>
+      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><div class="acts"><a class="btn" href="demo-01-mbr.html">See the output →</a><a class="btn2" data-path="01-mbr-copilot" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="01-mbr-copilot/mbr.py" href="#">Code</a><a data-file="01-mbr-copilot/SKILL.md" href="#">Claude skill</a><a data-file="01-mbr-copilot/sample/partner_activity_2026-05.csv" href="#">Sample data</a><a data-file="01-mbr-copilot/README.md#solution-path" href="#">Solution path</a><a data-file="01-mbr-copilot/README.md#design-choices" href="#">Design choices</a></div></div></div>
     <div class="card"><span class="n">02 · Script + Claude skill</span><h3>Transformation intake prioritizer</h3>
       <div class="origin"><b>Origin:</b> consistent MDF pre-approval across 19 partners, formalized as the FRACTION gate framework.</div>
       <p>Free-text AI requests → intake record → forbidden zone, readiness and value gates → ranked portfolio with decision briefs.</p>
       <div class="tags"><span class="tag">Intake & prioritization</span><span class="tag">Governance</span><span class="tag">Exec briefs</span></div>
-      <code>python prioritize.py --intake sample/intake.csv</code><a class="go" data-path="02-intake-prioritizer" href="#">Open prototype →</a></div>
+      <code>python prioritize.py --intake sample/intake.csv</code><div class="acts"><a class="btn" href="demo-02-intake.html">See the output →</a><a class="btn2" data-path="02-intake-prioritizer" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="02-intake-prioritizer/prioritize.py" href="#">Code</a><a data-file="02-intake-prioritizer/SKILL.md" href="#">Claude skill</a><a data-file="02-intake-prioritizer/sample/intake.csv" href="#">Sample data</a><a data-file="02-intake-prioritizer/README.md#solution-path" href="#">Solution path</a><a data-file="02-intake-prioritizer/README.md#design-choices" href="#">Design choices</a></div></div></div>
     <div class="card"><span class="n">03 · Scenario model</span><h3>ROI metric tree</h3>
       <div class="origin"><b>Origin:</b> AI investment-case coursework plus pipeline and MDF metrics (89.6% utilization benchmark).</div>
       <p>Metric tree, three scenarios, break-even adoption and a sensitivity grid. Shows a reframe: a broad rollout fails the gate; a focused one passes.</p>
       <div class="tags"><span class="tag">Metric tree</span><span class="tag">Scenarios</span><span class="tag">First principles</span></div>
-      <code>python roi_model.py --config assumptions.json</code><a class="go" data-path="03-roi-metric-tree" href="#">Open prototype →</a></div>
+      <code>python roi_model.py --config assumptions.json</code><div class="acts"><a class="btn" href="demo-03-roi.html">See the output →</a><a class="btn2" data-path="03-roi-metric-tree" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="03-roi-metric-tree/roi_model.py" href="#">Code</a><a data-file="03-roi-metric-tree/assumptions.json" href="#">Sample data</a><a data-file="03-roi-metric-tree/README.md#solution-path" href="#">Solution path</a><a data-file="03-roi-metric-tree/README.md#design-choices" href="#">Design choices</a></div></div></div>
     <div class="card"><span class="n">04 · Data + HTML generator</span><h3>AI capability map: go-to-market</h3>
       <div class="origin"><b>Origin:</b> the functions I have worked in: Partnerships, Marketing, Sales and Customer Success (AWS Canada, Hornetsecurity, Neuro Plus, AI-Fractional).</div>
       <p>18 processes, each with a human / AI / system solution path and, side by side, where I have done that work before and whether I have already rebuilt it with AI.</p>
       <div class="tags"><span class="tag">Capability map</span><span class="tag">Solution paths</span><span class="tag">My track record</span></div>
-      <a class="go" href="capability_map.html">View the live map →</a><a class="go" data-path="04-capability-map" href="#">Open prototype →</a></div>
+      <div class="acts"><a class="btn" href="capability_map.html">See the output →</a><a class="btn2" data-path="04-capability-map" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="04-capability-map/build_map.py" href="#">Code</a><a data-file="04-capability-map/capability_map.csv" href="#">Sample data</a><a data-file="04-capability-map/README.md#solution-path" href="#">Solution path</a><a data-file="04-capability-map/README.md#design-choices" href="#">Design choices</a></div></div></div>
     <div class="card"><span class="n">05 · Claude skill + analyzer</span><h3>Outreach copilot</h3>
       <div class="origin"><b>Origin:</b> Neuro Plus AI-assisted social selling: LinkedIn conversations tripled, 56% lead-to-meeting.</div>
       <p>A skill drafts personalized outreach under human review; an analyzer compares variants stage by stage and names the weakest stage.</p>
       <div class="tags"><span class="tag">Team-level redesign</span><span class="tag">Experimentation</span><span class="tag">Guardrails</span></div>
-      <code>python funnel.py --log sample/outreach_log.csv</code><a class="go" data-path="05-outreach-copilot" href="#">Open prototype →</a></div>
+      <code>python funnel.py --log sample/outreach_log.csv</code><div class="acts"><a class="btn" href="demo-05-outreach.html">See the output →</a><a class="btn2" data-path="05-outreach-copilot" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="05-outreach-copilot/funnel.py" href="#">Code</a><a data-file="05-outreach-copilot/SKILL.md" href="#">Claude skill</a><a data-file="05-outreach-copilot/sample/outreach_log.csv" href="#">Sample data</a><a data-file="05-outreach-copilot/README.md#solution-path" href="#">Solution path</a><a data-file="05-outreach-copilot/README.md#design-choices" href="#">Design choices</a></div></div></div>
   </div>
 </div></section>
 
@@ -94,6 +97,7 @@ footer{padding-block:28px;color:var(--smoke);font-size:13px}
     var base = /\.github\.io$/.test(h) && parts.length ? 'https://github.com/'+h.split('.')[0]+'/'+parts[0] : '..';
     document.getElementById('repo').href = base;
     document.querySelectorAll('a[data-path]').forEach(function(a){ a.href = base + (base==='..' ? '/' : '/tree/main/') + a.dataset.path; });
+    document.querySelectorAll('a[data-file]').forEach(function(a){ a.href = base + (base==='..' ? '/' : '/blob/main/') + a.dataset.file; });
   })();
 </script>
 </body>

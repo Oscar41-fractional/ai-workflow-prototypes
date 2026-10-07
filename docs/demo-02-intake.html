@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Transformation intake prioritizer · Sample output</title><meta name="description" content="Every AI request scored the same way, ranked, and turned into a decision brief, so the ranking does not depend on who asked.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#121212;--coal:#1c1b1b;--smoke:#8d8a88;--bone:#ecebe7;--paper:#f7f6f3;--red:#f01e2c;--deep:#b5121d;--ok:#1d7a4a;--warn:#9a6200}
+*{box-sizing:border-box}body{margin:0;font-family:"IBM Plex Sans",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+a{color:var(--deep)}.w{max-width:1100px;margin:auto;padding-inline:20px}
+header{background:var(--ink);color:var(--bone);padding-block:40px 34px}
+.eb{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+h1,h2,h3,h4{font-family:"IBM Plex Sans Condensed",sans-serif;line-height:1.15}
+header h1{font-size:clamp(30px,5vw,46px);margin:8px 0 0}.rule{height:4px;width:80px;background:var(--red);margin:16px 0}
+header p{max-width:68ch;color:#c9c6c2;margin:0}
+.nav{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}.nav a{color:var(--bone);border:1px solid #444;padding:7px 12px;border-radius:5px;text-decoration:none;font-size:14px}.nav a:hover{border-color:var(--red)}
+.how{background:var(--coal);color:var(--bone);padding-block:18px}.how .w{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px}
+.how .st{border:1px solid #444;border-radius:5px;padding:6px 10px}.how .st i{font-style:normal;color:var(--red);font-family:"IBM Plex Mono",monospace;font-size:12px;margin-right:6px}
+.how .ar{color:var(--smoke)}
+main{padding-block:28px 40px}.lead{max-width:75ch;color:#444;margin:0 0 18px}
+.doc{background:#fff;border:1px solid #ddd;border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.doc h2{font-size:26px;margin:0 0 6px}.doc h3{font-size:20px;margin:22px 0 8px;border-bottom:2px solid var(--bone);padding-bottom:4px}.doc h4{font-size:17px;margin:18px 0 6px}
+.doc p{margin:6px 0}.doc ul{margin:6px 0;padding-left:20px}.doc li{margin:3px 0}
+.doc pre{background:var(--ink);color:var(--bone);padding:12px 14px;border-radius:6px;overflow-x:auto;font-size:13px;line-height:1.45}
+code{font-family:"IBM Plex Mono",monospace;font-size:.9em;background:var(--bone);padding:1px 5px;border-radius:3px}
+.tw{overflow-x:auto;border:1px solid #e3e1dc;border-radius:6px;margin:8px 0}table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #eee;vertical-align:top}th{background:var(--ink);color:#fff;font-weight:600;white-space:nowrap}
+tr:nth-child(even) td{background:var(--paper)}td.neg{color:var(--deep);font-weight:600}td.pos{color:var(--ok);font-weight:600}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.tabs button{font:inherit;font-size:14px;border:1px solid #ccc;background:#fff;padding:7px 14px;border-radius:99px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.note{font-size:13px;color:#666;margin-top:14px}
+.badge{display:inline-block;font-size:12px;font-weight:700;color:#fff;padding:3px 10px;border-radius:99px;letter-spacing:.04em}
+.pass{background:var(--ok)}.fail{background:var(--deep)}.amber{background:var(--warn)}.grey{background:#6b6764}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px}
+.kpi{background:#fff;border:1px solid #ddd;border-radius:8px;padding:18px}.kpi h3{margin:0 0 4px;font-size:20px}
+.kpi .big{font-family:"IBM Plex Sans Condensed",sans-serif;font-size:40px;font-weight:700;line-height:1}
+.kpi dl{display:grid;grid-template-columns:auto auto;gap:4px 14px;margin:12px 0 0;font-size:14px}.kpi dt{color:#666}.kpi dd{margin:0;font-weight:600;text-align:right}
+.bar{height:12px;background:var(--bone);border-radius:6px;overflow:hidden}.bar span{display:block;height:100%;background:var(--deep)}
+.msg{background:var(--paper);border-left:3px solid var(--red);padding:10px 14px;margin:8px 0;white-space:pre-line}
+.msg small{display:block;font-family:"IBM Plex Mono",monospace;color:var(--deep);font-size:12px;margin-bottom:4px;white-space:normal}
+[hidden]{display:none!important}
+footer{padding-block:24px;color:var(--smoke);font-size:13px;border-top:1px solid #e3e1dc}
+</style></head><body>
+<header><div class="w"><div class="eb">Prototype 02 · Sample output</div><h1>Transformation intake prioritizer</h1><div class="rule"></div>
+<p>Every AI request scored the same way, ranked, and turned into a decision brief, so the ranking does not depend on who asked.</p><div class="nav"><a href="index.html">← All prototypes</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/02-intake-prioritizer/prioritize.py">View the code</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/02-intake-prioritizer/sample/intake.csv">Sample data</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/02-intake-prioritizer/README.md#solution-path">Solution path</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/02-intake-prioritizer/README.md#design-choices">Design choices</a></div></div></header>
+<div class="how"><div class="w"><span class="st"><i>AI skill</i>Request → intake row</span><span class="ar">→</span><span class="st"><i>Human</i>Confirm scores</span><span class="ar">→</span><span class="st"><i>Script</i>Gate, score, rank</span><span class="ar">→</span><span class="st"><i>Human</i>Approve portfolio</span></div></div>
+<main><div class="w"><p class="lead">8 free-text AI requests from different teams of a fictional company go in. A ranked portfolio comes out, with the same gates applied to every request, a decision for each, and a short brief a leader can approve.</p><div class="doc"><h2>Transformation portfolio</h2>
+<p><i>Generated by prioritize.py. Scores use fixed 1-5 rubrics; gross value = hours x loaded cost before any realization factor.</i></p>
+<div class='tw'><table><thead><tr><th>Rank</th><th>ID</th><th>Request</th><th>Function</th><th>Value</th><th>Ready</th><th>Score</th><th>Quadrant</th><th>Hours/yr</th><th>Gross value/yr</th><th>Decision</th></tr></thead><tbody><tr><td>1</td><td>T-01</td><td>Support ticket triage and draft replies</td><td>Support</td><td>4</td><td>4</td><td>18</td><td><span class="badge pass">Prioritize</span></td><td>3,360</td><td>$151,200</td><td>Build business case now</td></tr><tr><td>2</td><td>T-06</td><td>Campaign brief to asset drafts</td><td>Marketing</td><td>3</td><td>5</td><td>17</td><td><span class="badge grey">Pilot with caution</span></td><td>720</td><td>$43,200</td><td>Small pilot if capacity allows</td></tr><tr><td>3</td><td>T-02</td><td>Deal desk quote review assistant</td><td>Sales</td><td>4</td><td>3</td><td>12</td><td><span class="badge amber">Invest &amp; schedule</span></td><td>1,600</td><td>$136,000</td><td>Fix readiness, re-score in 90 days</td></tr><tr><td>4</td><td>T-08</td><td>Incident postmortem drafting</td><td>Engineering</td><td>2</td><td>4</td><td>10</td><td><span class="badge grey">Pilot with caution</span></td><td>432</td><td>$51,840</td><td>Small pilot if capacity allows</td></tr><tr><td>5</td><td>T-03</td><td>Contract redline first pass</td><td>Legal</td><td>4</td><td>3</td><td>5</td><td><span class="badge amber">Invest &amp; schedule</span></td><td>720</td><td>$100,800</td><td>Fix readiness, re-score in 90 days</td></tr></tbody></table></div>
+<h3>Not scored</h3>
+<div class='tw'><table><thead><tr><th>ID</th><th>Request</th><th>Function</th><th>Zone</th><th>Reason</th></tr></thead><tbody><tr><td>T-04</td><td>Candidate screening ranking</td><td>HR</td><td>5</td><td><span class="badge fail">Forbidden</span> excluded before scoring</td></tr><tr><td>T-05</td><td>Monthly board metrics pack</td><td>Finance</td><td>2</td><td>Fix data access &amp; quality first</td></tr><tr><td>T-07</td><td>Customer health summary before QBRs</td><td>CS</td><td>2</td><td>Fix data access &amp; quality first</td></tr></tbody></table></div>
+<h3>Decision briefs</h3>
+<h4>1. Support ticket triage and draft replies (T-01, Support)</h4>
+<ul><li><b>Problem:</b> Agents spend first 5 minutes of every ticket classifying and searching the KB</li><li><b>Requested by:</b> Head of Support · <b>Data class:</b> amber</li><li><b>Size of prize:</b> 3,360 hours/yr, $151,200 gross before realization</li><li><b>Scoring:</b> value 4 x readiness 4 = 16; creates a reusable pattern (+2) -&gt; <b>18</b></li><li><b>Decision:</b> Build business case now</li></ul>
+<h4>2. Campaign brief to asset drafts (T-06, Marketing)</h4>
+<ul><li><b>Problem:</b> Each campaign needs 12 asset variants written by hand</li><li><b>Requested by:</b> Content Lead · <b>Data class:</b> green</li><li><b>Size of prize:</b> 720 hours/yr, $43,200 gross before realization</li><li><b>Scoring:</b> value 3 x readiness 5 = 15; creates a reusable pattern (+2) -&gt; <b>17</b></li><li><b>Decision:</b> Small pilot if capacity allows</li></ul>
+<h4>3. Deal desk quote review assistant (T-02, Sales)</h4>
+<ul><li><b>Problem:</b> Non-standard quotes wait 2 days for manual policy checks</li><li><b>Requested by:</b> VP Sales Ops · <b>Data class:</b> amber</li><li><b>Size of prize:</b> 1,600 hours/yr, $136,000 gross before realization</li><li><b>Scoring:</b> value 4 x readiness 3 = 12; no adjustments -&gt; <b>12</b></li><li><b>Decision:</b> Fix readiness, re-score in 90 days</li></ul>
+<h4>4. Incident postmortem drafting (T-08, Engineering)</h4>
+<ul><li><b>Problem:</b> Postmortems are late because writing them takes half a day</li><li><b>Requested by:</b> Eng Manager · <b>Data class:</b> amber</li><li><b>Size of prize:</b> 432 hours/yr, $51,840 gross before realization</li><li><b>Scoring:</b> value 2 x readiness 4 = 8; creates a reusable pattern (+2) -&gt; <b>10</b></li><li><b>Decision:</b> Small pilot if capacity allows</li></ul>
+<h4>5. Contract redline first pass (T-03, Legal)</h4>
+<ul><li><b>Problem:</b> Legal reviews every NDA and MSA from scratch</li><li><b>Requested by:</b> General Counsel · <b>Data class:</b> red</li><li><b>Size of prize:</b> 720 hours/yr, $100,800 gross before realization</li><li><b>Scoring:</b> value 4 x readiness 3 = 12; team has low change capacity (-4); errors are hard to reverse (-3); red data + irreversible: human approval on every output -&gt; <b>5</b></li><li><b>Decision:</b> Fix readiness, re-score in 90 days</li></ul></div>
+<p class="note">Produced by running <code>python prioritize.py --intake sample/intake.csv</code> on fictional sample data. The output is shown as generated, not edited by hand.</p></div></main>
+<footer><div class="w">All company names and data are fictional. © 2026 Oscar Farrera · MIT License.</div></footer><script>document.querySelectorAll('.tabs').forEach(function(t){var b=t.querySelectorAll('button');b.forEach(function(x){x.onclick=function(){b.forEach(function(y){y.setAttribute('aria-selected',y===x);document.getElementById(y.dataset.t).hidden=y!==x})}})});</script></body></html>

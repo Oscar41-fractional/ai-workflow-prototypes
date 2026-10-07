@@ -2,15 +2,15 @@
 
 Small, working prototypes that redesign real workflows around AI. Each one starts from a problem I ran into in my own work (partner marketing, channel sales, AI enablement), shows the **solution path** (what the human, the AI and the system each do), and runs with fictional data and Python's standard library only.
 
-**Landing page:** `docs/index.html` (GitHub Pages) · **Portfolio with live demo:** https://oscarfarrera-portfolio.netlify.app · **AI practice:** https://www.ai-fractional.com
+**Landing page:** https://oscar41-fractional.github.io/ai-workflow-prototypes/ · **Portfolio with live demo:** https://oscarfarrera-portfolio.netlify.app · **AI practice:** https://www.ai-fractional.com
 
-| # | Prototype | Type | Workflow it redesigns | Where it comes from |
-|---|---|---|---|---|
-| 01 | [MBR Copilot](01-mbr-copilot) | Script + Claude skill + LLM prompt | Monthly partner business reviews | AWS Canada partner program (via The Channel Company): ~60% less JMP/MBR time |
-| 02 | [Intake prioritizer](02-intake-prioritizer) | Script + Claude skill | AI request intake, scoring and decision briefs | MDF pre-approval discipline; FRACTION framework |
-| 03 | [ROI metric tree](03-roi-metric-tree) | Scenario model | Business case, break-even and sensitivity for an AI rollout | AI investment coursework; pipeline and MDF metrics |
-| 04 | [Capability map](04-capability-map) | Data + HTML generator | Go-to-market processes, AI solution paths and where I have done each one | Partnerships, Marketing, Sales and CS roles at AWS Canada, Hornetsecurity, Neuro Plus |
-| 05 | [Outreach copilot](05-outreach-copilot) | Claude skill + analyzer | AI-assisted social selling and funnel measurement | Neuro Plus: LinkedIn conversations tripled, 56% lead-to-meeting |
+| # | Prototype | See the output | Type | Workflow it redesigns | Where it comes from |
+|---|---|---|---|---|---|
+| 01 | [MBR Copilot](01-mbr-copilot) | [Sample output](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-01-mbr.html) | Script + Claude skill + LLM prompt | Monthly partner business reviews | AWS Canada partner program (via The Channel Company): ~60% less JMP/MBR time |
+| 02 | [Intake prioritizer](02-intake-prioritizer) | [Sample output](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-02-intake.html) | Script + Claude skill | AI request intake, scoring and decision briefs | MDF pre-approval discipline; FRACTION framework |
+| 03 | [ROI metric tree](03-roi-metric-tree) | [Sample output](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-03-roi.html) | Scenario model | Business case, break-even and sensitivity for an AI rollout | AI investment coursework; pipeline and MDF metrics |
+| 04 | [Capability map](04-capability-map) | [Sample output](https://oscar41-fractional.github.io/ai-workflow-prototypes/capability_map.html) | Data + HTML generator | Go-to-market processes, AI solution paths and where I have done each one | Partnerships, Marketing, Sales and CS roles at AWS Canada, Hornetsecurity, Neuro Plus |
+| 05 | [Outreach copilot](05-outreach-copilot) | [Sample output](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-05-outreach.html) | Claude skill + analyzer | AI-assisted social selling and funnel measurement | Neuro Plus: LinkedIn conversations tripled, 56% lead-to-meeting |
 
 ## Quick start
 ```bash
@@ -20,6 +20,9 @@ python 02-intake-prioritizer/prioritize.py --intake 02-intake-prioritizer/sample
 python 03-roi-metric-tree/roi_model.py --config 03-roi-metric-tree/assumptions_power_users.json --out out/roi
 python 04-capability-map/build_map.py --csv 04-capability-map/capability_map.csv --out out/capability_map.html
 python 05-outreach-copilot/funnel.py --log 05-outreach-copilot/sample/outreach_log.csv
+
+# rebuild the "See the output" pages in docs/ from the real script output
+python build_demos.py
 ```
 
 ## Principles across all five

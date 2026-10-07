@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ROI metric tree · Sample output</title><meta name="description" content="An AI investment case built from one assumptions file: metric tree, three scenarios, break-even adoption and a pass/fail gate.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#121212;--coal:#1c1b1b;--smoke:#8d8a88;--bone:#ecebe7;--paper:#f7f6f3;--red:#f01e2c;--deep:#b5121d;--ok:#1d7a4a;--warn:#9a6200}
+*{box-sizing:border-box}body{margin:0;font-family:"IBM Plex Sans",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+a{color:var(--deep)}.w{max-width:1100px;margin:auto;padding-inline:20px}
+header{background:var(--ink);color:var(--bone);padding-block:40px 34px}
+.eb{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+h1,h2,h3,h4{font-family:"IBM Plex Sans Condensed",sans-serif;line-height:1.15}
+header h1{font-size:clamp(30px,5vw,46px);margin:8px 0 0}.rule{height:4px;width:80px;background:var(--red);margin:16px 0}
+header p{max-width:68ch;color:#c9c6c2;margin:0}
+.nav{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}.nav a{color:var(--bone);border:1px solid #444;padding:7px 12px;border-radius:5px;text-decoration:none;font-size:14px}.nav a:hover{border-color:var(--red)}
+.how{background:var(--coal);color:var(--bone);padding-block:18px}.how .w{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px}
+.how .st{border:1px solid #444;border-radius:5px;padding:6px 10px}.how .st i{font-style:normal;color:var(--red);font-family:"IBM Plex Mono",monospace;font-size:12px;margin-right:6px}
+.how .ar{color:var(--smoke)}
+main{padding-block:28px 40px}.lead{max-width:75ch;color:#444;margin:0 0 18px}
+.doc{background:#fff;border:1px solid #ddd;border-radius:8px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.doc h2{font-size:26px;margin:0 0 6px}.doc h3{font-size:20px;margin:22px 0 8px;border-bottom:2px solid var(--bone);padding-bottom:4px}.doc h4{font-size:17px;margin:18px 0 6px}
+.doc p{margin:6px 0}.doc ul{margin:6px 0;padding-left:20px}.doc li{margin:3px 0}
+.doc pre{background:var(--ink);color:var(--bone);padding:12px 14px;border-radius:6px;overflow-x:auto;font-size:13px;line-height:1.45}
+code{font-family:"IBM Plex Mono",monospace;font-size:.9em;background:var(--bone);padding:1px 5px;border-radius:3px}
+.tw{overflow-x:auto;border:1px solid #e3e1dc;border-radius:6px;margin:8px 0}table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #eee;vertical-align:top}th{background:var(--ink);color:#fff;font-weight:600;white-space:nowrap}
+tr:nth-child(even) td{background:var(--paper)}td.neg{color:var(--deep);font-weight:600}td.pos{color:var(--ok);font-weight:600}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.tabs button{font:inherit;font-size:14px;border:1px solid #ccc;background:#fff;padding:7px 14px;border-radius:99px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.note{font-size:13px;color:#666;margin-top:14px}
+.badge{display:inline-block;font-size:12px;font-weight:700;color:#fff;padding:3px 10px;border-radius:99px;letter-spacing:.04em}
+.pass{background:var(--ok)}.fail{background:var(--deep)}.amber{background:var(--warn)}.grey{background:#6b6764}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px}
+.kpi{background:#fff;border:1px solid #ddd;border-radius:8px;padding:18px}.kpi h3{margin:0 0 4px;font-size:20px}
+.kpi .big{font-family:"IBM Plex Sans Condensed",sans-serif;font-size:40px;font-weight:700;line-height:1}
+.kpi dl{display:grid;grid-template-columns:auto auto;gap:4px 14px;margin:12px 0 0;font-size:14px}.kpi dt{color:#666}.kpi dd{margin:0;font-weight:600;text-align:right}
+.bar{height:12px;background:var(--bone);border-radius:6px;overflow:hidden}.bar span{display:block;height:100%;background:var(--deep)}
+.msg{background:var(--paper);border-left:3px solid var(--red);padding:10px 14px;margin:8px 0;white-space:pre-line}
+.msg small{display:block;font-family:"IBM Plex Mono",monospace;color:var(--deep);font-size:12px;margin-bottom:4px;white-space:normal}
+[hidden]{display:none!important}
+footer{padding-block:24px;color:var(--smoke);font-size:13px;border-top:1px solid #e3e1dc}
+</style></head><body>
+<header><div class="w"><div class="eb">Prototype 03 · Sample output</div><h1>ROI metric tree</h1><div class="rule"></div>
+<p>An AI investment case built from one assumptions file: metric tree, three scenarios, break-even adoption and a pass/fail gate.</p><div class="nav"><a href="index.html">← All prototypes</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/03-roi-metric-tree/roi_model.py">View the code</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/03-roi-metric-tree/assumptions.json">Sample data</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/03-roi-metric-tree/README.md#solution-path">Solution path</a><a href="https://github.com/Oscar41-fractional/ai-workflow-prototypes/blob/main/03-roi-metric-tree/README.md#design-choices">Design choices</a></div></div></header>
+<div class="how"><div class="w"><span class="st"><i>Human</i>Set assumptions</span><span class="ar">→</span><span class="st"><i>Script</i>Model scenarios</span><span class="ar">→</span><span class="st"><i>Script</i>Apply 15-pt gate</span><span class="ar">→</span><span class="st"><i>Human</i>Go, rescope or stop</span></div></div>
+<main><div class="w"><p class="lead">Same model, two questions. Rolling an AI assistant out to all 80 staff fails the decision gate. Focusing on the 30 people with the most repetitive work passes it with room to spare. Open either full report for the metric tree, scenarios and sensitivity grid.</p><div class="grid2"><div class="kpi"><span class="badge fail">FAIL</span><h3 style="margin-top:8px">Broad rollout: 80 seats</h3><div class="big" style="color:var(--deep)">-8.5%</div><span style="font-size:13px;color:#666">base-case ROI</span><dl><dt>Break-even adoption</dt><dd>73.2%</dd><dt>Base-case adoption</dt><dd>65%</dd><dt>Safety margin</dt><dd>-8.2 pts</dd><dt>Gate rule</dt><dd>≥ 15 pts</dd></dl></div><div class="kpi"><span class="badge pass">PASS</span><h3 style="margin-top:8px">Focused: power users: 30 seats</h3><div class="big" style="color:var(--ok)">+38.6%</div><span style="font-size:13px;color:#666">base-case ROI</span><dl><dt>Break-even adoption</dt><dd>55.2%</dd><dt>Base-case adoption</dt><dd>85%</dd><dt>Safety margin</dt><dd>+29.8 pts</dd><dt>Gate rule</dt><dd>≥ 15 pts</dd></dl></div></div><div class="tabs" role="tablist"><button data-t="r0" aria-selected="true">Full report: broad rollout</button><button data-t="r1" aria-selected="false">Full report: focused: power users</button></div><div id="r0" class="doc"><h2>ROI model: AI assistant rollout to 80 office staff (fictional company)</h2>
+<h3>Metric tree</h3>
+<pre>Net annual value (north star)
+├── Realized value = gross time value x realization factor
+│   ├── Active users = seats (80) x adoption rate      &lt;- weekly active usage
+│   ├── Hours saved per active user per month (6.5)  &lt;- time study / system data
+│   ├── Loaded hourly cost ($40)
+│   └── Realization factor (share that reaches the P&amp;L)  &lt;- avoided hires, overtime, retired tools
+└── Total cost
+    ├── Fixed: licences $30/seat/month + enablement + governance
+    ├── Usage: $4/active user/month (tokens, agents, connectors)
+    └── Verification tax: 0.5 h/active user/month of human review</pre>
+<h3>Scenarios</h3>
+<div class='tw'><table><thead><tr><th></th><th>Conservative</th><th>Base</th><th>Aggressive</th></tr></thead><tbody><tr><td>Adoption</td><td>40.0%</td><td>65.0%</td><td>85.0%</td></tr><tr><td>Realization factor</td><td>30.0%</td><td>35.0%</td><td>45.0%</td></tr><tr><td>Active users</td><td>32</td><td>52</td><td>68</td></tr><tr><td>Realized value</td><td>$29,952</td><td>$56,784</td><td>$95,472</td></tr><tr><td>Fixed cost</td><td>$46,800</td><td>$46,800</td><td>$46,800</td></tr><tr><td>Usage cost</td><td>$1,843</td><td>$2,746</td><td>$3,264</td></tr><tr><td>Verification tax</td><td>$7,680</td><td>$12,480</td><td>$16,320</td></tr><tr><td>Total cost</td><td>$56,323</td><td>$62,026</td><td>$66,384</td></tr><tr><td>Net value</td><td class=neg>-$26,371</td><td class=neg>-$5,242</td><td>$29,088</td></tr><tr><td>ROI</td><td class=neg>-46.8%</td><td class=neg>-8.5%</td><td>43.8%</td></tr></tbody></table></div>
+<h3>Decision gate</h3>
+<ul><li>Break-even adoption (base realization): <b>73.2%</b></li><li>Base-case adoption: 65.0%; safety margin: <b>-8.2 points</b></li><li>Gate rule: margin of at least 15 points -&gt; <b>FAIL: reduce scope or raise adoption first</b></li></ul>
+<h3>Sensitivity: net value by adoption (rows) and realization factor (columns)</h3>
+<div class='tw'><table><thead><tr><th>Adoption \ Realization</th><th>20.0%</th><th>35.0%</th><th>50.0%</th><th>70.0%</th></tr></thead><tbody><tr><td>30.0%</td><td class=neg>-$38,736</td><td class=neg>-$27,504</td><td class=neg>-$16,272</td><td class=neg>-$1,296</td></tr><tr><td>40.0%</td><td class=neg>-$36,048</td><td class=neg>-$21,072</td><td class=neg>-$6,096</td><td>$13,872</td></tr><tr><td>50.0%</td><td class=neg>-$33,360</td><td class=neg>-$14,640</td><td>$4,080</td><td>$29,040</td></tr><tr><td>60.0%</td><td class=neg>-$30,672</td><td class=neg>-$8,208</td><td>$14,256</td><td>$44,208</td></tr><tr><td>70.0%</td><td class=neg>-$27,984</td><td class=neg>-$1,776</td><td>$24,432</td><td>$59,376</td></tr><tr><td>80.0%</td><td class=neg>-$25,296</td><td>$4,656</td><td>$34,608</td><td>$74,544</td></tr><tr><td>90.0%</td><td class=neg>-$22,608</td><td>$11,088</td><td>$44,784</td><td>$89,712</td></tr></tbody></table></div></div><div id="r1" class="doc" hidden><h2>ROI model: Reframed: AI assistant for 30 power users first (fictional company)</h2>
+<h3>Metric tree</h3>
+<pre>Net annual value (north star)
+├── Realized value = gross time value x realization factor
+│   ├── Active users = seats (30) x adoption rate      &lt;- weekly active usage
+│   ├── Hours saved per active user per month (8.5)  &lt;- time study / system data
+│   ├── Loaded hourly cost ($40)
+│   └── Realization factor (share that reaches the P&amp;L)  &lt;- avoided hires, overtime, retired tools
+└── Total cost
+    ├── Fixed: licences $30/seat/month + enablement + governance
+    ├── Usage: $4/active user/month (tokens, agents, connectors)
+    └── Verification tax: 0.5 h/active user/month of human review</pre>
+<h3>Scenarios</h3>
+<div class='tw'><table><thead><tr><th></th><th>Conservative</th><th>Base</th><th>Aggressive</th></tr></thead><tbody><tr><td>Adoption</td><td>65.0%</td><td>85.0%</td><td>95.0%</td></tr><tr><td>Realization factor</td><td>30.0%</td><td>35.0%</td><td>45.0%</td></tr><tr><td>Active users</td><td>20</td><td>26</td><td>28</td></tr><tr><td>Realized value</td><td>$23,868</td><td>$36,414</td><td>$52,326</td></tr><tr><td>Fixed cost</td><td>$18,800</td><td>$18,800</td><td>$18,800</td></tr><tr><td>Usage cost</td><td>$1,123</td><td>$1,346</td><td>$1,368</td></tr><tr><td>Verification tax</td><td>$4,680</td><td>$6,120</td><td>$6,840</td></tr><tr><td>Total cost</td><td>$24,603</td><td>$26,266</td><td>$27,008</td></tr><tr><td>Net value</td><td class=neg>-$735</td><td>$10,148</td><td>$25,318</td></tr><tr><td>ROI</td><td class=neg>-3.0%</td><td>38.6%</td><td>93.7%</td></tr></tbody></table></div>
+<h3>Decision gate</h3>
+<ul><li>Break-even adoption (base realization): <b>55.2%</b></li><li>Base-case adoption: 85.0%; safety margin: <b>29.8 points</b></li><li>Gate rule: margin of at least 15 points -&gt; <b>PASS</b></li></ul>
+<h3>Sensitivity: net value by adoption (rows) and realization factor (columns)</h3>
+<div class='tw'><table><thead><tr><th>Adoption \ Realization</th><th>20.0%</th><th>35.0%</th><th>50.0%</th><th>70.0%</th></tr></thead><tbody><tr><td>30.0%</td><td class=neg>-$14,048</td><td class=neg>-$8,540</td><td class=neg>-$3,032</td><td>$4,312</td></tr><tr><td>40.0%</td><td class=neg>-$12,464</td><td class=neg>-$5,120</td><td>$2,224</td><td>$12,016</td></tr><tr><td>50.0%</td><td class=neg>-$10,880</td><td class=neg>-$1,700</td><td>$7,480</td><td>$19,720</td></tr><tr><td>60.0%</td><td class=neg>-$9,296</td><td>$1,720</td><td>$12,736</td><td>$27,424</td></tr><tr><td>70.0%</td><td class=neg>-$7,712</td><td>$5,140</td><td>$17,992</td><td>$35,128</td></tr><tr><td>80.0%</td><td class=neg>-$6,128</td><td>$8,560</td><td>$23,248</td><td>$42,832</td></tr><tr><td>90.0%</td><td class=neg>-$4,544</td><td>$11,980</td><td>$28,504</td><td>$50,536</td></tr></tbody></table></div></div>
+<p class="note">Produced by running <code>python roi_model.py --config assumptions.json</code> on fictional sample data. The output is shown as generated, not edited by hand.</p></div></main>
+<footer><div class="w">All company names and data are fictional. © 2026 Oscar Farrera · MIT License.</div></footer><script>document.querySelectorAll('.tabs').forEach(function(t){var b=t.querySelectorAll('button');b.forEach(function(x){x.onclick=function(){b.forEach(function(y){y.setAttribute('aria-selected',y===x);document.getElementById(y.dataset.t).hidden=y!==x})}})});</script></body></html>
