@@ -2,7 +2,9 @@
 
 **See the output:** [the live capability map](https://oscar41-fractional.github.io/ai-workflow-prototypes/capability_map.html)
 
-**Origin (real):** the go-to-market functions I have worked in: Partnerships (AWS Canada partner program via The Channel Company; Hornetsecurity MSSP channel), Marketing and Sales (Neuro Plus, AWS co-marketing), and Customer Success (Hornetsecurity, AI-Fractional).
+**Problem to solve:** Going from process pain to AI capability built.
+
+**Background (real):** the go-to-market functions I have worked in: Partnerships (AWS Canada partner program via The Channel Company; Hornetsecurity MSSP channel), Marketing and Sales (Neuro Plus, AWS co-marketing), and Customer Success (Hornetsecurity, AI-Fractional).
 
 **What it is:** a map of 18 processes across Partnerships, Marketing, Sales and Customer Success. For each process it shows:
 - today's pain and the AI pattern (draft, summarize, check, detect, research);
@@ -20,6 +22,7 @@
 ## Design choices
 - Every process is split three ways: what the **human**, the **AI** and the **system of record** own.
 - My track record sits next to each process, so the map is evidence, not theory.
+- The "next to redesign" list ranks manual processes by **Opportunity x Readiness** (1-5 each, maximum 25); ties go to the process that runs more often per month.
 - Scores are my own estimates and are labelled as such.
 
 ## Run it

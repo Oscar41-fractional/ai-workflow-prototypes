@@ -1,0 +1,241 @@
+prospect_id,persona,channel,variant,accepted,replied,meeting
+P001,Managing Partner,LinkedIn,generic,0,0,0
+P002,IT Manager,LinkedIn,ai_personalized,0,0,0
+P003,HR Director,LinkedIn,generic,0,0,0
+P004,HR Director,LinkedIn,ai_personalized,1,1,0
+P005,HR Director,LinkedIn,generic,1,0,0
+P006,COO,LinkedIn,ai_personalized,1,1,0
+P007,HR Director,LinkedIn,generic,0,0,0
+P008,HR Director,LinkedIn,ai_personalized,0,0,0
+P009,IT Manager,LinkedIn,generic,1,0,0
+P010,COO,LinkedIn,ai_personalized,1,1,1
+P011,Managing Partner,LinkedIn,generic,0,0,0
+P012,COO,LinkedIn,ai_personalized,1,0,0
+P013,COO,LinkedIn,generic,0,0,0
+P014,HR Director,LinkedIn,ai_personalized,0,0,0
+P015,COO,LinkedIn,generic,0,0,0
+P016,IT Manager,LinkedIn,ai_personalized,0,0,0
+P017,IT Manager,LinkedIn,generic,0,0,0
+P018,IT Manager,LinkedIn,ai_personalized,1,1,1
+P019,COO,LinkedIn,generic,1,0,0
+P020,IT Manager,LinkedIn,ai_personalized,0,0,0
+P021,IT Manager,LinkedIn,generic,1,0,0
+P022,HR Director,LinkedIn,ai_personalized,1,1,1
+P023,IT Manager,LinkedIn,generic,0,0,0
+P024,HR Director,LinkedIn,ai_personalized,0,0,0
+P025,Managing Partner,LinkedIn,generic,0,0,0
+P026,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P027,IT Manager,LinkedIn,generic,1,1,1
+P028,HR Director,LinkedIn,ai_personalized,1,0,0
+P029,IT Manager,LinkedIn,generic,1,0,0
+P030,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P031,COO,LinkedIn,generic,0,0,0
+P032,IT Manager,LinkedIn,ai_personalized,1,0,0
+P033,COO,LinkedIn,generic,0,0,0
+P034,IT Manager,LinkedIn,ai_personalized,1,0,0
+P035,HR Director,LinkedIn,generic,1,0,0
+P036,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P037,IT Manager,LinkedIn,generic,0,0,0
+P038,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P039,Managing Partner,LinkedIn,generic,0,0,0
+P040,IT Manager,LinkedIn,ai_personalized,0,0,0
+P041,COO,LinkedIn,generic,1,1,0
+P042,HR Director,LinkedIn,ai_personalized,1,0,0
+P043,Managing Partner,LinkedIn,generic,1,1,0
+P044,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P045,HR Director,LinkedIn,generic,0,0,0
+P046,IT Manager,LinkedIn,ai_personalized,1,1,0
+P047,IT Manager,LinkedIn,generic,1,1,1
+P048,COO,LinkedIn,ai_personalized,1,0,0
+P049,HR Director,LinkedIn,generic,1,1,1
+P050,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P051,HR Director,LinkedIn,generic,0,0,0
+P052,IT Manager,LinkedIn,ai_personalized,1,1,1
+P053,Managing Partner,LinkedIn,generic,0,0,0
+P054,HR Director,LinkedIn,ai_personalized,0,0,0
+P055,IT Manager,LinkedIn,generic,0,0,0
+P056,Managing Partner,LinkedIn,ai_personalized,1,1,1
+P057,Managing Partner,LinkedIn,generic,0,0,0
+P058,COO,LinkedIn,ai_personalized,1,1,0
+P059,Managing Partner,LinkedIn,generic,1,0,0
+P060,HR Director,LinkedIn,ai_personalized,0,0,0
+P061,Managing Partner,LinkedIn,generic,0,0,0
+P062,HR Director,LinkedIn,ai_personalized,0,0,0
+P063,Managing Partner,LinkedIn,generic,0,0,0
+P064,COO,LinkedIn,ai_personalized,1,1,0
+P065,Managing Partner,LinkedIn,generic,0,0,0
+P066,COO,LinkedIn,ai_personalized,0,0,0
+P067,IT Manager,LinkedIn,generic,0,0,0
+P068,COO,LinkedIn,ai_personalized,1,0,0
+P069,HR Director,LinkedIn,generic,0,0,0
+P070,Managing Partner,LinkedIn,ai_personalized,1,1,0
+P071,Managing Partner,LinkedIn,generic,0,0,0
+P072,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P073,Managing Partner,LinkedIn,generic,1,1,0
+P074,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P075,HR Director,LinkedIn,generic,0,0,0
+P076,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P077,HR Director,LinkedIn,generic,0,0,0
+P078,HR Director,LinkedIn,ai_personalized,0,0,0
+P079,COO,LinkedIn,generic,0,0,0
+P080,COO,LinkedIn,ai_personalized,1,0,0
+P081,HR Director,LinkedIn,generic,0,0,0
+P082,IT Manager,LinkedIn,ai_personalized,1,0,0
+P083,HR Director,LinkedIn,generic,0,0,0
+P084,COO,LinkedIn,ai_personalized,0,0,0
+P085,HR Director,LinkedIn,generic,1,0,0
+P086,COO,LinkedIn,ai_personalized,0,0,0
+P087,IT Manager,LinkedIn,generic,0,0,0
+P088,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P089,HR Director,LinkedIn,generic,1,0,0
+P090,HR Director,LinkedIn,ai_personalized,0,0,0
+P091,COO,LinkedIn,generic,0,0,0
+P092,COO,LinkedIn,ai_personalized,0,0,0
+P093,COO,LinkedIn,generic,1,1,0
+P094,Managing Partner,LinkedIn,ai_personalized,1,1,1
+P095,Managing Partner,LinkedIn,generic,0,0,0
+P096,IT Manager,LinkedIn,ai_personalized,0,0,0
+P097,COO,LinkedIn,generic,0,0,0
+P098,HR Director,LinkedIn,ai_personalized,0,0,0
+P099,COO,LinkedIn,generic,0,0,0
+P100,COO,LinkedIn,ai_personalized,1,0,0
+P101,HR Director,LinkedIn,generic,0,0,0
+P102,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P103,IT Manager,LinkedIn,generic,0,0,0
+P104,HR Director,LinkedIn,ai_personalized,0,0,0
+P105,HR Director,LinkedIn,generic,1,0,0
+P106,HR Director,LinkedIn,ai_personalized,1,0,0
+P107,HR Director,LinkedIn,generic,0,0,0
+P108,COO,LinkedIn,ai_personalized,0,0,0
+P109,IT Manager,LinkedIn,generic,0,0,0
+P110,IT Manager,LinkedIn,ai_personalized,1,1,0
+P111,Managing Partner,LinkedIn,generic,0,0,0
+P112,COO,LinkedIn,ai_personalized,0,0,0
+P113,COO,LinkedIn,generic,0,0,0
+P114,IT Manager,LinkedIn,ai_personalized,1,1,1
+P115,HR Director,LinkedIn,generic,1,0,0
+P116,HR Director,LinkedIn,ai_personalized,0,0,0
+P117,COO,LinkedIn,generic,0,0,0
+P118,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P119,IT Manager,LinkedIn,generic,1,0,0
+P120,IT Manager,LinkedIn,ai_personalized,0,0,0
+P121,COO,LinkedIn,generic,0,0,0
+P122,COO,LinkedIn,ai_personalized,1,1,0
+P123,Managing Partner,LinkedIn,generic,0,0,0
+P124,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P125,HR Director,LinkedIn,generic,1,0,0
+P126,HR Director,LinkedIn,ai_personalized,1,0,0
+P127,Managing Partner,LinkedIn,generic,0,0,0
+P128,HR Director,LinkedIn,ai_personalized,1,0,0
+P129,COO,LinkedIn,generic,0,0,0
+P130,HR Director,LinkedIn,ai_personalized,1,1,0
+P131,COO,LinkedIn,generic,1,1,0
+P132,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P133,IT Manager,LinkedIn,generic,0,0,0
+P134,HR Director,LinkedIn,ai_personalized,1,0,0
+P135,COO,LinkedIn,generic,0,0,0
+P136,HR Director,LinkedIn,ai_personalized,1,1,1
+P137,Managing Partner,LinkedIn,generic,1,0,0
+P138,HR Director,LinkedIn,ai_personalized,1,1,1
+P139,IT Manager,LinkedIn,generic,0,0,0
+P140,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P141,HR Director,LinkedIn,generic,0,0,0
+P142,COO,LinkedIn,ai_personalized,0,0,0
+P143,COO,LinkedIn,generic,1,1,0
+P144,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P145,COO,LinkedIn,generic,1,0,0
+P146,COO,LinkedIn,ai_personalized,1,0,0
+P147,Managing Partner,LinkedIn,generic,1,1,0
+P148,COO,LinkedIn,ai_personalized,1,1,1
+P149,IT Manager,LinkedIn,generic,0,0,0
+P150,IT Manager,LinkedIn,ai_personalized,0,0,0
+P151,Managing Partner,LinkedIn,generic,0,0,0
+P152,COO,LinkedIn,ai_personalized,1,0,0
+P153,COO,LinkedIn,generic,0,0,0
+P154,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P155,COO,LinkedIn,generic,1,0,0
+P156,Managing Partner,LinkedIn,ai_personalized,1,1,0
+P157,IT Manager,LinkedIn,generic,0,0,0
+P158,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P159,Managing Partner,LinkedIn,generic,1,1,1
+P160,HR Director,LinkedIn,ai_personalized,1,0,0
+P161,Managing Partner,LinkedIn,generic,1,0,0
+P162,Managing Partner,LinkedIn,ai_personalized,1,1,1
+P163,HR Director,LinkedIn,generic,0,0,0
+P164,COO,LinkedIn,ai_personalized,1,0,0
+P165,HR Director,LinkedIn,generic,1,1,0
+P166,HR Director,LinkedIn,ai_personalized,1,1,0
+P167,HR Director,LinkedIn,generic,0,0,0
+P168,COO,LinkedIn,ai_personalized,0,0,0
+P169,IT Manager,LinkedIn,generic,0,0,0
+P170,IT Manager,LinkedIn,ai_personalized,1,0,0
+P171,COO,LinkedIn,generic,1,0,0
+P172,IT Manager,LinkedIn,ai_personalized,0,0,0
+P173,COO,LinkedIn,generic,0,0,0
+P174,HR Director,LinkedIn,ai_personalized,0,0,0
+P175,COO,LinkedIn,generic,1,1,0
+P176,HR Director,LinkedIn,ai_personalized,1,0,0
+P177,HR Director,LinkedIn,generic,0,0,0
+P178,COO,LinkedIn,ai_personalized,1,1,0
+P179,HR Director,LinkedIn,generic,0,0,0
+P180,HR Director,LinkedIn,ai_personalized,0,0,0
+P181,IT Manager,LinkedIn,generic,1,1,1
+P182,COO,LinkedIn,ai_personalized,1,0,0
+P183,IT Manager,LinkedIn,generic,0,0,0
+P184,IT Manager,LinkedIn,ai_personalized,1,0,0
+P185,Managing Partner,LinkedIn,generic,0,0,0
+P186,COO,LinkedIn,ai_personalized,1,1,1
+P187,Managing Partner,LinkedIn,generic,0,0,0
+P188,COO,LinkedIn,ai_personalized,1,1,1
+P189,HR Director,LinkedIn,generic,0,0,0
+P190,IT Manager,LinkedIn,ai_personalized,1,0,0
+P191,IT Manager,LinkedIn,generic,0,0,0
+P192,HR Director,LinkedIn,ai_personalized,0,0,0
+P193,COO,LinkedIn,generic,1,1,0
+P194,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P195,IT Manager,LinkedIn,generic,0,0,0
+P196,IT Manager,LinkedIn,ai_personalized,1,0,0
+P197,COO,LinkedIn,generic,1,1,0
+P198,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P199,COO,LinkedIn,generic,0,0,0
+P200,Managing Partner,LinkedIn,ai_personalized,0,0,0
+P201,Managing Partner,LinkedIn,generic,1,0,0
+P202,IT Manager,LinkedIn,ai_personalized,1,1,0
+P203,IT Manager,LinkedIn,generic,0,0,0
+P204,COO,LinkedIn,ai_personalized,1,1,1
+P205,Managing Partner,LinkedIn,generic,1,0,0
+P206,IT Manager,LinkedIn,ai_personalized,1,0,0
+P207,HR Director,LinkedIn,generic,0,0,0
+P208,Managing Partner,LinkedIn,ai_personalized,1,1,1
+P209,HR Director,LinkedIn,generic,0,0,0
+P210,IT Manager,LinkedIn,ai_personalized,0,0,0
+P211,HR Director,LinkedIn,generic,1,1,0
+P212,COO,LinkedIn,ai_personalized,1,1,0
+P213,COO,LinkedIn,generic,0,0,0
+P214,IT Manager,LinkedIn,ai_personalized,0,0,0
+P215,IT Manager,LinkedIn,generic,0,0,0
+P216,COO,LinkedIn,ai_personalized,0,0,0
+P217,HR Director,LinkedIn,generic,0,0,0
+P218,IT Manager,LinkedIn,ai_personalized,1,0,0
+P219,Managing Partner,LinkedIn,generic,0,0,0
+P220,COO,LinkedIn,ai_personalized,1,1,1
+P221,Managing Partner,LinkedIn,generic,0,0,0
+P222,Managing Partner,LinkedIn,ai_personalized,1,1,0
+P223,IT Manager,LinkedIn,generic,1,0,0
+P224,HR Director,LinkedIn,ai_personalized,1,0,0
+P225,IT Manager,LinkedIn,generic,0,0,0
+P226,IT Manager,LinkedIn,ai_personalized,0,0,0
+P227,IT Manager,LinkedIn,generic,0,0,0
+P228,COO,LinkedIn,ai_personalized,1,1,0
+P229,Managing Partner,LinkedIn,generic,1,0,0
+P230,COO,LinkedIn,ai_personalized,0,0,0
+P231,IT Manager,LinkedIn,generic,0,0,0
+P232,COO,LinkedIn,ai_personalized,1,1,1
+P233,Managing Partner,LinkedIn,generic,0,0,0
+P234,Managing Partner,LinkedIn,ai_personalized,1,0,0
+P235,COO,LinkedIn,generic,1,0,0
+P236,IT Manager,LinkedIn,ai_personalized,1,1,0
+P237,HR Director,LinkedIn,generic,1,0,0
+P238,IT Manager,LinkedIn,ai_personalized,0,0,0
+P239,IT Manager,LinkedIn,generic,1,0,0
+P240,IT Manager,LinkedIn,ai_personalized,0,0,0

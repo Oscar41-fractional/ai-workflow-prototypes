@@ -2,7 +2,9 @@
 
 **See the output:** [sample ranked portfolio](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-02-intake.html)
 
-**Origin (real):** Managing MDF across 19 partners meant judging dozens of funding requests consistently, with the same pre-approval rules and proof-of-execution checks every time. At AI-Fractional I turned that habit into the gate-based **FRACTION** framework for AI use cases.
+**Problem to solve:** Consistent MDF (market development funds) pre-approval using the [FRACTION gate framework](https://www.ai-fractional.com).
+
+**Background (real):** Managing MDF across 19 partners meant judging dozens of funding requests consistently, with the same pre-approval rules and proof-of-execution checks every time. At AI-Fractional I turned that habit into the gate-based **FRACTION** framework for AI use cases.
 
 **This repo:** an intake log plus a script that applies the same gates to every AI request and outputs a ranked portfolio with decision briefs. A Claude/Cowork skill (`SKILL.md`) turns a free-text request into an intake row.
 

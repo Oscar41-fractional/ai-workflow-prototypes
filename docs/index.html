@@ -14,14 +14,15 @@ a{color:var(--deep)}.w{max-width:1100px;margin:auto;padding-inline:20px}
 header{background:var(--ink);color:var(--bone);padding-block:56px 48px}
 .eb{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
 h1,h2,h3{font-family:"IBM Plex Sans Condensed",sans-serif;line-height:1.1;margin:0}
-h1{font-size:clamp(34px,6vw,58px);margin-top:10px}.rule{height:4px;width:90px;background:var(--red);margin:18px 0}
+h1{font-size:clamp(34px,6vw,58px);margin-top:10px;font-weight:700;color:#fff}.ttl{display:inline-block;max-width:100%}.rule{height:6px;width:100%;background:var(--red);margin:14px 0 4px}
 header p{max-width:62ch;color:#c9c6c2;font-size:18px;margin:0}
 .links{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px}.links a{color:var(--bone);border:1px solid #444;padding:8px 14px;border-radius:5px;text-decoration:none;font-size:14px}.links a:hover{border-color:var(--red)}
 section{padding-block:44px}h2{font-size:32px;margin-bottom:6px}.sub{color:#555;margin:0 0 22px;max-width:70ch}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
 .card{background:#fff;border:1px solid #ddd;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:10px}
 .card .n{font-family:"IBM Plex Mono",monospace;color:var(--deep);font-size:13px}.card h3{font-size:23px}
-.origin{font-size:14px;background:var(--paper);border-left:3px solid var(--red);padding:8px 10px}
+.prob{font-size:14px;background:var(--paper);border-left:3px solid var(--red);padding:8px 10px}.prob a{font-weight:600}
+.acr{font-size:12px;color:#666;border-top:1px solid #eee;padding-top:8px;margin:0}
 .tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:12px;background:var(--bone);padding:2px 8px;border-radius:99px}
 .card code{font-size:12.5px;background:var(--ink);color:var(--bone);padding:8px 10px;border-radius:5px;display:block;overflow-x:auto;white-space:pre}
 .acts{margin-top:auto;display:flex;flex-direction:column;gap:10px;padding-top:6px}
@@ -39,10 +40,8 @@ footer{padding-block:28px;color:var(--smoke);font-size:13px}
 </head>
 <body>
 <header><div class="w">
-  <div class="eb">Oscar Farrera · AI workflow prototypes</div>
-  <h1>Five Working Prototypes</h1>
-  <div class="rule"></div>
-  <p>Small, working tools that redesign real workflows around AI: scripts, Claude/Cowork skills and decision models. Each starts from a problem in my own work, names what people, AI and systems each own, and measures the result. All data is fictional.</p>
+  <div class="eb">Oscar Farrera</div>
+  <div class="ttl"><h1>AI Workflow Prototypes</h1><div class="rule"></div></div>
   <div class="links"><a id="repo" href="../">View the code on GitHub</a><a href="https://oscarfarrera-portfolio.netlify.app">Partner work portfolio + live demo</a><a href="https://www.ai-fractional.com">AI-Fractional</a><a href="https://www.linkedin.com/in/ofarrera/">LinkedIn</a></div>
 </div></header>
 
@@ -50,31 +49,31 @@ footer{padding-block:28px;color:var(--smoke);font-size:13px}
   <h2>The prototypes</h2>
   <p class="sub">Each prototype runs in seconds with standard Python. <b>See the output</b> shows the finished result on sample data. The links below each card open the code, the sample data, the solution path and the design choices on GitHub.</p>
   <div class="cards">
-    <div class="card"><span class="n">01 · Script + Claude skill + LLM prompt</span><h3>MBR Copilot</h3>
-      <div class="origin"><b>Origin:</b> AWS Canada partner program (via The Channel Company). Rebuilding JMP/MBR production around AI cut the time by about 60%.</div>
+    <div class="card"><span class="n">01 · Script + Claude skill + LLM prompt</span><h3>MBR Assistant</h3>
+      <div class="prob"><b>Problem to solve:</b> rebuilding JMP and MBR production around AI to cut the time.</div>
       <p>Raw partner activity data → cleaned → KPIs calculated → activities ranked and flagged → one-page review drafted for human sign-off.</p>
       <div class="tags"><span class="tag">AI workflow redesign</span><span class="tag">Calculate, then generate</span><span class="tag">Quant</span></div>
-      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><div class="acts"><a class="btn" href="demo-01-mbr.html">See the output →</a><a class="btn2" data-path="01-mbr-copilot" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="01-mbr-copilot/mbr.py" href="#">Code</a><a data-file="01-mbr-copilot/SKILL.md" href="#">Claude skill</a><a data-file="01-mbr-copilot/sample/partner_activity_2026-05.csv" href="#">Sample data</a><a data-file="01-mbr-copilot/README.md#solution-path" href="#">Solution path</a><a data-file="01-mbr-copilot/README.md#design-choices" href="#">Design choices</a></div></div></div>
+      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><div class="acts"><a class="btn" href="demo-01-mbr.html">See the output →</a><a class="btn2" data-path="01-mbr-assistant" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="01-mbr-assistant/mbr.py" href="#">Code</a><a data-file="01-mbr-assistant/SKILL.md" href="#">Claude skill</a><a data-file="01-mbr-assistant/sample/partner_activity_2026-05.csv" href="#">Sample data</a><a data-file="01-mbr-assistant/README.md#solution-path" href="#">Solution path</a><a data-file="01-mbr-assistant/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: JMP = joint marketing plan; MBR = monthly business review; KPI = key performance indicator; LLM = large language model (the AI that writes the draft).</p></div></div>
     <div class="card"><span class="n">02 · Script + Claude skill</span><h3>Transformation intake prioritizer</h3>
-      <div class="origin"><b>Origin:</b> consistent MDF pre-approval across 19 partners, formalized as the FRACTION gate framework.</div>
+      <div class="prob"><b>Problem to solve:</b> consistent MDF pre-approval using the <a href="https://www.ai-fractional.com" target="_blank" rel="noopener">FRACTION gate framework</a>.</div>
       <p>Free-text AI requests → intake record → forbidden zone, readiness and value gates → ranked portfolio with decision briefs.</p>
       <div class="tags"><span class="tag">Intake & prioritization</span><span class="tag">Governance</span><span class="tag">Exec briefs</span></div>
-      <code>python prioritize.py --intake sample/intake.csv</code><div class="acts"><a class="btn" href="demo-02-intake.html">See the output →</a><a class="btn2" data-path="02-intake-prioritizer" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="02-intake-prioritizer/prioritize.py" href="#">Code</a><a data-file="02-intake-prioritizer/SKILL.md" href="#">Claude skill</a><a data-file="02-intake-prioritizer/sample/intake.csv" href="#">Sample data</a><a data-file="02-intake-prioritizer/README.md#solution-path" href="#">Solution path</a><a data-file="02-intake-prioritizer/README.md#design-choices" href="#">Design choices</a></div></div></div>
+      <code>python prioritize.py --intake sample/intake.csv</code><div class="acts"><a class="btn" href="demo-02-intake.html">See the output →</a><a class="btn2" data-path="02-intake-prioritizer" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="02-intake-prioritizer/prioritize.py" href="#">Code</a><a data-file="02-intake-prioritizer/SKILL.md" href="#">Claude skill</a><a data-file="02-intake-prioritizer/sample/intake.csv" href="#">Sample data</a><a data-file="02-intake-prioritizer/README.md#solution-path" href="#">Solution path</a><a data-file="02-intake-prioritizer/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: MDF = market development funds; FRACTION = AI-Fractional's gate framework for AI use cases.</p></div></div>
     <div class="card"><span class="n">03 · Scenario model</span><h3>ROI metric tree</h3>
-      <div class="origin"><b>Origin:</b> AI investment-case coursework plus pipeline and MDF metrics (89.6% utilization benchmark).</div>
+      <div class="prob"><b>Problem to solve:</b> an AI investment case with a metric tree, three scenarios, break-even adoption and a pass/fail gate.</div>
       <p>Metric tree, three scenarios, break-even adoption and a sensitivity grid. Shows a reframe: a broad rollout fails the gate; a focused one passes.</p>
       <div class="tags"><span class="tag">Metric tree</span><span class="tag">Scenarios</span><span class="tag">First principles</span></div>
-      <code>python roi_model.py --config assumptions.json</code><div class="acts"><a class="btn" href="demo-03-roi.html">See the output →</a><a class="btn2" data-path="03-roi-metric-tree" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="03-roi-metric-tree/roi_model.py" href="#">Code</a><a data-file="03-roi-metric-tree/assumptions.json" href="#">Sample data</a><a data-file="03-roi-metric-tree/README.md#solution-path" href="#">Solution path</a><a data-file="03-roi-metric-tree/README.md#design-choices" href="#">Design choices</a></div></div></div>
+      <code>python roi_model.py --config assumptions.json</code><div class="acts"><a class="btn" href="demo-03-roi.html">See the output →</a><a class="btn2" data-path="03-roi-metric-tree" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="03-roi-metric-tree/roi_model.py" href="#">Code</a><a data-file="03-roi-metric-tree/assumptions.json" href="#">Sample data</a><a data-file="03-roi-metric-tree/README.md#solution-path" href="#">Solution path</a><a data-file="03-roi-metric-tree/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: ROI = return on investment.</p></div></div>
     <div class="card"><span class="n">04 · Data + HTML generator</span><h3>AI capability map: go-to-market</h3>
-      <div class="origin"><b>Origin:</b> the functions I have worked in: Partnerships, Marketing, Sales and Customer Success (AWS Canada, Hornetsecurity, Neuro Plus, AI-Fractional).</div>
+      <div class="prob"><b>Problem to solve:</b> going from process pain to AI capability built.</div>
       <p>18 processes, each with a human / AI / system solution path and, side by side, where I have done that work before and whether I have already rebuilt it with AI.</p>
       <div class="tags"><span class="tag">Capability map</span><span class="tag">Solution paths</span><span class="tag">My track record</span></div>
       <div class="acts"><a class="btn" href="capability_map.html">See the output →</a><a class="btn2" data-path="04-capability-map" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="04-capability-map/build_map.py" href="#">Code</a><a data-file="04-capability-map/capability_map.csv" href="#">Sample data</a><a data-file="04-capability-map/README.md#solution-path" href="#">Solution path</a><a data-file="04-capability-map/README.md#design-choices" href="#">Design choices</a></div></div></div>
-    <div class="card"><span class="n">05 · Claude skill + analyzer</span><h3>Outreach copilot</h3>
-      <div class="origin"><b>Origin:</b> Neuro Plus AI-assisted social selling: LinkedIn conversations tripled, 56% lead-to-meeting.</div>
+    <div class="card"><span class="n">05 · Claude skill + analyzer</span><h3>Outreach Assistant</h3>
+      <div class="prob"><b>Problem to solve:</b> AI-assisted social selling to increase LinkedIn conversations and lead-to-meeting conversion.</div>
       <p>A skill drafts personalized outreach under human review; an analyzer compares variants stage by stage and names the weakest stage.</p>
       <div class="tags"><span class="tag">Team-level redesign</span><span class="tag">Experimentation</span><span class="tag">Guardrails</span></div>
-      <code>python funnel.py --log sample/outreach_log.csv</code><div class="acts"><a class="btn" href="demo-05-outreach.html">See the output →</a><a class="btn2" data-path="05-outreach-copilot" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="05-outreach-copilot/funnel.py" href="#">Code</a><a data-file="05-outreach-copilot/SKILL.md" href="#">Claude skill</a><a data-file="05-outreach-copilot/sample/outreach_log.csv" href="#">Sample data</a><a data-file="05-outreach-copilot/README.md#solution-path" href="#">Solution path</a><a data-file="05-outreach-copilot/README.md#design-choices" href="#">Design choices</a></div></div></div>
+      <code>python funnel.py --log sample/outreach_log.csv</code><div class="acts"><a class="btn" href="demo-05-outreach.html">See the output →</a><a class="btn2" data-path="05-outreach-assistant" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="05-outreach-assistant/funnel.py" href="#">Code</a><a data-file="05-outreach-assistant/SKILL.md" href="#">Claude skill</a><a data-file="05-outreach-assistant/sample/outreach_log.csv" href="#">Sample data</a><a data-file="05-outreach-assistant/README.md#solution-path" href="#">Solution path</a><a data-file="05-outreach-assistant/README.md#design-choices" href="#">Design choices</a></div></div></div>
   </div>
 </div></section>
 

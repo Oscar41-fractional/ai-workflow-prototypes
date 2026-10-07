@@ -70,6 +70,20 @@ def main():
          f"    ├── Fixed: licences ${c['license_per_seat_month']}/seat/month + enablement + governance",
          f"    ├── Usage: ${c['usage_cost_per_active_user_month']}/active user/month (tokens, agents, connectors)",
          f"    └── Verification tax: {c['review_hours_per_user_month']} h/active user/month of human review", "```", "",
+         "## Adoption and realization: how they work together",
+         f"- **Adoption** is the share of the {c['seats']} seats that actively use the tool every week. It decides **how many people** save time "
+         "(and drives usage cost and review time).",
+         "- **Realization factor** is the share of those saved hours that turns into **real financial value**: overtime cut, a hire avoided, "
+         "contractor or tool spend retired, or more billable or selling time. Hours that are simply absorbed into the day (longer breaks, "
+         "more meetings, slower pace) are real for the employee but do not reach the P&L (profit and loss statement), so they are not counted.",
+         "- They **multiply**, so a weak link sinks the case: high adoption with low realization means many people saving time that never "
+         "shows up in the numbers; high realization with low adoption means too few users to cover the fixed licence cost.",
+         f"- **Base case, worked through:** {c['seats']} seats x {base['adoption'] * 100:.0f}% adoption = {sc['base']['active_users']:.0f} active users "
+         f"x {c['hours_saved_per_user_month']} h/month x 12 x ${c['loaded_hourly_cost']}/h = **{m(sc['base']['gross'])} gross time value**. "
+         f"x {base['realization'] * 100:.0f}% realization = **{m(sc['base']['realized'])} realized value**, which is what is compared with cost.",
+         "- **How to raise each one:** adoption rises with training, champions and building AI into the daily workflow; realization rises when "
+         "managers decide in advance where the freed time goes (fewer contractors, a hire not made, more client work).",
+         "",
          "## Scenarios", "| | " + " | ".join(k.title() for k in sc) + " |", "|---|" + "---|" * len(sc)]
     for label, key, f in [("Adoption", "adoption", p), ("Realization factor", "realization", p), ("Active users", "active_users", lambda x: f"{x:.0f}"),
                           ("Realized value", "realized", m), ("Fixed cost", "fixed", m), ("Usage cost", "usage", m),
