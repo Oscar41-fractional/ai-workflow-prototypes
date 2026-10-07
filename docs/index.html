@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Workflow Prototypes · Oscar Farrera</title>
+<meta name="description" content="Working prototypes that redesign real workflows around AI: scripts, Claude/Cowork skills and models, with the solution path and measurement for each.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#121212;--coal:#1c1b1b;--smoke:#8d8a88;--bone:#ecebe7;--paper:#f7f6f3;--red:#f01e2c;--deep:#b5121d;--ok:#1d7a4a;--warn:#9a6200}
+*{box-sizing:border-box}body{margin:0;font-family:"IBM Plex Sans",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+a{color:var(--deep)}.w{max-width:1100px;margin:auto;padding-inline:20px}
+header{background:var(--ink);color:var(--bone);padding-block:56px 48px}
+.eb{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+h1,h2,h3{font-family:"IBM Plex Sans Condensed",sans-serif;line-height:1.1;margin:0}
+h1{font-size:clamp(34px,6vw,58px);margin-top:10px}.rule{height:4px;width:90px;background:var(--red);margin:18px 0}
+header p{max-width:62ch;color:#c9c6c2;font-size:18px;margin:0}
+.links{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px}.links a{color:var(--bone);border:1px solid #444;padding:8px 14px;border-radius:5px;text-decoration:none;font-size:14px}.links a:hover{border-color:var(--red)}
+section{padding-block:44px}h2{font-size:32px;margin-bottom:6px}.sub{color:#555;margin:0 0 22px;max-width:70ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #ddd;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.card .n{font-family:"IBM Plex Mono",monospace;color:var(--deep);font-size:13px}.card h3{font-size:23px}
+.origin{font-size:14px;background:var(--paper);border-left:3px solid var(--red);padding:8px 10px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:12px;background:var(--bone);padding:2px 8px;border-radius:99px}
+.card code{font-size:12.5px;background:var(--ink);color:var(--bone);padding:8px 10px;border-radius:5px;display:block;overflow-x:auto;white-space:pre}
+.card .go{margin-top:auto;font-weight:600}
+.tw{overflow-x:auto;border:1px solid #ddd;border-radius:8px;background:#fff}table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid #eee;vertical-align:top}th{background:var(--ink);color:#fff;font-weight:600}
+tr:nth-child(even) td{background:var(--paper)}.pill{font-size:12px;font-weight:600;padding:2px 9px;border-radius:99px;white-space:nowrap;color:#fff}
+.s{background:var(--ok)}.p{background:var(--warn)}.g{background:var(--deep)}
+.dark{background:var(--coal);color:var(--bone)}.dark .sub{color:#bdbab6}.prin{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.prin div{border-top:3px solid var(--red);padding-top:10px}.prin b{display:block;font-family:"IBM Plex Sans Condensed","Arial Narrow",sans-serif;font-size:19px}
+footer{padding-block:28px;color:var(--smoke);font-size:13px}
+</style>
+</head>
+<body>
+<header><div class="w">
+  <div class="eb">Oscar Farrera · AI workflow prototypes</div>
+  <h1>Five Working Prototypes</h1>
+  <div class="rule"></div>
+  <p>Small, working tools that redesign real workflows around AI: scripts, Claude/Cowork skills and decision models. Each starts from a problem in my own work, names what people, AI and systems each own, and measures the result. All data is fictional.</p>
+  <div class="links"><a id="repo" href="../">View the code on GitHub</a><a href="https://oscarfarrera-portfolio.netlify.app">Partner work portfolio + live demo</a><a href="https://www.ai-fractional.com">AI-Fractional</a><a href="https://www.linkedin.com/in/ofarrera/">LinkedIn</a></div>
+</div></header>
+
+<section><div class="w">
+  <h2>The prototypes</h2>
+  <p class="sub">Each runs in seconds with standard Python. Click through for the code, sample data, the solution path and the design choices.</p>
+  <div class="cards">
+    <div class="card"><span class="n">01 · Script + Claude skill + LLM prompt</span><h3>MBR Copilot</h3>
+      <div class="origin"><b>Origin:</b> AWS Canada partner program (via The Channel Company). Rebuilding JMP/MBR production around AI cut the time by about 60%.</div>
+      <p>Raw partner activity data → cleaned → KPIs calculated → activities ranked and flagged → one-page review drafted for human sign-off.</p>
+      <div class="tags"><span class="tag">AI workflow redesign</span><span class="tag">Calculate, then generate</span><span class="tag">Quant</span></div>
+      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><a class="go" data-path="01-mbr-copilot" href="#">Open prototype →</a></div>
+    <div class="card"><span class="n">02 · Script + Claude skill</span><h3>Transformation intake prioritizer</h3>
+      <div class="origin"><b>Origin:</b> consistent MDF pre-approval across 19 partners, formalized as the FRACTION gate framework.</div>
+      <p>Free-text AI requests → intake record → forbidden zone, readiness and value gates → ranked portfolio with decision briefs.</p>
+      <div class="tags"><span class="tag">Intake & prioritization</span><span class="tag">Governance</span><span class="tag">Exec briefs</span></div>
+      <code>python prioritize.py --intake sample/intake.csv</code><a class="go" data-path="02-intake-prioritizer" href="#">Open prototype →</a></div>
+    <div class="card"><span class="n">03 · Scenario model</span><h3>ROI metric tree</h3>
+      <div class="origin"><b>Origin:</b> AI investment-case coursework plus pipeline and MDF metrics (89.6% utilization benchmark).</div>
+      <p>Metric tree, three scenarios, break-even adoption and a sensitivity grid. Shows a reframe: a broad rollout fails the gate; a focused one passes.</p>
+      <div class="tags"><span class="tag">Metric tree</span><span class="tag">Scenarios</span><span class="tag">First principles</span></div>
+      <code>python roi_model.py --config assumptions.json</code><a class="go" data-path="03-roi-metric-tree" href="#">Open prototype →</a></div>
+    <div class="card"><span class="n">04 · Data + HTML generator</span><h3>AI capability map: go-to-market</h3>
+      <div class="origin"><b>Origin:</b> the functions I have worked in: Partnerships, Marketing, Sales and Customer Success (AWS Canada, Hornetsecurity, Neuro Plus, AI-Fractional).</div>
+      <p>18 processes, each with a human / AI / system solution path and, side by side, where I have done that work before and whether I have already rebuilt it with AI.</p>
+      <div class="tags"><span class="tag">Capability map</span><span class="tag">Solution paths</span><span class="tag">My track record</span></div>
+      <a class="go" href="capability_map.html">View the live map →</a><a class="go" data-path="04-capability-map" href="#">Open prototype →</a></div>
+    <div class="card"><span class="n">05 · Claude skill + analyzer</span><h3>Outreach copilot</h3>
+      <div class="origin"><b>Origin:</b> Neuro Plus AI-assisted social selling: LinkedIn conversations tripled, 56% lead-to-meeting.</div>
+      <p>A skill drafts personalized outreach under human review; an analyzer compares variants stage by stage and names the weakest stage.</p>
+      <div class="tags"><span class="tag">Team-level redesign</span><span class="tag">Experimentation</span><span class="tag">Guardrails</span></div>
+      <code>python funnel.py --log sample/outreach_log.csv</code><a class="go" data-path="05-outreach-copilot" href="#">Open prototype →</a></div>
+  </div>
+</div></section>
+
+<section class="dark"><div class="w">
+  <h2>How I build</h2><p class="sub">The same five rules run through every prototype.</p>
+  <div class="prin">
+    <div><b>Calculate, then generate</b>Scripts own the numbers. Models write the story.</div>
+    <div><b>Name the solution path</b>What the human, the AI and the system each do.</div>
+    <div><b>Measure against a baseline</b>Only P&amp;L-linked value counts; review time is a cost.</div>
+    <div><b>Gate decisions</b>Forbidden zone, readiness, value, margin above break-even.</div>
+    <div><b>Humans decide</b>Every output is a draft for review.</div>
+  </div>
+</div></section>
+
+<footer><div class="w">All company names and data in these prototypes are fictional. Results from past roles are from my CV; no employer or partner data is included. © 2026 Oscar Farrera · MIT License.</div></footer>
+<script>
+  // Point "Open prototype" links at the repo when served from GitHub Pages (user.github.io/repo/)
+  (function(){
+    var h=location.hostname, parts=location.pathname.split('/').filter(Boolean);
+    var base = /\.github\.io$/.test(h) && parts.length ? 'https://github.com/'+h.split('.')[0]+'/'+parts[0] : '..';
+    document.getElementById('repo').href = base;
+    document.querySelectorAll('a[data-path]').forEach(function(a){ a.href = base + (base==='..' ? '/' : '/tree/main/') + a.dataset.path; });
+  })();
+</script>
+</body>
+</html>

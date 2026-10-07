@@ -1,0 +1,241 @@
+prospect_id,persona,channel,variant,accepted,replied,meeting
+P001,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P002,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P003,HR Director,LinkedIn,generic,0,0,0
+P004,HR Director,LinkedIn,ai_personalized,1,1,0
+P005,HR Director,LinkedIn,generic,1,0,0
+P006,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P007,HR Director,LinkedIn,generic,0,0,0
+P008,HR Director,LinkedIn,ai_personalized,0,0,0
+P009,Talent Acquisition Lead,LinkedIn,generic,1,0,0
+P010,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P011,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P012,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P013,Operations Manager,LinkedIn,generic,0,0,0
+P014,HR Director,LinkedIn,ai_personalized,0,0,0
+P015,Operations Manager,LinkedIn,generic,0,0,0
+P016,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P017,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P018,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,1
+P019,Operations Manager,LinkedIn,generic,1,0,0
+P020,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P021,Talent Acquisition Lead,LinkedIn,generic,1,0,0
+P022,HR Director,LinkedIn,ai_personalized,1,1,1
+P023,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P024,HR Director,LinkedIn,ai_personalized,0,0,0
+P025,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P026,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P027,Talent Acquisition Lead,LinkedIn,generic,1,1,1
+P028,HR Director,LinkedIn,ai_personalized,1,0,0
+P029,Talent Acquisition Lead,LinkedIn,generic,1,0,0
+P030,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P031,Operations Manager,LinkedIn,generic,0,0,0
+P032,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P033,Operations Manager,LinkedIn,generic,0,0,0
+P034,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P035,HR Director,LinkedIn,generic,1,0,0
+P036,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P037,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P038,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P039,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P040,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P041,Operations Manager,LinkedIn,generic,1,1,0
+P042,HR Director,LinkedIn,ai_personalized,1,0,0
+P043,Diversity & Inclusion Lead,LinkedIn,generic,1,1,0
+P044,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P045,HR Director,LinkedIn,generic,0,0,0
+P046,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,0
+P047,Talent Acquisition Lead,LinkedIn,generic,1,1,1
+P048,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P049,HR Director,LinkedIn,generic,1,1,1
+P050,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P051,HR Director,LinkedIn,generic,0,0,0
+P052,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,1
+P053,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P054,HR Director,LinkedIn,ai_personalized,0,0,0
+P055,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P056,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,1
+P057,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P058,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P059,Diversity & Inclusion Lead,LinkedIn,generic,1,0,0
+P060,HR Director,LinkedIn,ai_personalized,0,0,0
+P061,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P062,HR Director,LinkedIn,ai_personalized,0,0,0
+P063,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P064,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P065,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P066,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P067,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P068,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P069,HR Director,LinkedIn,generic,0,0,0
+P070,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,0
+P071,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P072,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P073,Diversity & Inclusion Lead,LinkedIn,generic,1,1,0
+P074,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P075,HR Director,LinkedIn,generic,0,0,0
+P076,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P077,HR Director,LinkedIn,generic,0,0,0
+P078,HR Director,LinkedIn,ai_personalized,0,0,0
+P079,Operations Manager,LinkedIn,generic,0,0,0
+P080,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P081,HR Director,LinkedIn,generic,0,0,0
+P082,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P083,HR Director,LinkedIn,generic,0,0,0
+P084,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P085,HR Director,LinkedIn,generic,1,0,0
+P086,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P087,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P088,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P089,HR Director,LinkedIn,generic,1,0,0
+P090,HR Director,LinkedIn,ai_personalized,0,0,0
+P091,Operations Manager,LinkedIn,generic,0,0,0
+P092,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P093,Operations Manager,LinkedIn,generic,1,1,0
+P094,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,1
+P095,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P096,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P097,Operations Manager,LinkedIn,generic,0,0,0
+P098,HR Director,LinkedIn,ai_personalized,0,0,0
+P099,Operations Manager,LinkedIn,generic,0,0,0
+P100,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P101,HR Director,LinkedIn,generic,0,0,0
+P102,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P103,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P104,HR Director,LinkedIn,ai_personalized,0,0,0
+P105,HR Director,LinkedIn,generic,1,0,0
+P106,HR Director,LinkedIn,ai_personalized,1,0,0
+P107,HR Director,LinkedIn,generic,0,0,0
+P108,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P109,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P110,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,0
+P111,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P112,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P113,Operations Manager,LinkedIn,generic,0,0,0
+P114,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,1
+P115,HR Director,LinkedIn,generic,1,0,0
+P116,HR Director,LinkedIn,ai_personalized,0,0,0
+P117,Operations Manager,LinkedIn,generic,0,0,0
+P118,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P119,Talent Acquisition Lead,LinkedIn,generic,1,0,0
+P120,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P121,Operations Manager,LinkedIn,generic,0,0,0
+P122,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P123,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P124,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P125,HR Director,LinkedIn,generic,1,0,0
+P126,HR Director,LinkedIn,ai_personalized,1,0,0
+P127,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P128,HR Director,LinkedIn,ai_personalized,1,0,0
+P129,Operations Manager,LinkedIn,generic,0,0,0
+P130,HR Director,LinkedIn,ai_personalized,1,1,0
+P131,Operations Manager,LinkedIn,generic,1,1,0
+P132,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P133,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P134,HR Director,LinkedIn,ai_personalized,1,0,0
+P135,Operations Manager,LinkedIn,generic,0,0,0
+P136,HR Director,LinkedIn,ai_personalized,1,1,1
+P137,Diversity & Inclusion Lead,LinkedIn,generic,1,0,0
+P138,HR Director,LinkedIn,ai_personalized,1,1,1
+P139,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P140,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P141,HR Director,LinkedIn,generic,0,0,0
+P142,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P143,Operations Manager,LinkedIn,generic,1,1,0
+P144,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P145,Operations Manager,LinkedIn,generic,1,0,0
+P146,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P147,Diversity & Inclusion Lead,LinkedIn,generic,1,1,0
+P148,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P149,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P150,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P151,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P152,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P153,Operations Manager,LinkedIn,generic,0,0,0
+P154,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P155,Operations Manager,LinkedIn,generic,1,0,0
+P156,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,0
+P157,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P158,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P159,Diversity & Inclusion Lead,LinkedIn,generic,1,1,1
+P160,HR Director,LinkedIn,ai_personalized,1,0,0
+P161,Diversity & Inclusion Lead,LinkedIn,generic,1,0,0
+P162,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,1
+P163,HR Director,LinkedIn,generic,0,0,0
+P164,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P165,HR Director,LinkedIn,generic,1,1,0
+P166,HR Director,LinkedIn,ai_personalized,1,1,0
+P167,HR Director,LinkedIn,generic,0,0,0
+P168,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P169,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P170,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P171,Operations Manager,LinkedIn,generic,1,0,0
+P172,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P173,Operations Manager,LinkedIn,generic,0,0,0
+P174,HR Director,LinkedIn,ai_personalized,0,0,0
+P175,Operations Manager,LinkedIn,generic,1,1,0
+P176,HR Director,LinkedIn,ai_personalized,1,0,0
+P177,HR Director,LinkedIn,generic,0,0,0
+P178,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P179,HR Director,LinkedIn,generic,0,0,0
+P180,HR Director,LinkedIn,ai_personalized,0,0,0
+P181,Talent Acquisition Lead,LinkedIn,generic,1,1,1
+P182,Operations Manager,LinkedIn,ai_personalized,1,0,0
+P183,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P184,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P185,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P186,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P187,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P188,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P189,HR Director,LinkedIn,generic,0,0,0
+P190,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P191,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P192,HR Director,LinkedIn,ai_personalized,0,0,0
+P193,Operations Manager,LinkedIn,generic,1,1,0
+P194,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P195,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P196,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P197,Operations Manager,LinkedIn,generic,1,1,0
+P198,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P199,Operations Manager,LinkedIn,generic,0,0,0
+P200,Diversity & Inclusion Lead,LinkedIn,ai_personalized,0,0,0
+P201,Diversity & Inclusion Lead,LinkedIn,generic,1,0,0
+P202,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,0
+P203,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P204,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P205,Diversity & Inclusion Lead,LinkedIn,generic,1,0,0
+P206,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P207,HR Director,LinkedIn,generic,0,0,0
+P208,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,1
+P209,HR Director,LinkedIn,generic,0,0,0
+P210,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P211,HR Director,LinkedIn,generic,1,1,0
+P212,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P213,Operations Manager,LinkedIn,generic,0,0,0
+P214,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P215,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P216,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P217,HR Director,LinkedIn,generic,0,0,0
+P218,Talent Acquisition Lead,LinkedIn,ai_personalized,1,0,0
+P219,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P220,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P221,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P222,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,1,0
+P223,Talent Acquisition Lead,LinkedIn,generic,1,0,0
+P224,HR Director,LinkedIn,ai_personalized,1,0,0
+P225,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P226,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P227,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P228,Operations Manager,LinkedIn,ai_personalized,1,1,0
+P229,Diversity & Inclusion Lead,LinkedIn,generic,1,0,0
+P230,Operations Manager,LinkedIn,ai_personalized,0,0,0
+P231,Talent Acquisition Lead,LinkedIn,generic,0,0,0
+P232,Operations Manager,LinkedIn,ai_personalized,1,1,1
+P233,Diversity & Inclusion Lead,LinkedIn,generic,0,0,0
+P234,Diversity & Inclusion Lead,LinkedIn,ai_personalized,1,0,0
+P235,Operations Manager,LinkedIn,generic,1,0,0
+P236,Talent Acquisition Lead,LinkedIn,ai_personalized,1,1,0
+P237,HR Director,LinkedIn,generic,1,0,0
+P238,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0
+P239,Talent Acquisition Lead,LinkedIn,generic,1,0,0
+P240,Talent Acquisition Lead,LinkedIn,ai_personalized,0,0,0

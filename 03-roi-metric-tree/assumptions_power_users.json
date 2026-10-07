@@ -1,0 +1,46 @@
+{
+  "initiative": "Reframed: AI assistant for 30 power users first (fictional company)",
+  "seats": 30,
+  "license_per_seat_month": 30,
+  "usage_cost_per_active_user_month": 4,
+  "enablement_one_time": 5000,
+  "admin_governance_year": 3000,
+  "loaded_hourly_cost": 40,
+  "hours_saved_per_user_month": 8.5,
+  "review_hours_per_user_month": 0.5,
+  "gate_margin_points": 15,
+  "scenarios": {
+    "conservative": {
+      "adoption": 0.65,
+      "realization": 0.3,
+      "cost_growth": 0.2
+    },
+    "base": {
+      "adoption": 0.85,
+      "realization": 0.35,
+      "cost_growth": 0.1
+    },
+    "aggressive": {
+      "adoption": 0.95,
+      "realization": 0.45,
+      "cost_growth": 0
+    }
+  },
+  "sensitivity": {
+    "adoption": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "realization": [
+      0.2,
+      0.35,
+      0.5,
+      0.7
+    ]
+  }
+}
