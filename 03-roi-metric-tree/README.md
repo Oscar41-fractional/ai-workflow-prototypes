@@ -2,7 +2,7 @@
 
 **See the output:** [broad rollout vs. power users, side by side](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-03-roi.html)
 
-**For roles:** Sales and Marketing leaders, Partner Development, Revenue Operations
+**For roles:** AI Enablement
 
 **Problem to solve:** An AI investment case with a metric tree, three scenarios, break-even adoption and a pass/fail gate.
 

@@ -2,7 +2,7 @@
 
 **See the output:** [sample ranked portfolio](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-02-intake.html)
 
-**For roles:** Sales, Marketing, Business Development, Partner Development
+**For roles:** Sales, Marketing, Business Development, Partner Development, AI Enablement
 
 **Problem to solve:** Consistent MDF (market development funds) pre-approval using the [FRACTION gate framework](https://www.ai-fractional.com).
 

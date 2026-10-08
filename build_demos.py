@@ -109,8 +109,8 @@ footer{padding-block:24px;color:var(--smoke);font-size:13px;border-top:1px solid
 TABS_JS = """<script>document.querySelectorAll('.tabs').forEach(function(t){var b=t.querySelectorAll('button');b.forEach(function(x){x.onclick=function(){b.forEach(function(y){y.setAttribute('aria-selected',y===x);document.getElementById(y.dataset.t).hidden=y!==x})}})});</script>"""
 
 
-ROLES = {"01": "Partner / Channel Managers · Alliances · Partner Marketing", "02": "Sales · Marketing · Business Development · Partner Development",
-         "03": "Sales and Marketing leaders · Partner Development · Revenue Operations", "05": "Sales · Marketing · Demand generation · Business Development"}
+ROLES = {"01": "Partner / Channel Managers · Alliances · Partner Marketing", "02": "Sales · Marketing · Business Development · Partner Development · AI Enablement",
+         "03": "AI Enablement", "05": "Sales · Marketing · Demand generation · Business Development"}
 
 
 def page(fname, num, title, intro, folder, steps, cmd, body, code_file, data_file, extra="", gloss=""):

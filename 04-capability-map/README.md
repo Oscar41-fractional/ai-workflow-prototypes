@@ -2,7 +2,7 @@
 
 **See the output:** [the live capability map](https://oscar41-fractional.github.io/ai-workflow-prototypes/capability_map.html)
 
-**For roles:** Cross-industry roles in Partnerships, Marketing, Sales and Customer Success
+**For roles:** Cross-industry roles in Partnerships, Marketing, Sales and Customer Success; AI Enablement
 
 **Problem to solve:** Going from process pain to AI capability built.
 
