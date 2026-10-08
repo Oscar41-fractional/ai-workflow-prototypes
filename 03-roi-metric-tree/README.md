@@ -2,6 +2,8 @@
 
 **See the output:** [broad rollout vs. power users, side by side](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-03-roi.html)
 
+**For roles:** Sales and Marketing leaders, Partner Development, Revenue Operations
+
 **Problem to solve:** An AI investment case with a metric tree, three scenarios, break-even adoption and a pass/fail gate.
 
 **Background (real):** Investment-committee style AI business cases from my Microsoft *AI Evaluation and Investment Decisions* certificate work, combined with years of pipeline and MDF metrics: 89.6% MDF utilization set as a team benchmark; at Hornetsecurity, Salesforce dashboards that improved pipeline visibility 30%.

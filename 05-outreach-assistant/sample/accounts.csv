@@ -1,0 +1,265 @@
+account_id,name,segment,source,partner_tier,region,open_n1_n2_roles
+A001,Laurentide SecureOps,MSSP,CRM tracker,,Quebec,3
+A002,Tamarack SecureOps,MSSP,CRM tracker,,Quebec,2
+A003,Cartier Bay Threat Watch,MSSP,CRM tracker,,Quebec,0
+A004,Silverbirch Threat Watch,MSSP,CRM tracker,,Quebec,0
+A005,Riverbend Threat Watch,MSSP,CRM tracker,,Quebec,2
+A006,Brightwater Cyber Defense,MSSP,CRM tracker,,Ontario,0
+A007,Portage Cyber Defense,MSSP,CRM tracker,,Quebec,1
+A008,Trillium Threat Watch,MSSP,CRM tracker,,Ontario,1
+A009,Bluepine Threat Watch,MSSP,CRM tracker,,Quebec,1
+A010,Portage Threat Watch,MSSP,CRM tracker,,Ontario,0
+A011,Saguenay Peak Threat Watch,MSSP,CRM tracker,,Quebec,0
+A012,Lakeshore Threat Watch,MSSP,CRM tracker,,Ontario,3
+A013,Stonebridge Cyber Defense,MSSP,CRM tracker,,Quebec,2
+A014,Cartier Bay Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A015,Harborview Threat Watch,MSSP,CRM tracker,,Quebec,3
+A016,Ironleaf Cyber Defense,MSSP,CRM tracker,,Ontario,1
+A017,Borealis Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A018,Whitecap SecureOps,MSSP,CRM tracker,,Ontario,0
+A019,Timberline Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A020,Redcedar SecureOps,MSSP,CRM tracker,,Quebec,2
+A021,Rivermark Threat Watch,MSSP,CRM tracker,,Quebec,0
+A022,Timberline Threat Watch,MSSP,CRM tracker,,Quebec,0
+A023,Harborview Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A024,Saguenay Peak Cyber Defense,MSSP,CRM tracker,,Quebec,3
+A025,Ironleaf SecureOps,MSSP,CRM tracker,,Ontario,3
+A026,Wolfden Cyber Defense,MSSP,CRM tracker,,Ontario,1
+A027,Lakeshore Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A028,Borealis Threat Watch,MSSP,CRM tracker,,Quebec,1
+A029,Trillium Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A030,Saguenay Peak SecureOps,MSSP,CRM tracker,,Quebec,1
+A031,Bluepine SecureOps,MSSP,CRM tracker,,Quebec,1
+A032,Oakridge SecureOps,MSSP,CRM tracker,,Quebec,0
+A033,Riverbend Cyber Defense,MSSP,CRM tracker,,Quebec,2
+A034,Pinecrest Cyber Defense,MSSP,CRM tracker,,Quebec,2
+A035,Silverbirch Cyber Defense,MSSP,CRM tracker,,Ontario,0
+A036,Champlain Ridge Threat Watch,MSSP,CRM tracker,,Quebec,0
+A037,Cartier Bay SecureOps,MSSP,CRM tracker,,Quebec,0
+A038,Bluepine Cyber Defense,MSSP,CRM tracker,,Quebec,3
+A039,Tamarack Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A040,Ironleaf Threat Watch,MSSP,CRM tracker,,Quebec,2
+A041,Granite Peak Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A042,Portage SecureOps,MSSP,CRM tracker,,Quebec,1
+A043,Borealis SecureOps,MSSP,CRM tracker,,Quebec,0
+A044,Frostgate SecureOps,MSSP,CRM tracker,,Ontario,0
+A045,Clearwater Threat Watch,MSSP,CRM tracker,,Quebec,0
+A046,Brightwater Threat Watch,MSSP,CRM tracker,,Ontario,1
+A047,Lynxwood SecureOps,MSSP,CRM tracker,,Quebec,2
+A048,Clearwater SecureOps,MSSP,CRM tracker,,Quebec,2
+A049,Granite Peak Threat Watch,MSSP,CRM tracker,,Quebec,0
+A050,Maplecrest Threat Watch,MSSP,CRM tracker,,Quebec,0
+A051,Oakridge Threat Watch,MSSP,CRM tracker,,Ontario,3
+A052,Timberline SecureOps,MSSP,CRM tracker,,Quebec,0
+A053,Maplecrest SecureOps,MSSP,CRM tracker,,Quebec,1
+A054,Stonebridge SecureOps,MSSP,CRM tracker,,Ontario,1
+A055,Oakridge Cyber Defense,MSSP,CRM tracker,,Ontario,0
+A056,Kestrel Threat Watch,MSSP,CRM tracker,,Quebec,0
+A057,Kestrel Cyber Defense,MSSP,CRM tracker,,Quebec,2
+A058,Lynxwood Cyber Defense,MSSP,CRM tracker,,Ontario,0
+A059,Laurentia SecureOps,MSSP,CRM tracker,,Quebec,2
+A060,Northvale SecureOps,MSSP,CRM tracker,,Ontario,0
+A061,Frostgate Cyber Defense,MSSP,CRM tracker,,Quebec,1
+A062,Rivermark SecureOps,MSSP,CRM tracker,,Quebec,0
+A063,Trillium SecureOps,MSSP,CRM tracker,,Quebec,3
+A064,Granite Peak SecureOps,MSSP,CRM tracker,,Quebec,2
+A065,Champlain Ridge SecureOps,MSSP,CRM tracker,,Quebec,0
+A066,Snowline SecureOps,MSSP,CRM tracker,,Quebec,2
+A067,Snowline Cyber Defense,MSSP,CRM tracker,,Quebec,0
+A068,Northvale Threat Watch,MSSP,CRM tracker,,Quebec,1
+A069,Harborview SecureOps,MSSP,CRM tracker,,Quebec,0
+A070,Summit Ridge Cyber Defense,MSSP,CRM tracker,,Quebec,1
+A071,Whitecap Cyber Defense,MSSP,CRM tracker,,Quebec,2
+A072,Laurentia Cyber Defense,MSSP,CRM tracker,,Quebec,2
+A073,Timberline IT Partners,MSP,CRM tracker,,Ontario,0
+A074,Redcedar Managed IT,MSP,CRM tracker,,Quebec,2
+A075,Whitecap Managed IT,MSP,CRM tracker,,Quebec,0
+A076,Cartier Bay Networks,MSP,CRM tracker,,Quebec,0
+A077,Tamarack Networks,MSP,CRM tracker,,Quebec,0
+A078,Pinecrest Networks,MSP,CRM tracker,,Ontario,0
+A079,Stonebridge Networks,MSP,Partner tier list,A,Quebec,0
+A080,Borealis IT Partners,MSP,Partner tier list,C,Quebec,3
+A081,Portage Networks,MSP,Partner tier list,C,Quebec,0
+A082,Cartier Bay IT Partners,MSP,Partner tier list,C,Quebec,2
+A083,Ironleaf IT Partners,MSP,Partner tier list,C,Quebec,2
+A084,Timberline Networks,MSP,Partner tier list,C,Quebec,2
+A085,Ironleaf Managed IT,MSP,Partner tier list,C,Quebec,0
+A086,Frostgate Managed IT,MSP,CRM tracker,,Quebec,0
+A087,Saguenay Peak IT Partners,MSP,CRM tracker,,Quebec,0
+A088,Snowline Networks,MSP,CRM tracker,,Quebec,0
+A089,Riverbend IT Partners,MSP,Partner tier list,C,Ontario,2
+A090,Summit Ridge Managed IT,MSP,CRM tracker,,Ontario,0
+A091,Ashgrove Networks,MSP,Partner tier list,C,Quebec,0
+A092,Maplecrest IT Partners,MSP,CRM tracker,,Quebec,0
+A093,Bluepine IT Partners,MSP,Partner tier list,B,Quebec,1
+A094,Champlain Ridge IT Partners,MSP,CRM tracker,,Ontario,0
+A095,Timberline Managed IT,MSP,CRM tracker,,Quebec,0
+A096,Silverbirch Managed IT,MSP,Partner tier list,A,Ontario,0
+A097,Silverbirch IT Partners,MSP,CRM tracker,,Quebec,0
+A098,Lynxwood Managed IT,MSP,Partner tier list,C,Quebec,2
+A099,Bluepine Networks,MSP,Partner tier list,C,Quebec,0
+A100,Harborview Managed IT,MSP,Partner tier list,C,Quebec,0
+A101,Snowline Managed IT,MSP,CRM tracker,,Quebec,0
+A102,Granite Peak Managed IT,MSP,Partner tier list,A,Quebec,0
+A103,Riverbend Managed IT,MSP,Partner tier list,C,Quebec,3
+A104,Summit Ridge IT Partners,MSP,CRM tracker,,Quebec,2
+A105,Trillium Networks,MSP,CRM tracker,,Quebec,3
+A106,Trillium IT Partners,MSP,Partner tier list,C,Ontario,0
+A107,Frostgate Networks,MSP,CRM tracker,,Ontario,0
+A108,Portage IT Partners,MSP,Partner tier list,C,Quebec,3
+A109,Pinecrest Managed IT,MSP,CRM tracker,,Quebec,3
+A110,Redcedar Networks,MSP,Partner tier list,C,Quebec,0
+A111,Harborview Networks,MSP,Partner tier list,C,Quebec,0
+A112,Cartier Bay Managed IT,MSP,Partner tier list,B,Quebec,2
+A113,Ashgrove Managed IT,MSP,Partner tier list,C,Ontario,0
+A114,Snowline IT Partners,MSP,Partner tier list,C,Quebec,0
+A115,Wolfden Networks,MSP,CRM tracker,,Quebec,0
+A116,Whitecap Networks,MSP,Partner tier list,C,Quebec,0
+A117,Ashgrove IT Partners,MSP,CRM tracker,,Quebec,0
+A118,Kestrel IT Partners,MSP,CRM tracker,,Quebec,0
+A119,Rivermark IT Partners,MSP,CRM tracker,,Quebec,2
+A120,Brightwater IT Partners,MSP,Partner tier list,C,Quebec,0
+A121,Wolfden IT Partners,MSP,Partner tier list,B,Quebec,0
+A122,Brightwater Networks,MSP,CRM tracker,,Ontario,0
+A123,Frostgate IT Partners,MSP,CRM tracker,,Quebec,0
+A124,Oakridge Networks,MSP,CRM tracker,,Ontario,0
+A125,Saguenay Peak Networks,MSP,CRM tracker,,Quebec,0
+A126,Northvale Managed IT,MSP,Partner tier list,C,Quebec,3
+A127,Clearwater IT Partners,MSP,Partner tier list,C,Quebec,0
+A128,Redcedar IT Partners,MSP,CRM tracker,,Quebec,0
+A129,Stonebridge IT Partners,MSP,Partner tier list,C,Quebec,0
+A130,Riverbend Networks,MSP,CRM tracker,,Quebec,3
+A131,Trillium Managed IT,MSP,CRM tracker,,Ontario,2
+A132,Silverbirch Networks,MSP,Partner tier list,C,Ontario,0
+A133,Northvale IT Partners,MSP,Partner tier list,C,Quebec,0
+A134,Summit Ridge Networks,MSP,CRM tracker,,Quebec,0
+A135,Stonebridge Managed IT,MSP,CRM tracker,,Quebec,0
+A136,Granite Peak Networks,MSP,CRM tracker,,Quebec,0
+A137,Pinecrest IT Partners,MSP,Partner tier list,C,Quebec,3
+A138,Wolfden Managed IT,MSP,Partner tier list,A,Quebec,1
+A139,Kestrel Networks,MSP,CRM tracker,,Quebec,0
+A140,Kestrel Managed IT,MSP,Partner tier list,C,Quebec,0
+A141,Laurentia Networks,MSP,Partner tier list,C,Quebec,2
+A142,Maplecrest Managed IT,MSP,CRM tracker,,Quebec,0
+A143,Champlain Ridge Managed IT,MSP,Partner tier list,C,Quebec,1
+A144,Lakeshore Managed IT,MSP,Partner tier list,C,Ontario,0
+A145,Champlain Ridge Networks,MSP,CRM tracker,,Quebec,0
+A146,Lakeshore Networks,MSP,Partner tier list,C,Quebec,0
+A147,Northvale Networks,MSP,Partner tier list,C,Quebec,0
+A148,Clearwater Managed IT,MSP,Partner tier list,C,Ontario,0
+A149,Lynxwood IT Partners,MSP,CRM tracker,,Ontario,0
+A150,Saguenay Peak Managed IT,MSP,CRM tracker,,Quebec,0
+A151,Ironleaf Networks,MSP,CRM tracker,,Quebec,0
+A152,Lynxwood Networks,MSP,Partner tier list,C,Quebec,0
+A153,Borealis Networks,MSP,CRM tracker,,Quebec,0
+A154,Harborview IT Partners,MSP,Partner tier list,B,Quebec,0
+A155,Granite Peak IT Partners,MSP,CRM tracker,,Quebec,2
+A156,Rivermark Networks,MSP,Partner tier list,C,Quebec,0
+A157,Clearwater Networks,MSP,Partner tier list,C,Quebec,0
+A158,Laurentia Managed IT,MSP,Partner tier list,C,Quebec,0
+A159,Rivermark Managed IT,MSP,CRM tracker,,Quebec,0
+A160,Portage Managed IT,MSP,Partner tier list,C,Quebec,1
+A161,Oakridge Managed IT,MSP,Partner tier list,B,Quebec,0
+A162,Tamarack IT Partners,MSP,CRM tracker,,Quebec,0
+A163,Bluepine Managed IT,MSP,CRM tracker,,Quebec,0
+A164,Tamarack Managed IT,MSP,CRM tracker,,Quebec,0
+A165,Oakridge IT Partners,MSP,CRM tracker,,Quebec,0
+A166,Borealis Managed IT,MSP,Partner tier list,C,Quebec,1
+A167,Brightwater Managed IT,MSP,Partner tier list,C,Quebec,2
+A168,Maplecrest Networks,MSP,Partner tier list,A,Quebec,0
+A169,Wolfden IT Consulting,IT services,CRM tracker,,Quebec,0
+A170,Brightwater IT Consulting,IT services,CRM tracker,,Quebec,0
+A171,Northvale Tech Services,IT services,CRM tracker,,Quebec,3
+A172,Timberline IT Consulting,IT services,CRM tracker,,Ontario,0
+A173,Kestrel IT Consulting,IT services,CRM tracker,,Quebec,0
+A174,Ironleaf Tech Services,IT services,CRM tracker,,Quebec,0
+A175,Pinecrest Tech Services,IT services,CRM tracker,,Quebec,0
+A176,Snowline IT Consulting,IT services,CRM tracker,,Quebec,0
+A177,Redcedar Tech Services,IT services,CRM tracker,,Quebec,0
+A178,Rivermark IT Consulting,IT services,CRM tracker,,Quebec,0
+A179,Granite Peak Tech Services,IT services,CRM tracker,,Quebec,0
+A180,Stonebridge IT Consulting,IT services,CRM tracker,,Quebec,0
+A181,Champlain Ridge IT Consulting,IT services,CRM tracker,,Quebec,0
+A182,Oakridge Tech Services,IT services,CRM tracker,,Quebec,0
+A183,Champlain Ridge Tech Services,IT services,CRM tracker,,Ontario,0
+A184,Stonebridge Tech Services,IT services,CRM tracker,,Quebec,0
+A185,Saguenay Peak Tech Services,IT services,CRM tracker,,Quebec,2
+A186,Oakridge IT Consulting,IT services,CRM tracker,,Ontario,0
+A187,Laurentia Tech Services,IT services,CRM tracker,,Ontario,0
+A188,Bluepine Tech Services,IT services,CRM tracker,,Quebec,1
+A189,Trillium Tech Services,IT services,CRM tracker,,Quebec,0
+A190,Summit Ridge Tech Services,IT services,CRM tracker,,Ontario,0
+A191,Ashgrove IT Consulting,IT services,CRM tracker,,Quebec,0
+A192,Whitecap Tech Services,IT services,CRM tracker,,Quebec,0
+A193,Rivermark Tech Services,IT services,CRM tracker,,Quebec,0
+A194,Wolfden Tech Services,IT services,CRM tracker,,Quebec,0
+A195,Portage IT Consulting,IT services,CRM tracker,,Quebec,0
+A196,Bluepine IT Consulting,IT services,CRM tracker,,Quebec,2
+A197,Clearwater IT Consulting,IT services,CRM tracker,,Quebec,0
+A198,Riverbend IT Consulting,IT services,CRM tracker,,Ontario,2
+A199,Maplecrest IT Consulting,IT services,CRM tracker,,Quebec,0
+A200,Ashgrove Tech Services,IT services,CRM tracker,,Quebec,0
+A201,Lynxwood IT Consulting,IT services,CRM tracker,,Quebec,0
+A202,Pinecrest IT Consulting,IT services,CRM tracker,,Quebec,0
+A203,Whitecap IT Consulting,IT services,CRM tracker,,Quebec,1
+A204,Northvale IT Consulting,IT services,CRM tracker,,Quebec,0
+A205,Laurentia IT Consulting,IT services,CRM tracker,,Quebec,0
+A206,Cartier Bay Tech Services,IT services,CRM tracker,,Quebec,1
+A207,Brightwater Tech Services,IT services,CRM tracker,,Quebec,0
+A208,Lakeshore IT Consulting,IT services,CRM tracker,,Quebec,1
+A209,Snowline Tech Services,IT services,CRM tracker,,Quebec,0
+A210,Silverbirch IT Consulting,IT services,CRM tracker,,Quebec,0
+A211,Borealis IT Consulting,IT services,CRM tracker,,Quebec,2
+A212,Tamarack Tech Services,IT services,CRM tracker,,Quebec,1
+A213,Borealis Tech Services,IT services,CRM tracker,,Quebec,0
+A214,Tamarack IT Consulting,IT services,CRM tracker,,Quebec,0
+A215,Riverbend Tech Services,IT services,CRM tracker,,Quebec,0
+A216,Kestrel Tech Services,IT services,CRM tracker,,Ontario,0
+A217,Harborview Tech Services,IT services,CRM tracker,,Quebec,0
+A218,Portage Tech Services,IT services,CRM tracker,,Quebec,0
+A219,Timberline Tech Services,IT services,CRM tracker,,Quebec,0
+A220,Lynxwood Tech Services,IT services,CRM tracker,,Quebec,0
+A221,Granite Peak IT Consulting,IT services,CRM tracker,,Quebec,0
+A222,Lakeshore Tech Services,IT services,CRM tracker,,Quebec,0
+A223,Ironleaf IT Consulting,IT services,CRM tracker,,Ontario,0
+A224,Summit Ridge IT Consulting,IT services,CRM tracker,,Quebec,0
+A225,Riverbend Financial Group,Enterprise,CRM tracker,,Quebec,0
+A226,Trillium Financial Group,Enterprise,CRM tracker,,Quebec,0
+A227,Summit Ridge Financial Group,Enterprise,CRM tracker,,Quebec,0
+A228,Bluepine Financial Group,Enterprise,CRM tracker,,Quebec,0
+A229,Rivermark Insurance,Enterprise,CRM tracker,,Quebec,0
+A230,Harborview Financial Group,Enterprise,CRM tracker,,Quebec,0
+A231,Rivermark Logistics,Enterprise,CRM tracker,,Quebec,0
+A232,Clearwater Insurance,Enterprise,CRM tracker,,Quebec,3
+A233,Stonebridge Financial Group,Enterprise,CRM tracker,,Quebec,0
+A234,Brightwater Financial Group,Enterprise,CRM tracker,,Quebec,0
+A235,Ashgrove Insurance,Enterprise,CRM tracker,,Quebec,2
+A236,Frostgate Insurance,Enterprise,CRM tracker,,Quebec,0
+A237,Wolfden Insurance,Enterprise,CRM tracker,,Quebec,0
+A238,Riverbend Insurance,Enterprise,CRM tracker,,Quebec,0
+A239,Tamarack Insurance,Enterprise,CRM tracker,,Ontario,0
+A240,Granite Peak Logistics,Enterprise,CRM tracker,,Quebec,0
+A241,Snowline Financial Group,Enterprise,CRM tracker,,Quebec,1
+A242,Borealis Financial Group,Enterprise,CRM tracker,,Quebec,0
+A243,Silverbirch Insurance,Enterprise,CRM tracker,,Quebec,0
+A244,Maplecrest Logistics,Enterprise,CRM tracker,,Quebec,0
+A245,Portage Financial Group,Enterprise,CRM tracker,,Quebec,0
+A246,Ashgrove Financial Group,Enterprise,CRM tracker,,Quebec,1
+A247,Lakeshore Financial Group,Enterprise,CRM tracker,,Quebec,0
+A248,Silverbirch Financial Group,Enterprise,CRM tracker,,Quebec,0
+A249,Laurentia Insurance,Enterprise,CRM tracker,,Quebec,0
+A250,Whitecap Logistics,Enterprise,CRM tracker,,Quebec,1
+A251,Rivermark Financial Group,Enterprise,CRM tracker,,Quebec,0
+A252,Oakridge Logistics,Enterprise,CRM tracker,,Quebec,0
+A253,Maplecrest Financial Group,Enterprise,CRM tracker,,Quebec,0
+A254,Ironleaf Logistics,Enterprise,CRM tracker,,Quebec,0
+A255,Ashgrove Logistics,Enterprise,CRM tracker,,Ontario,0
+A256,Trillium Logistics,Enterprise,CRM tracker,,Quebec,0
+A257,Harborview Insurance,Enterprise,CRM tracker,,Quebec,0
+A258,Cartier Bay Financial Group,Enterprise,CRM tracker,,Quebec,0
+A259,Wolfden Financial Group,Enterprise,CRM tracker,,Quebec,2
+A260,Laurentia Financial Group,Enterprise,CRM tracker,,Quebec,0
+A261,Northvale Insurance,Enterprise,CRM tracker,,Quebec,0
+A262,Harborview Logistics,Enterprise,CRM tracker,,Quebec,0
+A263,Snowline Logistics,Enterprise,CRM tracker,,Quebec,0
+A264,Granite Peak Financial Group,Enterprise,CRM tracker,,Quebec,2

@@ -73,7 +73,7 @@ header{background:var(--ink);color:var(--bone);padding-block:40px 34px}
 .eb{font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
 h1,h2,h3,h4{font-family:"IBM Plex Sans Condensed",sans-serif;line-height:1.15}
 header h1{font-size:clamp(30px,5vw,46px);margin:8px 0 0}.rule{height:4px;width:80px;background:var(--red);margin:16px 0}
-header p{max-width:68ch;color:#c9c6c2;margin:0}
+header p{max-width:68ch;color:#c9c6c2;margin:0}header p.rl{margin-top:10px;font-size:14px;color:#bdbab6}header p.rl b{color:#fff}
 .nav{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}.nav a{color:var(--bone);border:1px solid #444;padding:7px 12px;border-radius:5px;text-decoration:none;font-size:14px}.nav a:hover{border-color:var(--red)}
 .how{background:var(--coal);color:var(--bone);padding-block:18px}.how .w{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px}
 .how .st{border:1px solid #444;border-radius:5px;padding:6px 10px}.how .st i{font-style:normal;color:var(--red);font-family:"IBM Plex Mono",monospace;font-size:12px;margin-right:6px}
@@ -99,10 +99,18 @@ tr:nth-child(even) td{background:var(--paper)}td.neg{color:var(--deep);font-weig
 .bar{height:12px;background:var(--bone);border-radius:6px;overflow:hidden}.bar span{display:block;height:100%;background:var(--deep)}
 .msg{background:var(--paper);border-left:3px solid var(--red);padding:10px 14px;margin:8px 0;white-space:pre-line}
 .msg small{display:block;font-family:"IBM Plex Mono",monospace;color:var(--deep);font-size:12px;margin-bottom:4px;white-space:normal}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:12px 0 16px}.kl{font-size:13px;color:#666;display:block;margin-top:6px}
+.frow{display:flex;align-items:center;gap:10px;margin:6px 0;font-size:14px}.fl{width:330px;flex:none}.fv{width:40px;text-align:right}.fr{width:150px;color:#666;font-size:12.5px}
+@media(max-width:700px){.fl{width:140px;font-size:12.5px}.fr{display:none}}
+.hint{font-size:14px;color:#444;margin:8px 0}
 [hidden]{display:none!important}
 footer{padding-block:24px;color:var(--smoke);font-size:13px;border-top:1px solid #e3e1dc}
 """
 TABS_JS = """<script>document.querySelectorAll('.tabs').forEach(function(t){var b=t.querySelectorAll('button');b.forEach(function(x){x.onclick=function(){b.forEach(function(y){y.setAttribute('aria-selected',y===x);document.getElementById(y.dataset.t).hidden=y!==x})}})});</script>"""
+
+
+ROLES = {"01": "Partner / Channel Managers · Alliances · Partner Marketing", "02": "Sales · Marketing · Business Development · Partner Development",
+         "03": "Sales and Marketing leaders · Partner Development · Revenue Operations", "05": "Sales · Marketing · Demand generation · Business Development"}
 
 
 def page(fname, num, title, intro, folder, steps, cmd, body, code_file, data_file, extra="", gloss=""):
@@ -116,11 +124,11 @@ def page(fname, num, title, intro, folder, steps, cmd, body, code_file, data_fil
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body>
 <header><div class="w"><div class="eb">Prototype {num} · Sample output</div><h1>{e(title)}</h1><div class="rule"></div>
-<p>{e(intro)}</p><div class="nav">{nav}</div></div></header>
+<p>{e(intro)}</p><p class="rl">For roles: <b>{e(ROLES.get(num, ""))}</b></p><div class="nav">{nav}</div></div></header>
 <div class="how"><div class="w">{how}</div></div>
 <main><div class="w">{body}
 <p class="note">Produced by running <code>{e(cmd)}</code> on fictional sample data. The output is shown as generated, not edited by hand.{extra}</p>{f'<p class="note"><b>Acronyms:</b> {e(gloss)}</p>' if gloss else ''}</div></main>
-<footer><div class="w">All company names and data are fictional. © 2026 Oscar Farrera · MIT License.</div></footer>{TABS_JS}</body></html>"""
+<footer><div class="w">All company names and data are fictional. © 2026 Oscar Farrera · All rights reserved.</div></footer>{TABS_JS}</body></html>"""
     (DOCS / fname).write_text(doc, encoding="utf-8")
     print(f"[ok] docs/{fname}")
 
@@ -145,18 +153,18 @@ def main():
          gloss="MBR = monthly business review; JMP = joint marketing plan; MDF = market development funds (money a vendor gives partners for joint marketing); "
                "KPI = key performance indicator; SI = systems integrator; CSV = spreadsheet file in comma-separated format.")
 
-    # 02 Intake prioritizer
-    run(["prioritize.py", "--intake", "sample/intake.csv", "--out", str(tmp / "portfolio.md")], "02-intake-prioritizer")
+    # 02 AI Transformation Request Portfolio
+    run(["prioritize.py", "--intake", "sample/intake.csv", "--out", str(tmp / "portfolio.md")], "02-ai-request-portfolio")
     h = md((tmp / "portfolio.md").read_text())
     pill = {"Prioritize": "pass", "Invest &amp; schedule": "amber", "Pilot with caution": "grey", "Decline for now": "fail"}
     for q, c in pill.items(): h = h.replace(f"<td>{q}</td>", f'<td><span class="badge {c}">{q}</span></td>')
     h = h.replace("Forbidden: excluded before scoring", '<span class="badge fail">Forbidden</span> excluded before scoring')
-    n = list(csv.DictReader(open(ROOT / "02-intake-prioritizer/sample/intake.csv", encoding="utf-8")))
-    body = (f'<p class="lead">{len(n)} free-text AI requests from different teams of a fictional company go in. A ranked portfolio comes out, '
+    n = list(csv.DictReader(open(ROOT / "02-ai-request-portfolio/sample/intake.csv", encoding="utf-8")))
+    body = (f'<p class="lead">{len(n)} free-text AI requests from the Sales, Marketing, Business Development and Partner Development teams of a fictional company go in. A ranked portfolio comes out, '
             'with the same gates applied to every request, a decision for each, and a short brief a leader can approve.</p>'
             f'<div class="doc">{h}</div>')
-    page("demo-02-intake.html", "02", "Transformation intake prioritizer", "Every AI request scored the same way, ranked, and turned into a decision brief, so the ranking does not depend on who asked.",
-         "02-intake-prioritizer", [("AI skill", "Request → intake row"), ("Human", "Confirm scores"), ("Script", "Gate, score, rank"), ("Human", "Approve portfolio")],
+    page("demo-02-intake.html", "02", "AI Transformation Request Portfolio", "Every AI request from Sales, Marketing, Business Development and Partner Development scored the same way, ranked, and turned into a decision brief.",
+         "02-ai-request-portfolio", [("AI skill", "Request → intake row"), ("Human", "Confirm scores"), ("Script", "Gate, score, rank"), ("Human", "Approve portfolio")],
          "python prioritize.py --intake sample/intake.csv", body, "prioritize.py", "sample/intake.csv",
          gloss="KPI = key performance indicator; KB = knowledge base; NDA = non-disclosure agreement; MSA = master services agreement; "
                "HR = human resources; CS = customer success; P&L = profit and loss statement.")
@@ -182,65 +190,125 @@ def main():
          "python roi_model.py --config assumptions.json", body, "roi_model.py", "assumptions.json",
          gloss="ROI = return on investment; P&L = profit and loss statement; h = hours.")
 
-    # 05 Outreach Assistant
-    sys.path.insert(0, str(ROOT / "05-outreach-assistant")); import funnel
-    rows = list(csv.DictReader(open(ROOT / "05-outreach-assistant/sample/outreach_log.csv", encoding="utf-8")))
-    def table(key):
-        g = {}
-        for r in rows: g.setdefault(r[key], []).append(r)
-        t = f"<div class='tw'><table><thead><tr><th>{key.title()}</th><th>Sent</th><th>Accepted</th><th>Replied</th><th>Meeting</th><th>Sent → meeting</th><th>Weakest stage</th></tr></thead><tbody>"
-        for k, rs in sorted(g.items()):
-            nn, steps = funnel.funnel(rs); weak = min(steps, key=lambda x: x[2])[0]
-            rate = steps[-1][1] / nn
-            t += (f"<tr><td><b>{e({'ai_personalized': 'AI-personalized', 'generic': 'Generic'}.get(k, k))}</b></td><td>{nn}</td>" + "".join(f"<td>{s[2] * 100:.0f}%</td>" for s in steps)
-                  + f"<td><div style='display:flex;gap:8px;align-items:center'><div class='bar' style='width:90px'><span style='width:{min(rate / .2, 1) * 100:.0f}%'></span></div>{rate * 100:.1f}%</div></td><td>{weak}</td></tr>")
-        return t + "</tbody></table></div>"
-    v = {k: [r for r in rows if r["variant"] == k] for k in ("generic", "ai_personalized")}
-    gr, pr = (sum(int(r["meeting"]) for r in v[k]) / len(v[k]) for k in ("generic", "ai_personalized"))
-    drafts = """<h3>Step 1: the target account (fictional)</h3>
-<p><b>Rivière Advisory Group</b> is a 250-person accounting, tax and advisory firm in Montréal serving mid-sized Quebec companies. Its busy season runs from February to April.
-It is a typical account in the ideal customer profile for this campaign: <b>Canadian accounting and advisory firms with 100 to 500 staff</b>.</p>
-<p><b>The problem:</b> staff already use free AI tools, sometimes with client data, and there is no shared policy or training. Partners want the time savings during tax season,
-but they worry about client confidentiality (CPA professional rules and Quebec's Law 25) and cannot see what AI is actually saving. Decisions are made by a partner committee,
-so each role needs a different reason to say yes.</p>
-<div class="tw"><table><thead><tr><th>Contact</th><th>What they care about</th><th>What we offer them</th></tr></thead><tbody>
-<tr><td><b>Managing Partner</b></td><td>Firm reputation and client trust; no data incident</td><td>AI use policy and governance starter kit; use-case prioritization workshop (prototype 02)</td></tr>
-<tr><td><b>COO</b></td><td>Tax-season capacity; doing more with the same team</td><td>90-day pilot of 2 to 3 workflows, with a business case and measured time saved (prototype 03)</td></tr>
-<tr><td><b>HR Director</b></td><td>Uneven skills, staff anxiety about AI, faster onboarding of juniors</td><td>AI literacy training by role (partners, managers, staff), in French and English</td></tr>
-<tr><td><b>IT Manager</b></td><td>Unapproved tools, data security, which tools to allow</td><td>Approved-tool list and data rules (green, amber, red); set-up of safe AI assistants</td></tr>
-</tbody></table></div>
-<p><b>The offer (AI-Fractional):</b> 1) AI literacy training by role; 2) an AI use policy and governance starter kit; 3) a use-case prioritization workshop;
-4) a fractional AI enablement lead for a 90-day pilot, with the business case measured before and after.</p>
+    # 05 Outreach Assistant (Clearmind Talent (fictional))
+    sys.path.insert(0, str(ROOT / "05-outreach-assistant")); import funnel, accounts as acc
+    run(["make_sample.py"], "05-outreach-assistant")
+    sd = ROOT / "05-outreach-assistant" / "sample"
+    D = funnel.load(sd); A = acc.prioritize(sd); R5 = funnel.reach(D)
+    names = {a["account_id"]: a["name"] for a in A}
+    pct = lambda x: f"{x * 100:.1f}%"
+    def tbl(head, rows):
+        return ("<div class='tw'><table><thead><tr>" + "".join(f"<th>{h}</th>" for h in head) + "</tr></thead><tbody>"
+                + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table></div>")
+    def kpis(items):
+        return '<div class="grid4">' + "".join(f'<div class="kpi"><div class="big">{v}</div><span class="kl">{l}</span></div>' for v, l in items) + "</div>"
 
-<h3>Step 2: what the skill drafts (illustrative)</h3>
-<p>Inputs given to the skill: persona <b>COO</b> at <b>Rivière Advisory Group</b>; public signal: <i>a LinkedIn post about hiring 12 seasonal staff and "getting more done with the same team" before tax season</i>;
-offer: AI policy, role-based training and a tax-season pilot; ask: a 15-minute call.</p>
-<div class="msg"><small>Connection note · under 300 characters</small>Hi Julie, I saw your post about getting ready for tax season with 12 seasonal hires. I help accounting firms put AI to work on routine tasks safely, with clear rules for client data. I'd be glad to connect.</div>
-<div class="msg"><small>Follow-up · under 80 words</small>Thanks for connecting, Julie. Many firms I speak with find staff already using free AI tools, often with client data and no shared rules. I run a short program that sets an AI use policy, trains each role, and pilots two or three tax-season tasks, such as client meeting summaries, with a manager reviewing every output. Would a 15-minute call next week be useful to see if it fits Rivière?</div>
-<div class="msg"><small>Email · under 120 words</small><b>Subject: Tax season and AI at Rivière</b>
-Hi Julie,
-Your post about adding 12 seasonal staff caught my attention. Getting new people up to speed is exactly where AI can save senior time, if it is used safely.
-I help accounting and advisory firms do three things: set clear rules for AI and client data, in line with Quebec's Law 25; train partners, managers and staff by role; and pilot two or three tasks, such as engagement letter drafts or a staff FAQ, measuring the time saved.
-Would a 15-minute call next week work to see whether this fits Rivière's tax-season plan?
+    s1 = ("<h3>Step 1 · The company, the problem and the offer</h3>"
+          "<p><b>Clearmind Talent</b> (fictional name) stands for the Montreal-area talent-placement firm I worked for: it places neurodivergent professionals with employers "
+          "in technology and business roles. Consultants are placed with client companies and billed at a rate similar to a full-time employee. "
+          "Its <b>Clearmind Cyber</b> offer focuses on cybersecurity: many highly qualified neurodivergent people have strengths that match security work "
+          "(attention to detail, pattern recognition, persistence with complex systems).</p>"
+          "<p><b>The problem to solve:</b> managed service providers (MSPs) and managed security service providers (MSSPs) in Quebec cannot fill Tier 1 "
+          "and Tier 2 analyst roles. The market is tight, salaries are rising, and sales keep bringing in new clients the team must serve. "
+          "The typical buyer is the <b>service desk or SOC director</b>, under pressure from leadership to deliver. On the other side, Clearmind Talent had a small "
+          "team and a lean marketing budget, so it had to reach hundreds of employers without adding people.</p>"
+          + tbl(["What Clearmind Talent offers", "How it works"], [
+              ["<b>Placed consultants</b>", "Trained neurodivergent analysts placed with the client, billed at a rate similar to an employee; no recruiting fee"],
+              ["<b>Training roadmap</b>", "Four certification blocks matched to the roles employers post (below), so candidates arrive job-ready"],
+              ["<b>Onboarding and support</b>", "Clearmind Talent coaches both the consultant and the team during onboarding and throughout the placement"],
+              ["<b>Content and events</b>", "Webinars, campaigns and talks that help employers understand and adapt to neurodivergent talent"]])
+          + "<h4>Cybersecurity training roadmap (candidates)</h4>"
+          + tbl(["Block", "Target roles", "Example certifications"], [
+              ["1. Cybersecurity fundamentals", "Help desk, Tier 1 IT support, IT specialist", "CompTIA A+, ISC2 Certified in Cybersecurity, Google Cybersecurity Certificate"],
+              ["2. Core domains", "Tier 2 IT support, network security analyst, cloud security", "CompTIA Network+, Security+, Cloud+; ISC2 SSCP"],
+              ["3. Penetration testing", "Ethical hacker, pen tester, threat analyst", "EC-Council Ethical Hacking Essentials, CompTIA PenTest+, CEH"],
+              ["4. Security operations center", "SOC analyst Tier 1 and 2, incident handler", "EC-Council Certified SOC Analyst, Incident Handler, Threat Intelligence Analyst"]]))
+
+    W = {}
+    for a in A: W[a["wave"]] = W.get(a["wave"], 0) + 1
+    top = [[f"<b>{e(a['name'])}</b>", a["segment"], a["partner_tier"] or "-", a["open_n1_n2_roles"],
+            f"{a['parts']['segment']} + {a['parts']['open_roles']} + {a['parts']['partner_tier']} + {a['parts']['region']} = <b>{a['score']}</b>",
+            f'<span class="badge {"pass" if a["wave"] == "Wave 1" else "amber"}">{a["wave"]}</span>'] for a in A[:10]]
+    s2 = ("<h3>Step 2 · Prioritize the accounts (script)</h3>"
+          f"<p>The target list combined the prospect tracker (MSPs, MSSPs, IT services firms and enterprises with in-house security teams) and the MSP "
+          f"segment from my former channel partner tier list. <code>accounts.py</code> scores all {len(A)} accounts out of 9 and splits them into waves, "
+          "so personal outreach goes to the best fit first.</p>"
+          + kpis([(W.get("Wave 1", 0), "Wave 1: personal outreach (score 7-9)"), (W.get("Wave 2", 0), "Wave 2: AI-personalized sequences (5-6)"),
+                  (W.get("Wave 3", 0), "Wave 3: newsletter and events (under 5)")])
+          + "<p class='hint'><b>Score</b> = segment (MSSP or MSP 3, IT services 2, enterprise 1) + open Tier 1/Tier 2 roles tracked (up to 3) "
+            "+ partner tier (A 2, B or C 1) + Quebec 1. Top 10:</p>"
+          + tbl(["Account (fictional)", "Segment", "Tier", "Open roles", "Score", "Wave"], top))
+
+    s3 = """<h3>Step 3 · What the skill drafts (illustrative)</h3>
+<p>Inputs given to the skill: <b>Laurentide SecureOps</b> (fictional MSSP in Laval, Wave 1); contact <b>Marc</b>, Director, Service Desk and SOC;
+public signals: <i>two "SOC Analyst, Tier 1" postings open for seven weeks, and a LinkedIn post about onboarding new managed detection clients</i>;
+ask: review two candidate profiles. Messages were sent in French; shown here in English.</p>
+<div class="msg"><small>Connection note · under 300 characters</small>Hi Marc, I saw Laurentide is hiring two Tier 1 SOC analysts while onboarding new clients. At Clearmind Talent we place trained, certified analysts, and we support them through onboarding. Happy to connect.</div>
+<div class="msg"><small>Follow-up · under 80 words</small>Thanks for connecting, Marc. Two open Tier 1 roles during client onboarding usually means your senior analysts cover the queue. Our Clearmind Cyber consultants hold Security+ or equivalent certifications, are billed like an employee with no recruiting fee, and we coach them and your team through the first months. Would you like to review two anonymized candidate profiles this week?</div>
+<div class="msg"><small>Email · under 120 words</small><b>Subject: Two Tier 1 SOC analysts for Laurentide</b>
+Hi Marc,
+I noticed your two Tier 1 SOC analyst postings have been open for several weeks, while Laurentide adds new managed detection clients.
+Clearmind Talent places neurodivergent analysts who are trained and certified for SOC work: strong attention to detail, consistency with repetitive triage, and persistence with complex alerts. They join as consultants billed at a rate similar to an employee, and we support both them and your team through onboarding.
+Could I send you two anonymized candidate profiles to review?
 Best regards,
-Oscar Farrera, AI-Fractional</div>
-<div class="msg"><small>Self-check flags for the human</small>Verify Julie's post and the 12-hire figure before sending · no claims about Rivière's current AI use · Law 25 is mentioned in general terms, not as legal advice · one ask only · a human sends it</div>"""
-    body = ('<p class="lead">Two parts work together: a Claude skill drafts personalized messages that a human edits and sends, and an analyzer compares how '
-            'personalized and generic messages perform at each stage of the funnel. The example below targets one fictional account; the funnel results come from a '
-            'campaign of 240 synthetic prospects across firms that match the same profile.</p>'
-            f'<div class="doc">{drafts}<h3>Step 5: what the analyzer finds</h3>'
-            f'<div class="grid2"><div class="kpi"><h3>Generic</h3><div class="big">{gr * 100:.1f}%</div><span style="font-size:13px;color:#666">sent → meeting</span></div>'
-            f'<div class="kpi"><h3>AI-personalized</h3><div class="big" style="color:var(--ok)">{pr * 100:.1f}%</div><span style="font-size:13px;color:#666">sent → meeting · {pr / gr:.1f}x generic</span></div></div>'
-            f'<h4>By variant</h4>{table("variant")}<h4>By persona</h4>{table("persona")}'
-            '<p><b>Read-out:</b> personalization lifts acceptance the most, and the weakest stage moves down the funnel to replies. '
-            'The COO converts best (11.3% sent to meeting), which is why the Step 2 example targets the COO; for Managing Partners, accepting the connection is the weakest stage, so a warm introduction works better. '
-            'Small synthetic sample: treat as directional and keep testing before scaling.</p></div>')
-    page("demo-05-outreach.html", "05", "Outreach Assistant", "AI-drafted, human-sent prospecting messages, measured stage by stage so you know what to fix next.",
-         "05-outreach-assistant", [("Human", "Pick prospect + signal"), ("AI skill", "Draft 3 variants"), ("Human", "Edit and send"), ("Script", "Compare funnel")],
-         "python funnel.py --log sample/outreach_log.csv", body, "funnel.py", "sample/outreach_log.csv",
-         " The company and the Step 2 messages are an illustrative example of what the skill drafts, following the rules in SKILL.md.",
-         gloss="COO = chief operating officer; HR = human resources; IT = information technology; CPA = chartered professional accountant; "
-               "FAQ = frequently asked questions; CASL = Canada's Anti-Spam Legislation; Law 25 = Quebec's private-sector privacy law.")
+Oscar Farrera, Clearmind Talent</div>
+<div class="msg"><small>Self-check flags for the human</small>Verify the postings are still open · no candidate diagnosis or personal details · certifications must match the actual profiles · one ask only · CASL footer on the email · a human sends it</div>"""
+
+    ev = [[x["date"], e(x["event"]), x["type"], x["contacts_met"]] for x in D["events"]]
+    s4 = ("<h3>Step 4 · Engage: events and content (human + AI)</h3>"
+          f"<p>Events grew from 3 to {len(D['events'])}, mixing conferences, MSP networking and webinars Clearmind Talent hosted. AI helped draft the content plan: "
+          "10 webinar topics by audience, 10 social campaigns and 3 video scripts, each reviewed and adapted by the team.</p>"
+          + tbl(["Date", "Event (generic names)", "Type", "Contacts met"], ev)
+          + "<p class='hint'><b>Content examples:</b> webinar <i>Neurodiversity at work: turning challenges into opportunities</i> (HR and team leads); "
+            "webinar <i>Recruiting strategies for neurodiversity</i> (talent acquisition); campaign <i>Myths and realities of neurodiversity</i>; "
+            "video script <i>Neurodiversity: an asset for business</i>.</p>")
+
+    F = funnel.funnel(D); mx = F[0][1]
+    fun = "".join(f"<div class='frow'><span class='fl'>{e(n)}</span><div class='bar' style='flex:1'><span style='width:{max(v / mx, .02) * 100:.0f}%'></span></div>"
+                  f"<b class='fv'>{v}</b><span class='fr'>{pct(r) + ' of previous' if r else ''}</span></div>" for n, v, r in F)
+    L, M = funnel.ab(D, "linkedin"), funnel.ab(D, "email")
+    abrows = [["LinkedIn", "Generic", L["generic"]["sent"], f"{L['generic']['conversations']} ({pct(L['generic']['conversations'] / L['generic']['sent'])})", L["generic"]["qualified"]],
+              ["LinkedIn", "<b>AI-personalized</b>", L["ai_personalized"]["sent"], f"<b>{L['ai_personalized']['conversations']} ({pct(L['ai_personalized']['conversations'] / L['ai_personalized']['sent'])})</b>", L["ai_personalized"]["qualified"]],
+              ["Email", "Generic (wave 1)", M["generic"]["sent"], f"{M['generic']['replies']} ({pct(M['generic']['replies'] / M['generic']['sent'])})", M["generic"]["qualified"]],
+              ["Email", "<b>AI-personalized</b>", M["ai_personalized"]["sent"], f"<b>{M['ai_personalized']['replies']} ({pct(M['ai_personalized']['replies'] / M['ai_personalized']['sent'])})</b>", M["ai_personalized"]["qualified"]]]
+    brk = lambda k: tbl([k.title(), "Contacts", "Conversations", "Qualified calls", "Meetings", "Meeting rate"],
+                        [[f"<b>{e(r['name'])}</b>", r["contacts"], r["conversations"], r["qualified"], r["meetings"], pct(r["meeting_rate"])] for r in funnel.breakdown(D, k)])
+    s5 = ("<h3>Step 5 · Measure: funnel and what works (script)</h3>"
+          + kpis([(f"{R5['email_contacts']:,}", f"email contacts across {R5['companies']} companies"), (R5["linkedin_conversations"], "LinkedIn conversations"),
+                  (f"{F[2][1]} / {F[1][1]}", f"meetings from qualified calls ({pct(F[2][1] / F[1][1])})")])
+          + f"<div class='funnel'>{fun}</div><p class='hint'>Demos can exceed meetings: 8 accounts asked for a second model presentation to other stakeholders.</p>"
+          + "<h4>AI-personalized vs generic</h4>" + tbl(["Channel", "Variant", "Sent", "Conversations / replies", "Qualified calls"], abrows)
+          + "<h4>By persona</h4>" + brk("persona") + "<h4>By segment</h4>" + brk("segment")
+          + "<p><b>Read-out:</b> AI-personalized LinkedIn messages started conversations about 2.8 times as often as generic ones. The service desk / SOC director "
+            "converts best, confirming the buyer described in the business plan, and MSSPs and MSPs book far more meetings than enterprises. "
+            "So the program shifted effort to Wave 1 MSSPs and MSPs, and invited HR and inclusion contacts to webinars instead of asking them for meetings.</p>")
+
+    P = funnel.pipeline(D)
+    rr = [[f"<b>{n}</b>", f"{b:,}", f"<b>{a:,}</b>", f"{x:.1f}x"] for n, b, a, x in funnel.results(D)]
+    rr += [["<b>Lead-to-meeting conversion</b>", "-", f"<b>{pct(F[2][1] / F[1][1])}</b> ({F[2][1]} of {F[1][1]} qualified calls)", "-"],
+           ["<b>Overall pipeline</b>", "-", "<b>+40%</b> (reported)", "-"], ["<b>LinkedIn Social Selling Index</b>", "-", "<b>Top 1%</b> (reported)", "-"]]
+    pl = [[f"<b>{e(names[p['account_id']])}</b>", e(p["role"]), p["tenure_months"] + " months", f"${int(p['value_6m']):,}",
+           f'<span class="badge {"pass" if p["status"] == "Signed" else "amber"}">{e(p["status"])}</span>'] for p in D["placements"]]
+    s6 = ("<h3>Step 6 · Results: before vs after</h3>"
+          + tbl(["Measure", "Before", "After", "Change"], rr)
+          + "<h4>Placement pipeline</h4>"
+          + kpis([(len(D["placements"]), "placement intents (vs 1 at baseline)"), (P["signed"], "signed contract"),
+                  (f"${P['total'] / 1000:,.0f}K", f"6-month value; ${P['expected'] / 1000:,.0f}K expected at {P['rate']:.0%} close rate")])
+          + tbl(["Account (fictional)", "Role", "Tenure", "6-month value", "Status"], pl)
+          + "<p class='hint'>A placement intent means the prospect asked to review candidates for a defined role. The split of the $340K across the three "
+            "intents is illustrative; the total, the signed contract and the 60% forecast are as reported.</p>")
+
+    body = ('<p class="lead">A real program, rebuilt with fictional names: how a neurodiversity talent-placement firm (shown as Clearmind Talent, a fictional name) used AI-augmented outreach to reach hundreds of MSP, MSSP and IT '
+            'employers with a small team, and turn conversations into placements. The records are synthetic, but their totals match the results on my CV.</p>'
+            f'<div class="doc">{s1}{s2}{s3}{s4}{s5}{s6}</div>')
+    page("demo-05-outreach.html", "05", "Outreach Assistant", "AI-augmented outreach for a neurodiversity talent-placement firm: prioritized accounts, AI-drafted messages sent by a human, and every stage measured.",
+         "05-outreach-assistant", [("Script", "Prioritize accounts"), ("Human", "Pick contact + signal"), ("AI skill", "Draft 3 variants"),
+                                  ("Human", "Send, engage, demo"), ("Script", "Measure the funnel")],
+         "python accounts.py --data sample/ and python funnel.py --data sample/", body, "funnel.py", "sample/contacts.csv",
+         " Company and contact names, the Step 3 messages and the event names are illustrative.",
+         gloss="MSP = managed service provider; MSSP = managed security service provider; SOC = security operations center; "
+               "SSI = LinkedIn Social Selling Index; CASL = Canada's Anti-Spam Legislation; CEH = Certified Ethical Hacker; "
+               "ISC2 SSCP = Systems Security Certified Practitioner; K = thousand.")
 
 
 if __name__ == "__main__":

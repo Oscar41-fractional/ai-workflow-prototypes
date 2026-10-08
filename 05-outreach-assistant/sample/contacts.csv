@@ -1,0 +1,1151 @@
+contact_id,account_id,persona,segment,email_variant,email_reply,li_variant,li_accepted,li_conversation,met_at_event,qualified_call,meeting,demos,first_touch
+C0001,A223,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-07
+C0002,A120,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-22
+C0003,A174,People & Inclusion Lead,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-02-01
+C0004,A240,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-04-05
+C0005,A160,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-16
+C0006,A030,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-12-04
+C0007,A051,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-22
+C0008,A203,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-11
+C0009,A061,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-21
+C0010,A065,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-25
+C0011,A039,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-21
+C0012,A039,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,2024-06-26,0,0,0,2024-08-26
+C0013,A260,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-09-14
+C0014,A024,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-26
+C0015,A228,People & Inclusion Lead,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-06-06
+C0016,A229,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-08
+C0017,A157,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-29
+C0018,A066,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-16
+C0019,A256,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-10-15
+C0020,A246,CTO / VP Technology,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-07-21
+C0021,A248,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-09-04
+C0022,A226,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-16
+C0023,A132,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-03
+C0024,A223,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-11-08
+C0025,A095,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-24
+C0026,A144,CTO / VP Technology,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-01-13
+C0027,A029,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-29
+C0028,A171,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-10-21
+C0029,A167,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-03
+C0030,A189,HR / Talent Acquisition,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-06-24
+C0031,A102,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-19
+C0032,A264,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-06-14
+C0033,A211,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-01-12
+C0034,A236,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-10-02
+C0035,A174,HR / Talent Acquisition,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-11-27
+C0036,A195,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-14
+C0037,A076,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C0038,A149,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-24
+C0039,A107,CTO / VP Technology,MSP,ai_personalized,1,,0,0,,0,0,0,2024-06-27
+C0040,A035,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-18
+C0041,A156,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-09
+C0042,A008,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-04
+C0043,A251,HR / Talent Acquisition,Enterprise,generic,0,ai_personalized,0,0,,0,0,0,2023-12-08
+C0044,A170,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-27
+C0045,A247,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-11-10
+C0046,A055,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-01-30
+C0047,A211,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-03
+C0048,A065,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-13
+C0049,A250,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-03-20
+C0050,A147,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-11-24
+C0051,A203,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-10-11
+C0052,A106,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-13
+C0053,A256,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-06-12
+C0054,A184,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-04-03
+C0055,A059,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-08
+C0056,A203,HR / Talent Acquisition,IT services,ai_personalized,1,generic,0,0,,1,0,0,2024-03-05
+C0057,A247,CEO / Owner,Enterprise,ai_personalized,0,,0,0,2024-09-18,1,0,0,2024-07-22
+C0058,A060,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-09-09
+C0059,A122,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-12-04
+C0060,A250,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-25
+C0061,A206,People & Inclusion Lead,IT services,generic,0,,0,0,,0,0,0,2023-12-07
+C0062,A242,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-10-10
+C0063,A163,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-31
+C0064,A198,CTO / VP Technology,IT services,generic,0,ai_personalized,1,0,,0,0,0,2023-10-19
+C0065,A198,CTO / VP Technology,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-09-17
+C0066,A076,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-03-29
+C0067,A022,CTO / VP Technology,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-02-12
+C0068,A159,CTO / VP Technology,MSP,ai_personalized,0,,0,0,2024-02-21,0,0,0,2024-02-16
+C0069,A250,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-08
+C0070,A152,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-08
+C0071,A176,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-07
+C0072,A169,HR / Talent Acquisition,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-07-09
+C0073,A225,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-21
+C0074,A128,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-10-30
+C0075,A212,Service Desk / SOC Director,IT services,ai_personalized,0,generic,1,0,,0,0,0,2024-06-01
+C0076,A165,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-08
+C0077,A083,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-27
+C0078,A043,CTO / VP Technology,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-08-03
+C0079,A182,CTO / VP Technology,IT services,ai_personalized,0,,0,0,2024-04-17,0,0,0,2024-09-17
+C0080,A057,HR / Talent Acquisition,MSSP,ai_personalized,0,generic,1,0,,0,0,0,2024-05-26
+C0081,A235,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-11
+C0082,A198,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-01-09
+C0083,A163,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-05
+C0084,A006,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-19
+C0085,A020,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-12-20
+C0086,A117,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-20
+C0087,A129,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-03
+C0088,A160,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-08
+C0089,A243,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-18
+C0090,A087,HR / Talent Acquisition,MSP,generic,0,,0,0,2023-11-15,0,0,0,2023-11-24
+C0091,A142,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-02
+C0092,A076,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-10
+C0093,A167,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-25
+C0094,A035,Service Desk / SOC Director,MSSP,generic,0,ai_personalized,0,0,2024-01-30,1,1,2,2023-10-06
+C0095,A135,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-28
+C0096,A040,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,2,2024-07-15
+C0097,A078,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-14
+C0098,A090,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-13
+C0099,A250,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-08
+C0100,A115,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-26
+C0101,A146,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-15
+C0102,A151,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-08-21
+C0103,A127,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-06-04
+C0104,A176,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-10-17
+C0105,A160,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-17
+C0106,A004,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-31
+C0107,A226,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-15
+C0108,A079,CTO / VP Technology,MSP,ai_personalized,0,,0,0,2024-05-08,0,0,0,2024-04-12
+C0109,A194,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-06
+C0110,A196,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-25
+C0111,A017,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-08
+C0112,A208,HR / Talent Acquisition,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-10-24
+C0113,A079,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-21
+C0114,A148,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-06-18
+C0115,A123,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-20
+C0116,A098,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,2024-06-26,0,0,0,2024-04-03
+C0117,A001,Service Desk / SOC Director,MSSP,generic,0,ai_personalized,1,1,,1,1,1,2023-10-08
+C0118,A099,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-24
+C0119,A066,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,2,2024-02-11
+C0120,A173,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-26
+C0121,A084,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-10
+C0122,A090,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-28
+C0123,A015,CTO / VP Technology,MSSP,generic,0,generic,1,0,,0,0,0,2023-12-07
+C0124,A168,CEO / Owner,MSP,ai_personalized,1,,0,0,,0,0,0,2024-01-05
+C0125,A092,CEO / Owner,MSP,generic,0,ai_personalized,1,1,,1,0,0,2023-11-26
+C0126,A062,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-10
+C0127,A003,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-19
+C0128,A149,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-19
+C0129,A065,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-20
+C0130,A057,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-11-16
+C0131,A103,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-10-06
+C0132,A079,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-09
+C0133,A074,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-10-31
+C0134,A146,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-19
+C0135,A215,People & Inclusion Lead,IT services,generic,0,,0,0,,0,0,0,2023-11-12
+C0136,A063,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-29
+C0137,A065,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-29
+C0138,A156,CEO / Owner,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-01-15
+C0139,A246,CTO / VP Technology,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-02-23
+C0140,A065,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-14
+C0141,A199,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-12
+C0142,A137,Service Desk / SOC Director,MSP,ai_personalized,1,,0,0,,0,0,0,2024-08-25
+C0143,A208,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-15
+C0144,A214,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-24
+C0145,A201,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-01
+C0146,A226,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-26
+C0147,A164,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-13
+C0148,A202,HR / Talent Acquisition,IT services,generic,0,,0,0,2024-06-05,1,1,1,2023-11-29
+C0149,A254,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-06
+C0150,A234,CEO / Owner,Enterprise,ai_personalized,0,generic,0,0,,0,0,0,2024-08-17
+C0151,A084,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-11
+C0152,A234,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-09-21
+C0153,A212,CTO / VP Technology,IT services,generic,0,ai_personalized,1,0,,0,0,0,2023-10-12
+C0154,A143,CEO / Owner,MSP,generic,0,,0,0,2024-09-18,0,0,0,2023-11-03
+C0155,A137,People & Inclusion Lead,MSP,generic,0,generic,0,0,,0,0,0,2023-11-15
+C0156,A072,CTO / VP Technology,MSSP,generic,0,ai_personalized,1,0,,0,0,0,2023-12-13
+C0157,A146,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-06
+C0158,A044,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-09-24
+C0159,A083,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-24
+C0160,A114,Service Desk / SOC Director,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-11-11
+C0161,A225,HR / Talent Acquisition,Enterprise,generic,1,,0,0,,0,0,0,2023-12-20
+C0162,A253,Service Desk / SOC Director,Enterprise,generic,0,ai_personalized,0,0,,0,0,0,2023-12-09
+C0163,A149,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-14
+C0164,A149,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-11
+C0165,A172,CEO / Owner,IT services,generic,0,generic,1,0,,0,0,0,2023-11-03
+C0166,A123,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-29
+C0167,A211,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C0168,A169,CTO / VP Technology,IT services,generic,0,generic,1,0,,0,0,0,2023-12-18
+C0169,A019,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-09
+C0170,A072,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-24
+C0171,A078,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-19
+C0172,A131,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-17
+C0173,A062,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-04
+C0174,A164,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-23
+C0175,A037,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-19
+C0176,A096,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-10
+C0177,A254,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-09-18
+C0178,A175,CEO / Owner,IT services,ai_personalized,0,generic,1,1,,0,0,0,2024-06-17
+C0179,A213,CTO / VP Technology,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-11-18
+C0180,A081,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-10-27
+C0181,A040,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,2024-06-05,0,0,0,2024-08-09
+C0182,A218,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-02
+C0183,A185,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-01
+C0184,A177,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-15
+C0185,A189,HR / Talent Acquisition,IT services,ai_personalized,0,generic,1,0,,0,0,0,2024-06-13
+C0186,A038,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-07-03
+C0187,A009,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-27
+C0188,A008,CEO / Owner,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-01-10
+C0189,A120,CEO / Owner,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-11-05
+C0190,A036,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-11-24
+C0191,A007,CTO / VP Technology,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-04-28
+C0192,A068,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-23
+C0193,A054,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-23
+C0194,A067,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,2024-03-19,0,0,0,2024-06-14
+C0195,A111,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,2024-02-21,1,1,1,2024-03-17
+C0196,A047,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-12-03
+C0197,A029,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-21
+C0198,A224,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-11-18
+C0199,A029,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-11
+C0200,A094,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-27
+C0201,A023,Service Desk / SOC Director,MSSP,generic,0,ai_personalized,1,1,,1,1,2,2023-11-01
+C0202,A204,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-22
+C0203,A052,HR / Talent Acquisition,MSSP,generic,0,generic,0,0,,0,0,0,2023-10-26
+C0204,A229,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-10
+C0205,A171,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-12
+C0206,A253,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-07
+C0207,A180,HR / Talent Acquisition,IT services,ai_personalized,1,,0,0,,0,0,0,2024-07-14
+C0208,A083,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-10-04
+C0209,A229,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-24
+C0210,A100,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-10-17
+C0211,A055,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-06
+C0212,A162,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-16
+C0213,A187,CTO / VP Technology,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-12-24
+C0214,A101,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-10
+C0215,A170,Service Desk / SOC Director,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-11-03
+C0216,A083,CEO / Owner,MSP,ai_personalized,0,,0,0,2024-02-21,0,0,0,2024-07-12
+C0217,A112,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-19
+C0218,A247,People & Inclusion Lead,Enterprise,ai_personalized,1,generic,0,0,,0,0,0,2024-05-06
+C0219,A033,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-06
+C0220,A223,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-18
+C0221,A219,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-16
+C0222,A047,HR / Talent Acquisition,MSSP,ai_personalized,1,ai_personalized,0,0,,0,0,0,2024-04-07
+C0223,A070,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-14
+C0224,A231,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-12-03
+C0225,A160,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-10-31
+C0226,A003,CTO / VP Technology,MSSP,generic,0,,0,0,2024-09-18,1,0,0,2023-12-04
+C0227,A077,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-18
+C0228,A168,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-21
+C0229,A235,Service Desk / SOC Director,Enterprise,ai_personalized,0,generic,0,0,,0,0,0,2024-02-01
+C0230,A058,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-16
+C0231,A213,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-18
+C0232,A088,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-04
+C0233,A056,CEO / Owner,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-02-09
+C0234,A243,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-03
+C0235,A182,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C0236,A125,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-27
+C0237,A013,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-12-12
+C0238,A028,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-08-14
+C0239,A086,HR / Talent Acquisition,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-11-01
+C0240,A195,CTO / VP Technology,IT services,ai_personalized,0,generic,1,0,,0,0,0,2024-08-07
+C0241,A243,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-02-04
+C0242,A127,CTO / VP Technology,MSP,generic,0,ai_personalized,1,1,,1,1,1,2023-11-09
+C0243,A125,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-07-30
+C0244,A134,Service Desk / SOC Director,MSP,ai_personalized,1,,0,0,,1,0,0,2024-02-18
+C0245,A083,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-09
+C0246,A201,CTO / VP Technology,IT services,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-06-17
+C0247,A111,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-10
+C0248,A261,CTO / VP Technology,Enterprise,ai_personalized,0,generic,1,0,,0,0,0,2024-06-23
+C0249,A160,People & Inclusion Lead,MSP,ai_personalized,1,,0,0,,0,0,0,2024-05-19
+C0250,A077,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-14
+C0251,A207,HR / Talent Acquisition,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-05-02
+C0252,A237,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-26
+C0253,A218,CTO / VP Technology,IT services,ai_personalized,0,,0,0,2023-11-15,0,0,0,2024-04-30
+C0254,A227,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-08
+C0255,A047,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-05-09
+C0256,A085,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-02-27
+C0257,A187,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-11
+C0258,A215,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-04
+C0259,A135,HR / Talent Acquisition,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-10-17
+C0260,A201,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-01-29
+C0261,A061,CTO / VP Technology,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-02-21
+C0262,A228,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-08-13
+C0263,A053,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-16
+C0264,A130,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-25
+C0265,A091,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-06-11
+C0266,A125,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,0,2024-02-21,1,1,1,2024-07-16
+C0267,A181,CTO / VP Technology,IT services,ai_personalized,1,,0,0,,1,1,1,2024-01-09
+C0268,A014,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-04
+C0269,A197,CEO / Owner,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-06-12
+C0270,A130,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-14
+C0271,A034,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-11-22
+C0272,A031,Service Desk / SOC Director,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-04-18
+C0273,A221,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-15
+C0274,A131,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-01
+C0275,A117,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-12-18
+C0276,A113,People & Inclusion Lead,MSP,ai_personalized,1,,0,0,,0,0,0,2024-02-10
+C0277,A006,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-10
+C0278,A221,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-20
+C0279,A115,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-09-23
+C0280,A150,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-04-27
+C0281,A157,HR / Talent Acquisition,MSP,ai_personalized,1,,0,0,,0,0,0,2024-07-19
+C0282,A045,CTO / VP Technology,MSSP,generic,0,ai_personalized,1,0,,0,0,0,2023-12-08
+C0283,A077,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-13
+C0284,A050,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-13
+C0285,A108,CEO / Owner,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-10-13
+C0286,A214,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-11
+C0287,A209,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-11-24
+C0288,A250,CTO / VP Technology,Enterprise,generic,0,ai_personalized,1,1,,1,0,0,2023-12-05
+C0289,A137,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-03-23
+C0290,A003,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-09
+C0291,A050,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-31
+C0292,A099,HR / Talent Acquisition,MSP,generic,0,,0,0,2024-01-30,1,0,0,2023-10-30
+C0293,A146,People & Inclusion Lead,MSP,ai_personalized,1,,0,0,,0,0,0,2024-09-20
+C0294,A051,CTO / VP Technology,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-04-12
+C0295,A044,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-09-09
+C0296,A252,Service Desk / SOC Director,Enterprise,generic,0,generic,1,0,,0,0,0,2023-10-08
+C0297,A115,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-14
+C0298,A256,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-22
+C0299,A219,CTO / VP Technology,IT services,generic,0,generic,0,0,,0,0,0,2023-10-04
+C0300,A224,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-01-26
+C0301,A213,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-20
+C0302,A062,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-07
+C0303,A186,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-06
+C0304,A090,CTO / VP Technology,MSP,generic,0,ai_personalized,0,0,2024-03-19,0,0,0,2023-12-03
+C0305,A109,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,2024-06-26,0,0,0,2024-01-27
+C0306,A197,CEO / Owner,IT services,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-04-16
+C0307,A188,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-01
+C0308,A212,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-10-07
+C0309,A227,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-09-22
+C0310,A154,CEO / Owner,MSP,ai_personalized,0,,0,0,2024-02-21,0,0,0,2024-05-13
+C0311,A036,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-08-08
+C0312,A082,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-06
+C0313,A017,CTO / VP Technology,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-10-03
+C0314,A195,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-21
+C0315,A005,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-02
+C0316,A040,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-02
+C0317,A140,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-10-23
+C0318,A066,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-01
+C0319,A156,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-19
+C0320,A224,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-20
+C0321,A145,HR / Talent Acquisition,MSP,ai_personalized,1,generic,0,0,,1,1,2,2024-04-05
+C0322,A207,Service Desk / SOC Director,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-10-19
+C0323,A009,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-03
+C0324,A025,HR / Talent Acquisition,MSSP,generic,0,generic,1,0,,0,0,0,2023-12-01
+C0325,A217,HR / Talent Acquisition,IT services,generic,0,generic,1,0,,0,0,0,2023-11-08
+C0326,A054,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-12-10
+C0327,A110,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-08-05
+C0328,A024,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-02
+C0329,A098,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-16
+C0330,A206,CEO / Owner,IT services,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-01-29
+C0331,A085,CEO / Owner,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-04-25
+C0332,A055,CTO / VP Technology,MSSP,generic,0,ai_personalized,1,1,,1,1,1,2023-12-03
+C0333,A206,People & Inclusion Lead,IT services,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-27
+C0334,A131,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-24
+C0335,A033,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-12-14
+C0336,A172,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-29
+C0337,A085,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-07-24
+C0338,A202,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-12-06
+C0339,A123,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-27
+C0340,A033,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-25
+C0341,A192,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-12-22
+C0342,A082,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-04
+C0343,A025,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,2023-11-15,0,0,0,2024-04-17
+C0344,A104,People & Inclusion Lead,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-07-02
+C0345,A131,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-11-13
+C0346,A166,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-24
+C0347,A228,Service Desk / SOC Director,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-09-03
+C0348,A194,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-27
+C0349,A207,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-25
+C0350,A214,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-12
+C0351,A147,Service Desk / SOC Director,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-10-12
+C0352,A232,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,2024-04-17,0,0,0,2024-02-18
+C0353,A215,CEO / Owner,IT services,generic,0,generic,1,1,,1,0,0,2023-11-07
+C0354,A079,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-23
+C0355,A144,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-27
+C0356,A105,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-08
+C0357,A177,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-10-11
+C0358,A084,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-12
+C0359,A085,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-11
+C0360,A024,HR / Talent Acquisition,MSSP,ai_personalized,0,generic,1,0,,0,0,0,2024-05-23
+C0361,A118,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-23
+C0362,A178,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,2023-11-15,0,0,0,2024-09-22
+C0363,A071,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-12-12
+C0364,A193,HR / Talent Acquisition,IT services,generic,0,,0,0,2024-01-30,0,0,0,2023-10-12
+C0365,A093,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-02
+C0366,A064,CEO / Owner,MSSP,ai_personalized,0,generic,1,0,,0,0,0,2024-05-21
+C0367,A026,CEO / Owner,MSSP,generic,0,generic,1,1,,0,0,0,2023-12-23
+C0368,A130,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-04
+C0369,A054,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-10-24
+C0370,A016,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-10
+C0371,A021,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-20
+C0372,A148,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-18
+C0373,A194,CEO / Owner,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-11-13
+C0374,A185,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-28
+C0375,A158,CEO / Owner,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-03-16
+C0376,A074,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-22
+C0377,A057,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-31
+C0378,A185,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-28
+C0379,A010,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-29
+C0380,A140,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-11-12
+C0381,A048,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-09-15
+C0382,A130,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-15
+C0383,A154,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-29
+C0384,A103,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-09-19
+C0385,A187,CTO / VP Technology,IT services,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-07-02
+C0386,A121,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-02-01
+C0387,A053,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-14
+C0388,A025,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-19
+C0389,A159,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-06
+C0390,A072,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-29
+C0391,A174,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-11-09
+C0392,A111,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-09-19
+C0393,A018,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-10-31
+C0394,A097,People & Inclusion Lead,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-21
+C0395,A121,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-10-25
+C0396,A039,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-18
+C0397,A031,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-08
+C0398,A138,CTO / VP Technology,MSP,ai_personalized,0,generic,1,1,,1,0,0,2024-07-12
+C0399,A214,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-14
+C0400,A026,HR / Talent Acquisition,MSSP,generic,0,,0,0,2024-03-19,0,0,0,2023-12-02
+C0401,A083,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-28
+C0402,A143,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-10
+C0403,A181,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C0404,A108,CTO / VP Technology,MSP,generic,1,,0,0,,1,1,1,2023-12-20
+C0405,A261,Service Desk / SOC Director,Enterprise,ai_personalized,0,generic,0,0,,0,0,0,2024-09-01
+C0406,A173,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-23
+C0407,A222,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-19
+C0408,A050,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-19
+C0409,A264,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-18
+C0410,A242,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-25
+C0411,A117,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-05
+C0412,A225,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-07-11
+C0413,A075,HR / Talent Acquisition,MSP,generic,1,ai_personalized,0,0,,1,1,1,2023-12-22
+C0414,A044,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-10-18
+C0415,A131,CEO / Owner,MSP,ai_personalized,0,,0,0,2024-03-19,1,1,1,2024-03-05
+C0416,A161,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-19
+C0417,A242,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-12-22
+C0418,A140,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-28
+C0419,A210,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-12-20
+C0420,A103,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-04
+C0421,A241,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-12-04
+C0422,A128,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-04-01
+C0423,A169,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-08-01
+C0424,A047,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-09
+C0425,A103,People & Inclusion Lead,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-01-28
+C0426,A011,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-29
+C0427,A087,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-30
+C0428,A030,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-18
+C0429,A201,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-16
+C0430,A175,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-14
+C0431,A081,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-14
+C0432,A138,CTO / VP Technology,MSP,generic,0,generic,0,0,,0,0,0,2023-11-24
+C0433,A124,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-30
+C0434,A136,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-07-19
+C0435,A087,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-07
+C0436,A062,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-23
+C0437,A209,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-05
+C0438,A232,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-10-13
+C0439,A052,People & Inclusion Lead,MSSP,ai_personalized,0,generic,1,1,,0,0,0,2024-07-17
+C0440,A055,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-10-12
+C0441,A046,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-10-12
+C0442,A245,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-22
+C0443,A255,People & Inclusion Lead,Enterprise,ai_personalized,1,,0,0,,1,0,0,2024-02-21
+C0444,A153,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-06
+C0445,A247,HR / Talent Acquisition,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-02-08
+C0446,A050,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-12-08
+C0447,A236,HR / Talent Acquisition,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-07-31
+C0448,A107,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-06
+C0449,A126,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-04
+C0450,A150,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-11
+C0451,A078,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-06
+C0452,A006,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-09
+C0453,A240,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-12
+C0454,A168,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-21
+C0455,A100,People & Inclusion Lead,MSP,generic,0,generic,0,0,,0,0,0,2023-12-17
+C0456,A198,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-17
+C0457,A126,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-30
+C0458,A101,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-11
+C0459,A257,Service Desk / SOC Director,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-05-17
+C0460,A063,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C0461,A099,Service Desk / SOC Director,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-03-15
+C0462,A206,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-28
+C0463,A194,People & Inclusion Lead,IT services,generic,0,,0,0,,0,0,0,2023-10-13
+C0464,A010,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-21
+C0465,A235,CEO / Owner,Enterprise,generic,0,ai_personalized,0,0,,0,0,0,2023-10-27
+C0466,A027,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-05-08
+C0467,A103,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-26
+C0468,A128,HR / Talent Acquisition,MSP,generic,0,,0,0,2024-06-26,1,1,2,2023-10-30
+C0469,A135,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-01
+C0470,A227,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-11-02
+C0471,A165,Service Desk / SOC Director,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-06-04
+C0472,A011,CTO / VP Technology,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-03-13
+C0473,A262,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-24
+C0474,A225,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-15
+C0475,A206,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-19
+C0476,A105,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-03
+C0477,A231,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-12-25
+C0478,A263,HR / Talent Acquisition,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-04-08
+C0479,A051,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-16
+C0480,A099,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-08
+C0481,A145,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-06-29
+C0482,A174,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-23
+C0483,A202,Service Desk / SOC Director,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-08-25
+C0484,A141,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-15
+C0485,A103,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-04
+C0486,A217,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-09-19
+C0487,A180,HR / Talent Acquisition,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-11-01
+C0488,A025,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-22
+C0489,A004,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-03-12
+C0490,A135,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-19
+C0491,A063,CTO / VP Technology,MSSP,generic,1,,0,0,,0,0,0,2023-10-31
+C0492,A219,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-07
+C0493,A196,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-11-04
+C0494,A175,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-01
+C0495,A117,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-24
+C0496,A156,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-07
+C0497,A074,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-08
+C0498,A166,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-15
+C0499,A092,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-24
+C0500,A259,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-20
+C0501,A088,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-11-21
+C0502,A238,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-19
+C0503,A046,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-07
+C0504,A037,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-10
+C0505,A041,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-17
+C0506,A149,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-01-11
+C0507,A025,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-20
+C0508,A148,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-12-26
+C0509,A222,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-11-06
+C0510,A098,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-02
+C0511,A208,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-01-29
+C0512,A171,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-22
+C0513,A093,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-20
+C0514,A049,CEO / Owner,MSSP,ai_personalized,1,,0,0,,0,0,0,2024-06-14
+C0515,A034,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-26
+C0516,A076,HR / Talent Acquisition,MSP,generic,0,generic,1,0,,0,0,0,2023-11-28
+C0517,A247,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-07-29
+C0518,A235,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-11
+C0519,A012,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-29
+C0520,A044,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-22
+C0521,A255,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-04-27
+C0522,A037,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-27
+C0523,A235,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-07
+C0524,A067,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-10-31
+C0525,A230,CTO / VP Technology,Enterprise,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-05-30
+C0526,A044,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-26
+C0527,A138,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-07
+C0528,A114,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-04
+C0529,A254,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-10
+C0530,A129,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-25
+C0531,A046,CTO / VP Technology,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-10-18
+C0532,A039,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-05-30
+C0533,A129,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-22
+C0534,A029,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-03
+C0535,A004,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-07
+C0536,A059,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-29
+C0537,A142,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-07-25
+C0538,A106,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-04
+C0539,A191,CTO / VP Technology,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-11-01
+C0540,A245,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-11-02
+C0541,A037,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-31
+C0542,A213,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-12-20
+C0543,A050,People & Inclusion Lead,MSSP,ai_personalized,0,generic,1,0,,0,0,0,2024-02-04
+C0544,A187,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-05
+C0545,A206,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,2023-11-15,0,0,0,2024-04-03
+C0546,A126,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-12
+C0547,A104,CTO / VP Technology,MSP,ai_personalized,0,generic,1,0,,0,0,0,2024-04-19
+C0548,A197,Service Desk / SOC Director,IT services,ai_personalized,1,,0,0,,1,0,0,2024-07-18
+C0549,A044,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,2024-05-08,0,0,0,2024-06-14
+C0550,A221,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-07
+C0551,A129,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-04
+C0552,A010,HR / Talent Acquisition,MSSP,ai_personalized,0,generic,1,0,,0,0,0,2024-01-19
+C0553,A140,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-30
+C0554,A233,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-11
+C0555,A073,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-10-28
+C0556,A035,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-28
+C0557,A113,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-08
+C0558,A045,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-16
+C0559,A087,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-06
+C0560,A192,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-24
+C0561,A087,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-11-03
+C0562,A034,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-11-06
+C0563,A186,People & Inclusion Lead,IT services,generic,0,,0,0,,0,0,0,2023-10-11
+C0564,A206,CEO / Owner,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-12-09
+C0565,A041,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-28
+C0566,A189,CTO / VP Technology,IT services,generic,0,generic,0,0,,0,0,0,2023-10-18
+C0567,A063,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-17
+C0568,A002,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-10-03
+C0569,A211,Service Desk / SOC Director,IT services,generic,0,generic,1,1,,0,0,0,2023-10-15
+C0570,A201,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-19
+C0571,A164,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-10
+C0572,A238,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-25
+C0573,A137,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-30
+C0574,A042,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-15
+C0575,A209,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-02-20
+C0576,A166,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-25
+C0577,A200,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-01
+C0578,A125,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-17
+C0579,A258,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-12-06
+C0580,A079,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-06-10
+C0581,A006,HR / Talent Acquisition,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-07-09
+C0582,A087,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-22
+C0583,A184,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-11-27
+C0584,A004,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-12-26
+C0585,A068,Service Desk / SOC Director,MSSP,generic,0,generic,1,0,,0,0,0,2023-11-14
+C0586,A166,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-13
+C0587,A238,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-03-30
+C0588,A199,People & Inclusion Lead,IT services,generic,0,,0,0,,0,0,0,2023-10-24
+C0589,A159,CTO / VP Technology,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-07-08
+C0590,A027,CEO / Owner,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-11-14
+C0591,A256,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-16
+C0592,A188,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-02
+C0593,A197,CTO / VP Technology,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-05-30
+C0594,A086,CEO / Owner,MSP,generic,0,ai_personalized,1,0,,0,0,0,2023-12-13
+C0595,A066,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-06
+C0596,A197,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-27
+C0597,A013,CTO / VP Technology,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-02
+C0598,A183,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,2024-05-08,0,0,0,2024-03-15
+C0599,A241,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-24
+C0600,A135,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-19
+C0601,A001,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-10-21
+C0602,A239,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-04-22
+C0603,A162,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-04
+C0604,A034,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-16
+C0605,A257,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-31
+C0606,A220,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-12-12
+C0607,A134,Service Desk / SOC Director,MSP,generic,0,ai_personalized,1,0,,0,0,0,2023-12-24
+C0608,A050,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-21
+C0609,A023,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-04-27
+C0610,A105,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-24
+C0611,A120,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-26
+C0612,A174,HR / Talent Acquisition,IT services,ai_personalized,1,,0,0,,1,0,0,2024-03-12
+C0613,A031,Service Desk / SOC Director,MSSP,ai_personalized,1,,0,0,,1,1,1,2024-04-08
+C0614,A029,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-28
+C0615,A228,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-10-18
+C0616,A094,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-13
+C0617,A111,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-10-23
+C0618,A120,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-03
+C0619,A200,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-11-20
+C0620,A196,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-07
+C0621,A257,Service Desk / SOC Director,Enterprise,ai_personalized,0,generic,0,0,,0,0,0,2024-04-24
+C0622,A137,People & Inclusion Lead,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-09-10
+C0623,A184,HR / Talent Acquisition,IT services,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-06-28
+C0624,A061,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-13
+C0625,A100,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-13
+C0626,A119,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-30
+C0627,A195,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-12
+C0628,A024,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-03
+C0629,A246,CTO / VP Technology,Enterprise,generic,0,generic,1,0,,0,0,0,2023-12-05
+C0630,A244,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-07-12
+C0631,A206,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-01-31
+C0632,A038,CEO / Owner,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-06-09
+C0633,A223,CTO / VP Technology,IT services,ai_personalized,1,ai_personalized,0,0,,1,0,0,2024-03-06
+C0634,A164,CEO / Owner,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-12-12
+C0635,A201,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-02
+C0636,A018,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-17
+C0637,A251,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-07-28
+C0638,A208,Service Desk / SOC Director,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-11-10
+C0639,A133,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-03-12
+C0640,A042,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-05
+C0641,A019,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-07-15
+C0642,A086,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-02-10
+C0643,A252,CTO / VP Technology,Enterprise,ai_personalized,0,generic,0,0,2024-04-17,0,0,0,2024-04-26
+C0644,A090,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-20
+C0645,A053,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-08-10
+C0646,A104,CTO / VP Technology,MSP,ai_personalized,1,generic,1,0,,1,1,2,2024-03-30
+C0647,A209,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-02
+C0648,A172,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-12-21
+C0649,A156,CTO / VP Technology,MSP,ai_personalized,0,generic,1,0,,0,0,0,2024-01-27
+C0650,A227,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-30
+C0651,A166,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-10
+C0652,A056,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-13
+C0653,A078,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-14
+C0654,A043,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-08
+C0655,A217,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-12-16
+C0656,A067,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-11-13
+C0657,A249,HR / Talent Acquisition,Enterprise,generic,1,ai_personalized,0,0,,0,0,0,2023-11-06
+C0658,A141,People & Inclusion Lead,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-01-17
+C0659,A074,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-06
+C0660,A150,People & Inclusion Lead,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-11-27
+C0661,A056,Service Desk / SOC Director,MSSP,ai_personalized,1,,0,0,,1,1,1,2024-04-22
+C0662,A225,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-06
+C0663,A064,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-17
+C0664,A016,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-08
+C0665,A232,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-24
+C0666,A022,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-04
+C0667,A256,HR / Talent Acquisition,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-04-17
+C0668,A037,CEO / Owner,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-02-25
+C0669,A123,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-12-03
+C0670,A073,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-19
+C0671,A135,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-09-05
+C0672,A042,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-28
+C0673,A261,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-09
+C0674,A001,CEO / Owner,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-04-19
+C0675,A110,CEO / Owner,MSP,ai_personalized,1,,0,0,,0,0,0,2024-07-09
+C0676,A019,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-10-06
+C0677,A152,HR / Talent Acquisition,MSP,ai_personalized,1,,0,0,,0,0,0,2024-04-25
+C0678,A242,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-06
+C0679,A094,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-10-07
+C0680,A072,CTO / VP Technology,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-02-07
+C0681,A135,People & Inclusion Lead,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-08
+C0682,A050,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-07
+C0683,A159,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-24
+C0684,A136,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-18
+C0685,A008,CEO / Owner,MSSP,generic,0,ai_personalized,1,1,,0,0,0,2023-12-17
+C0686,A011,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-18
+C0687,A160,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-24
+C0688,A060,People & Inclusion Lead,MSSP,generic,0,generic,1,1,,0,0,0,2023-12-14
+C0689,A054,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-30
+C0690,A087,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-11
+C0691,A218,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-18
+C0692,A262,CEO / Owner,Enterprise,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-08-31
+C0693,A235,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-15
+C0694,A131,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-11
+C0695,A150,CEO / Owner,MSP,generic,0,generic,1,1,,1,1,1,2023-10-25
+C0696,A101,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-24
+C0697,A105,CTO / VP Technology,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-02-28
+C0698,A208,People & Inclusion Lead,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-12-21
+C0699,A137,Service Desk / SOC Director,MSP,generic,0,ai_personalized,1,0,,0,0,0,2023-10-03
+C0700,A244,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C0701,A064,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-11-22
+C0702,A094,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-10-10
+C0703,A118,HR / Talent Acquisition,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-10-06
+C0704,A083,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-03-01
+C0705,A158,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-02
+C0706,A110,People & Inclusion Lead,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-11-25
+C0707,A075,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-03
+C0708,A204,CTO / VP Technology,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-06-29
+C0709,A099,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-27
+C0710,A076,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-26
+C0711,A064,People & Inclusion Lead,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-10-05
+C0712,A262,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-10-03
+C0713,A158,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-19
+C0714,A108,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-05
+C0715,A132,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-16
+C0716,A168,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,2024-01-30,0,0,0,2024-09-13
+C0717,A049,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-02
+C0718,A142,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-03-12
+C0719,A250,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-29
+C0720,A195,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-20
+C0721,A252,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-11-24
+C0722,A175,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-11-19
+C0723,A239,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-13
+C0724,A068,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-23
+C0725,A026,CEO / Owner,MSSP,generic,0,ai_personalized,1,0,,0,0,0,2023-10-02
+C0726,A038,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,2024-06-05,1,1,1,2024-03-11
+C0727,A208,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-10
+C0728,A145,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-02
+C0729,A139,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-18
+C0730,A043,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-19
+C0731,A256,CTO / VP Technology,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-09-05
+C0732,A072,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-26
+C0733,A254,HR / Talent Acquisition,Enterprise,ai_personalized,0,generic,0,0,,0,0,0,2024-08-27
+C0734,A089,HR / Talent Acquisition,MSP,ai_personalized,1,,0,0,,0,0,0,2024-06-15
+C0735,A246,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-06
+C0736,A070,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-08
+C0737,A043,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-11-11
+C0738,A032,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-25
+C0739,A244,HR / Talent Acquisition,Enterprise,generic,0,ai_personalized,1,1,,0,0,0,2023-10-25
+C0740,A136,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-10
+C0741,A182,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-24
+C0742,A072,HR / Talent Acquisition,MSSP,generic,0,ai_personalized,1,1,,0,0,0,2023-10-10
+C0743,A244,CEO / Owner,Enterprise,generic,0,,0,0,,0,0,0,2023-11-15
+C0744,A169,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-10-17
+C0745,A005,HR / Talent Acquisition,MSSP,generic,0,ai_personalized,1,1,,0,0,0,2023-11-21
+C0746,A073,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-12
+C0747,A167,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-10-05
+C0748,A020,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-29
+C0749,A167,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-02
+C0750,A057,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-16
+C0751,A036,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-12-11
+C0752,A078,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-20
+C0753,A081,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-10-22
+C0754,A011,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-11-04
+C0755,A054,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-01-18
+C0756,A036,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-10
+C0757,A096,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-09
+C0758,A015,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-11-14
+C0759,A166,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-02
+C0760,A243,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-07-23
+C0761,A070,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-25
+C0762,A028,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-11-26
+C0763,A198,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-20
+C0764,A131,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-02
+C0765,A012,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-23
+C0766,A163,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-14
+C0767,A214,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-12-24
+C0768,A060,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-08-24
+C0769,A075,HR / Talent Acquisition,MSP,ai_personalized,1,,0,0,,0,0,0,2024-02-19
+C0770,A120,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-26
+C0771,A077,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-05-19
+C0772,A009,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-11
+C0773,A052,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-08-30
+C0774,A039,CEO / Owner,MSSP,ai_personalized,0,,0,0,2024-03-19,0,0,0,2024-08-16
+C0775,A008,People & Inclusion Lead,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-12-02
+C0776,A241,People & Inclusion Lead,Enterprise,generic,0,ai_personalized,0,0,,0,0,0,2023-10-03
+C0777,A235,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-08
+C0778,A059,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-10-15
+C0779,A237,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-11-08
+C0780,A031,HR / Talent Acquisition,MSSP,ai_personalized,1,,0,0,,0,0,0,2024-04-18
+C0781,A176,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-10-09
+C0782,A004,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-20
+C0783,A140,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-10
+C0784,A140,Service Desk / SOC Director,MSP,generic,0,generic,0,0,,0,0,0,2023-10-10
+C0785,A122,HR / Talent Acquisition,MSP,generic,0,ai_personalized,1,0,,0,0,0,2023-10-26
+C0786,A069,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-12-04
+C0787,A212,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C0788,A183,CTO / VP Technology,IT services,generic,0,ai_personalized,1,1,,0,0,0,2023-12-15
+C0789,A006,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-07-08
+C0790,A146,CEO / Owner,MSP,ai_personalized,1,,0,0,,0,0,0,2024-07-17
+C0791,A216,CEO / Owner,IT services,ai_personalized,1,,0,0,,0,0,0,2024-07-13
+C0792,A006,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-28
+C0793,A063,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-10-08
+C0794,A071,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-05
+C0795,A139,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-27
+C0796,A069,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-20
+C0797,A235,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-23
+C0798,A110,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C0799,A034,HR / Talent Acquisition,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-05-06
+C0800,A221,Service Desk / SOC Director,IT services,generic,0,generic,0,0,,0,0,0,2023-11-02
+C0801,A028,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-06-27
+C0802,A133,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-10-31
+C0803,A213,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-15
+C0804,A102,CTO / VP Technology,MSP,ai_personalized,1,,0,0,,1,0,0,2024-09-15
+C0805,A130,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-01
+C0806,A075,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-20
+C0807,A144,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-15
+C0808,A122,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-10-27
+C0809,A143,CEO / Owner,MSP,generic,0,ai_personalized,1,1,,1,0,0,2023-11-05
+C0810,A095,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-24
+C0811,A218,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-13
+C0812,A116,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-29
+C0813,A106,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-10
+C0814,A047,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-12-03
+C0815,A071,Service Desk / SOC Director,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-03-25
+C0816,A077,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-19
+C0817,A006,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-08
+C0818,A053,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-12-18
+C0819,A186,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-13
+C0820,A255,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-14
+C0821,A016,Service Desk / SOC Director,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-10-19
+C0822,A216,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-05
+C0823,A038,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-13
+C0824,A253,HR / Talent Acquisition,Enterprise,generic,0,generic,0,0,,0,0,0,2023-11-03
+C0825,A078,Service Desk / SOC Director,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-09-16
+C0826,A240,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-11
+C0827,A100,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-28
+C0828,A137,HR / Talent Acquisition,MSP,generic,0,,0,0,,0,0,0,2023-12-04
+C0829,A089,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-03-27
+C0830,A159,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-02
+C0831,A107,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-09
+C0832,A001,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-06
+C0833,A203,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-22
+C0834,A184,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-28
+C0835,A157,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-12-13
+C0836,A119,People & Inclusion Lead,MSP,generic,1,,0,0,,0,0,0,2023-10-18
+C0837,A131,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-17
+C0838,A234,People & Inclusion Lead,Enterprise,generic,0,,0,0,,0,0,0,2023-12-23
+C0839,A019,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-05
+C0840,A186,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-19
+C0841,A212,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-05-07
+C0842,A238,People & Inclusion Lead,Enterprise,generic,0,generic,1,1,,0,0,0,2023-12-22
+C0843,A089,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-24
+C0844,A139,HR / Talent Acquisition,MSP,ai_personalized,0,generic,1,0,,0,0,0,2024-08-22
+C0845,A197,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C0846,A059,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-10
+C0847,A205,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-01-31
+C0848,A203,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-25
+C0849,A025,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-07-26
+C0850,A157,People & Inclusion Lead,MSP,generic,0,,0,0,2024-01-30,0,0,0,2023-12-20
+C0851,A024,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-14
+C0852,A125,Service Desk / SOC Director,MSP,generic,0,generic,0,0,,0,0,0,2023-11-17
+C0853,A024,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C0854,A166,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-02
+C0855,A226,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-30
+C0856,A038,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-12
+C0857,A113,Service Desk / SOC Director,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-10-18
+C0858,A062,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-16
+C0859,A171,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-12-24
+C0860,A033,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-09-16
+C0861,A084,CEO / Owner,MSP,ai_personalized,1,,0,0,,0,0,0,2024-07-15
+C0862,A246,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-11-19
+C0863,A118,HR / Talent Acquisition,MSP,generic,0,generic,1,1,,0,0,0,2023-10-06
+C0864,A165,Service Desk / SOC Director,MSP,ai_personalized,1,ai_personalized,1,1,,1,1,1,2024-09-16
+C0865,A250,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-12-22
+C0866,A084,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-24
+C0867,A203,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-25
+C0868,A114,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-27
+C0869,A232,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-09-12
+C0870,A182,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-01
+C0871,A028,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-18
+C0872,A207,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-24
+C0873,A190,CTO / VP Technology,IT services,ai_personalized,1,generic,0,0,,0,0,0,2024-09-18
+C0874,A034,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-12
+C0875,A112,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-20
+C0876,A012,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-03
+C0877,A123,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-14
+C0878,A099,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-10-22
+C0879,A002,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-14
+C0880,A263,CTO / VP Technology,Enterprise,generic,0,ai_personalized,1,1,,1,0,0,2023-11-05
+C0881,A220,HR / Talent Acquisition,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-06-30
+C0882,A154,CTO / VP Technology,MSP,generic,0,ai_personalized,1,0,,0,0,0,2023-11-29
+C0883,A144,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C0884,A181,HR / Talent Acquisition,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-04-27
+C0885,A140,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-09-02
+C0886,A029,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-02
+C0887,A227,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-04-15
+C0888,A151,CEO / Owner,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-02-11
+C0889,A102,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-05
+C0890,A086,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-21
+C0891,A155,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-05-30
+C0892,A139,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-10
+C0893,A022,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-06-10
+C0894,A134,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-13
+C0895,A117,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-09
+C0896,A031,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-15
+C0897,A082,CTO / VP Technology,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-07-29
+C0898,A199,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-08
+C0899,A101,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-22
+C0900,A112,CEO / Owner,MSP,generic,1,,0,0,,0,0,0,2023-12-09
+C0901,A182,Service Desk / SOC Director,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-02-16
+C0902,A114,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-30
+C0903,A230,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-13
+C0904,A248,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-20
+C0905,A254,Service Desk / SOC Director,Enterprise,generic,0,ai_personalized,1,1,,0,0,0,2023-11-27
+C0906,A163,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-23
+C0907,A041,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-27
+C0908,A100,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-20
+C0909,A078,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-22
+C0910,A256,CTO / VP Technology,Enterprise,generic,0,,0,0,2024-04-17,0,0,0,2023-12-03
+C0911,A155,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-12-23
+C0912,A072,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-09-23
+C0913,A035,People & Inclusion Lead,MSSP,ai_personalized,1,,0,0,,0,0,0,2024-02-07
+C0914,A089,People & Inclusion Lead,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-27
+C0915,A227,HR / Talent Acquisition,Enterprise,generic,0,generic,1,1,,0,0,0,2023-10-20
+C0916,A042,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-04
+C0917,A008,CEO / Owner,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-09-24
+C0918,A088,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-05-04
+C0919,A159,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-30
+C0920,A064,Service Desk / SOC Director,MSSP,generic,0,generic,1,1,,0,0,0,2023-12-18
+C0921,A208,CTO / VP Technology,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-11-03
+C0922,A254,People & Inclusion Lead,Enterprise,generic,0,,0,0,,0,0,0,2023-10-18
+C0923,A088,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-19
+C0924,A097,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-22
+C0925,A091,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-05
+C0926,A013,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-11-11
+C0927,A072,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-23
+C0928,A251,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-21
+C0929,A163,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-15
+C0930,A129,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-04-29
+C0931,A068,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-17
+C0932,A020,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-10-27
+C0933,A210,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-03
+C0934,A046,CTO / VP Technology,MSSP,ai_personalized,1,,0,0,,0,0,0,2024-01-11
+C0935,A179,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-01-18
+C0936,A051,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-09
+C0937,A223,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-09-22
+C0938,A043,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-12-24
+C0939,A098,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-11-23
+C0940,A252,People & Inclusion Lead,Enterprise,generic,0,,0,0,,0,0,0,2023-10-02
+C0941,A185,CEO / Owner,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-22
+C0942,A017,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-04
+C0943,A039,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-03
+C0944,A039,People & Inclusion Lead,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-12-04
+C0945,A249,Service Desk / SOC Director,Enterprise,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-07-31
+C0946,A062,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-25
+C0947,A260,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-12
+C0948,A158,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-10-12
+C0949,A170,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-21
+C0950,A093,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-10-11
+C0951,A002,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-12-02
+C0952,A115,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-05
+C0953,A263,HR / Talent Acquisition,Enterprise,ai_personalized,0,generic,0,0,,0,0,0,2024-06-03
+C0954,A228,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-25
+C0955,A074,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-29
+C0956,A007,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-01
+C0957,A231,HR / Talent Acquisition,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-06-29
+C0958,A086,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-09
+C0959,A131,CEO / Owner,MSP,generic,0,generic,0,0,,0,0,0,2023-11-30
+C0960,A060,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-15
+C0961,A220,CEO / Owner,IT services,ai_personalized,0,generic,1,0,,0,0,0,2024-07-04
+C0962,A210,People & Inclusion Lead,IT services,generic,0,,0,0,,0,0,0,2023-10-25
+C0963,A077,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-10
+C0964,A153,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-09
+C0965,A023,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-12
+C0966,A056,Service Desk / SOC Director,MSSP,generic,0,generic,1,1,,0,0,0,2023-11-11
+C0967,A049,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-18
+C0968,A186,Service Desk / SOC Director,IT services,ai_personalized,1,,0,0,,0,0,0,2024-05-03
+C0969,A258,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-11
+C0970,A148,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-10
+C0971,A233,CEO / Owner,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-05-19
+C0972,A255,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-07-11
+C0973,A217,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-12-16
+C0974,A035,People & Inclusion Lead,MSSP,ai_personalized,1,,0,0,,0,0,0,2024-08-02
+C0975,A022,CEO / Owner,MSSP,ai_personalized,0,generic,1,1,,0,0,0,2024-09-07
+C0976,A052,HR / Talent Acquisition,MSSP,generic,0,ai_personalized,1,1,,1,1,1,2023-12-03
+C0977,A030,Service Desk / SOC Director,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,1,2024-07-03
+C0978,A243,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-31
+C0979,A066,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-09
+C0980,A124,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-10-03
+C0981,A056,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-05-27
+C0982,A022,People & Inclusion Lead,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-17
+C0983,A158,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-17
+C0984,A239,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-11-20
+C0985,A031,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-23
+C0986,A010,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-06-26
+C0987,A113,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-04-05
+C0988,A017,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-01-20
+C0989,A085,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-14
+C0990,A019,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-14
+C0991,A217,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-18
+C0992,A231,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-14
+C0993,A099,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-17
+C0994,A003,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-11
+C0995,A257,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-10-06
+C0996,A169,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-24
+C0997,A258,HR / Talent Acquisition,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-22
+C0998,A107,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-13
+C0999,A014,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-22
+C1000,A144,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-10-06
+C1001,A004,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-03-03
+C1002,A199,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-22
+C1003,A181,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-27
+C1004,A082,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-03
+C1005,A141,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-07
+C1006,A221,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-10
+C1007,A106,CEO / Owner,MSP,ai_personalized,1,,0,0,,1,1,1,2024-04-01
+C1008,A198,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-02-03
+C1009,A262,People & Inclusion Lead,Enterprise,generic,0,,0,0,,0,0,0,2023-12-14
+C1010,A235,HR / Talent Acquisition,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-06-12
+C1011,A235,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-03
+C1012,A164,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-04-05
+C1013,A138,CEO / Owner,MSP,ai_personalized,0,generic,1,0,,0,0,0,2024-01-11
+C1014,A248,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-11-01
+C1015,A116,Service Desk / SOC Director,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-03
+C1016,A157,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-10-26
+C1017,A078,CEO / Owner,MSP,generic,0,generic,1,1,,0,0,0,2023-12-06
+C1018,A192,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-20
+C1019,A003,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-05-10
+C1020,A153,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-23
+C1021,A220,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-12-20
+C1022,A102,CEO / Owner,MSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-06-24
+C1023,A192,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-10-09
+C1024,A138,CEO / Owner,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-06-12
+C1025,A163,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-11-05
+C1026,A217,HR / Talent Acquisition,IT services,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-31
+C1027,A024,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-12-24
+C1028,A198,HR / Talent Acquisition,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-12-11
+C1029,A076,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-16
+C1030,A154,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-09
+C1031,A023,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,0,,0,0,0,2024-06-14
+C1032,A181,CEO / Owner,IT services,ai_personalized,0,generic,0,0,,0,0,0,2024-05-05
+C1033,A220,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-04
+C1034,A236,Service Desk / SOC Director,Enterprise,generic,0,,0,0,,0,0,0,2023-12-24
+C1035,A028,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-06
+C1036,A192,CEO / Owner,IT services,generic,0,generic,0,0,,0,0,0,2023-11-21
+C1037,A224,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-11-26
+C1038,A103,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-04
+C1039,A038,HR / Talent Acquisition,MSSP,ai_personalized,0,generic,0,0,,0,0,0,2024-06-30
+C1040,A134,HR / Talent Acquisition,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-03-15
+C1041,A060,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,1,1,,1,1,2,2024-05-20
+C1042,A182,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-31
+C1043,A056,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,2024-09-18,0,0,0,2024-06-14
+C1044,A036,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-12-07
+C1045,A244,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-04-08
+C1046,A244,CEO / Owner,Enterprise,generic,0,ai_personalized,0,0,,0,0,0,2023-11-10
+C1047,A065,CTO / VP Technology,MSSP,generic,1,ai_personalized,0,0,,1,1,1,2023-12-10
+C1048,A192,People & Inclusion Lead,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-07
+C1049,A054,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-03-07
+C1050,A050,People & Inclusion Lead,MSSP,generic,0,,0,0,,0,0,0,2023-11-25
+C1051,A059,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-03-01
+C1052,A002,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-22
+C1053,A255,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-10-12
+C1054,A095,CTO / VP Technology,MSP,ai_personalized,1,generic,1,1,,1,1,1,2024-02-27
+C1055,A245,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-23
+C1056,A101,HR / Talent Acquisition,MSP,generic,0,ai_personalized,1,1,,0,0,0,2023-10-11
+C1057,A195,Service Desk / SOC Director,IT services,ai_personalized,0,,0,0,,0,0,0,2024-07-06
+C1058,A057,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-11-06
+C1059,A029,CEO / Owner,MSSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-01-29
+C1060,A067,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-01-30
+C1061,A127,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-22
+C1062,A009,CTO / VP Technology,MSSP,generic,0,,0,0,,0,0,0,2023-11-02
+C1063,A101,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-27
+C1064,A259,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-05-10
+C1065,A156,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-06
+C1066,A066,CTO / VP Technology,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-02-24
+C1067,A238,Service Desk / SOC Director,Enterprise,ai_personalized,0,generic,1,1,,0,0,0,2024-01-08
+C1068,A068,People & Inclusion Lead,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-02-21
+C1069,A243,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-29
+C1070,A158,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-15
+C1071,A041,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-10
+C1072,A167,People & Inclusion Lead,MSP,ai_personalized,1,,0,0,,0,0,0,2024-05-19
+C1073,A055,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-05-27
+C1074,A037,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-12-16
+C1075,A023,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-31
+C1076,A230,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-24
+C1077,A139,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-06-26
+C1078,A136,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-03-24
+C1079,A179,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-29
+C1080,A014,HR / Talent Acquisition,MSSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-01-21
+C1081,A196,CEO / Owner,IT services,generic,0,,0,0,,0,0,0,2023-12-26
+C1082,A243,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-10-21
+C1083,A031,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-09-21
+C1084,A176,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-06-12
+C1085,A012,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-07
+C1086,A251,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-10-14
+C1087,A245,CEO / Owner,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-08-06
+C1088,A040,CTO / VP Technology,MSSP,ai_personalized,0,generic,1,0,,0,0,0,2024-07-18
+C1089,A212,HR / Talent Acquisition,IT services,generic,0,,0,0,,0,0,0,2023-10-15
+C1090,A160,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-01-17
+C1091,A059,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,2024-06-05,1,1,1,2024-07-25
+C1092,A205,People & Inclusion Lead,IT services,generic,0,generic,0,0,,0,0,0,2023-12-15
+C1093,A152,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-19
+C1094,A165,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-07
+C1095,A190,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-12-26
+C1096,A060,CTO / VP Technology,MSSP,generic,0,generic,1,0,,0,0,0,2023-11-06
+C1097,A114,CTO / VP Technology,MSP,ai_personalized,0,,0,0,,0,0,0,2024-03-28
+C1098,A248,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-02
+C1099,A228,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-01-07
+C1100,A211,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-11-19
+C1101,A064,CTO / VP Technology,MSSP,generic,0,ai_personalized,0,0,,0,0,0,2023-12-08
+C1102,A173,Service Desk / SOC Director,IT services,generic,0,,0,0,,0,0,0,2023-11-10
+C1103,A063,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-26
+C1104,A165,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-11-26
+C1105,A197,CTO / VP Technology,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-10-06
+C1106,A175,People & Inclusion Lead,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-12-04
+C1107,A121,Service Desk / SOC Director,MSP,ai_personalized,0,generic,0,0,,0,0,0,2024-01-10
+C1108,A114,CEO / Owner,MSP,generic,0,,0,0,,0,0,0,2023-12-09
+C1109,A124,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-09-01
+C1110,A060,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-12-13
+C1111,A172,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-08-09
+C1112,A129,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-06
+C1113,A091,CTO / VP Technology,MSP,generic,0,,0,0,,0,0,0,2023-10-11
+C1114,A205,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-10-15
+C1115,A116,CTO / VP Technology,MSP,ai_personalized,0,,0,0,2024-05-08,1,1,1,2024-05-12
+C1116,A165,CEO / Owner,MSP,ai_personalized,0,,0,0,,0,0,0,2024-07-21
+C1117,A178,CTO / VP Technology,IT services,generic,0,,0,0,,0,0,0,2023-10-11
+C1118,A237,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-02-18
+C1119,A176,CTO / VP Technology,IT services,ai_personalized,0,,0,0,,0,0,0,2024-04-23
+C1120,A230,People & Inclusion Lead,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-06-07
+C1121,A022,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-07-23
+C1122,A140,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-05-19
+C1123,A263,Service Desk / SOC Director,Enterprise,ai_personalized,0,generic,1,1,,1,0,0,2024-06-21
+C1124,A225,HR / Talent Acquisition,Enterprise,ai_personalized,1,,0,0,,0,0,0,2024-01-14
+C1125,A254,CTO / VP Technology,Enterprise,generic,0,,0,0,,0,0,0,2023-12-09
+C1126,A130,CTO / VP Technology,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-12-09
+C1127,A043,HR / Talent Acquisition,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-08-29
+C1128,A080,CEO / Owner,MSP,generic,0,ai_personalized,0,0,,0,0,0,2023-12-08
+C1129,A183,Service Desk / SOC Director,IT services,ai_personalized,0,ai_personalized,1,1,,1,0,0,2024-01-19
+C1130,A045,CEO / Owner,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C1131,A059,CTO / VP Technology,MSSP,generic,0,generic,0,0,,0,0,0,2023-11-16
+C1132,A108,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-05
+C1133,A210,CTO / VP Technology,IT services,ai_personalized,1,,0,0,,0,0,0,2024-06-08
+C1134,A033,CEO / Owner,MSSP,generic,0,,0,0,,0,0,0,2023-11-12
+C1135,A234,People & Inclusion Lead,Enterprise,generic,0,,0,0,,0,0,0,2023-10-26
+C1136,A078,HR / Talent Acquisition,MSP,ai_personalized,0,ai_personalized,1,1,,0,0,0,2024-01-07
+C1137,A246,Service Desk / SOC Director,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-03-30
+C1138,A077,HR / Talent Acquisition,MSP,ai_personalized,0,,0,0,,0,0,0,2024-08-08
+C1139,A059,Service Desk / SOC Director,MSSP,ai_personalized,0,,0,0,,0,0,0,2024-06-17
+C1140,A127,Service Desk / SOC Director,MSP,generic,0,,0,0,,0,0,0,2023-11-29
+C1141,A259,CTO / VP Technology,Enterprise,ai_personalized,0,,0,0,,0,0,0,2024-04-03
+C1142,A137,People & Inclusion Lead,MSP,ai_personalized,0,,0,0,,0,0,0,2024-02-06
+C1143,A114,Service Desk / SOC Director,MSP,ai_personalized,0,,0,0,,0,0,0,2024-06-18
+C1144,A023,Service Desk / SOC Director,MSSP,generic,0,,0,0,,0,0,0,2023-11-14
+C1145,A082,CTO / VP Technology,MSP,ai_personalized,0,ai_personalized,0,0,,0,0,0,2024-09-05
+C1146,A183,CTO / VP Technology,IT services,generic,0,ai_personalized,0,0,,0,0,0,2023-11-22
+C1147,A032,HR / Talent Acquisition,MSSP,generic,0,,0,0,,0,0,0,2023-10-20
+C1148,A082,People & Inclusion Lead,MSP,generic,0,,0,0,,0,0,0,2023-11-23
+C1149,A178,HR / Talent Acquisition,IT services,ai_personalized,0,,0,0,,0,0,0,2024-03-07
+C1150,A226,HR / Talent Acquisition,Enterprise,generic,0,,0,0,,0,0,0,2023-12-08

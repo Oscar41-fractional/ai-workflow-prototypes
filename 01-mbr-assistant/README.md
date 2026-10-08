@@ -2,6 +2,8 @@
 
 **See the output:** [sample monthly business reviews](https://oscar41-fractional.github.io/ai-workflow-prototypes/demo-01-mbr.html)
 
+**For roles:** Partner / Channel Managers, Alliances, Partner Marketing
+
 **Problem to solve:** Rebuilding JMP (joint marketing plan) and MBR (monthly business review) production around AI to cut the time.
 
 **Background (real):** As partner marketing manager for 19 ISV partners (The Channel Company for AWS Canada, 2024–2026), I produced joint marketing plans (JMPs) and monthly business reviews (MBRs) by hand. I rebuilt that workflow around AI prompt workflows plus a session-time tracker, which cut JMP/MBR production time by about 60%. The workflow was evaluated for program-wide adoption.

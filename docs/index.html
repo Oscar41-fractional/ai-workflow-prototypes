@@ -35,6 +35,13 @@ tr:nth-child(even) td{background:var(--paper)}.pill{font-size:12px;font-weight:6
 .s{background:var(--ok)}.p{background:var(--warn)}.g{background:var(--deep)}
 .dark{background:var(--coal);color:var(--bone)}.dark .sub{color:#bdbab6}.prin{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
 .prin div{border-top:3px solid var(--red);padding-top:10px}.prin b{display:block;font-family:"IBM Plex Sans Condensed","Arial Narrow",sans-serif;font-size:19px}
+.start{margin:22px 0 4px;max-width:900px;border-left:4px solid var(--red);padding:4px 0 4px 16px}
+.start .lbl{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;color:var(--red);text-transform:uppercase}
+.start p{color:#e6e3df;font-size:17px;margin:6px 0 10px;max-width:none}.start p b{color:#fff}
+.wins{display:flex;flex-wrap:wrap;gap:8px}.wins span{background:#262525;border:1px solid #3a3838;border-radius:6px;padding:6px 10px;font-size:14px;color:#e6e3df}.wins b{color:#fff}
+.roles{font-size:13px;color:#333;display:flex;flex-wrap:wrap;gap:6px;align-items:center}.roles i{font-style:normal;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:#666;text-transform:uppercase;letter-spacing:.06em}
+.roles span{background:#fbeaea;color:var(--deep);border-radius:4px;padding:2px 8px;font-weight:600}
+.kv{font-size:14.5px;margin:0}.kv b{color:var(--ink)}.kv.res{background:#eef6f1;border-radius:6px;padding:8px 10px}
 footer{padding-block:28px;color:var(--smoke);font-size:13px}
 </style>
 </head>
@@ -42,38 +49,56 @@ footer{padding-block:28px;color:var(--smoke);font-size:13px}
 <header><div class="w">
   <div class="eb">Oscar Farrera</div>
   <div class="ttl"><h1>AI Workflow Prototypes</h1><div class="rule"></div></div>
+  <div class="start"><div class="lbl">Start here</div>
+  <p>I'm <b>Oscar Farrera</b>, a partner marketing and channel professional (AWS Canada partner program, MSSP channel, demand generation) who rebuilds go-to-market workflows with AI. <b>Targeting:</b> Partner Development · Channel &amp; Alliances · Partner Marketing · AI enablement.</p>
+  <div class="wins"><span><b>~60% less</b> partner review time · 19 ISV partners</span><span><b>+33%</b> net new ARR · MSSP channel</span><span><b>3×</b> LinkedIn conversations · 56% lead-to-meeting</span></div></div>
   <div class="links"><a id="repo" href="../">View the code on GitHub</a><a href="https://oscarfarrera-portfolio.netlify.app">Partner work portfolio + live demo</a><a href="https://www.ai-fractional.com">AI-Fractional</a><a href="https://www.linkedin.com/in/ofarrera/">LinkedIn</a></div>
 </div></header>
 
 <section><div class="w">
   <h2>The prototypes</h2>
-  <p class="sub">Each prototype runs in seconds with standard Python. <b>See the output</b> shows the finished result on sample data. The links below each card open the code, the sample data, the solution path and the design choices on GitHub.</p>
+  <p class="sub">Each card shows the roles it applies to, the problem, the solution, real results and why it matters. Each prototype runs in seconds with standard Python. <b>See the output</b> shows the finished result on sample data. The links below each card open the code, the sample data, the solution path and the design choices on GitHub.</p>
   <div class="cards">
     <div class="card"><span class="n">01 · Script + Claude skill + LLM prompt</span><h3>MBR Assistant</h3>
+      <div class="roles"><i>For roles:</i><span>Partner / Channel Managers</span><span>Alliances</span><span>Partner Marketing</span></div>
       <div class="prob"><b>Problem to solve:</b> rebuilding JMP and MBR production around AI to cut the time.</div>
-      <p>Raw partner activity data → cleaned → KPIs calculated → activities ranked and flagged → one-page review drafted for human sign-off.</p>
+      <p class="kv"><b>Solution:</b> a script cleans the partner data and calculates every KPI; AI drafts the one-page review; the partner manager checks and shares it.</p>
+      <p class="kv res"><b>Results:</b> about <b>60% less</b> JMP/MBR production time across <b>19 ISV partners</b> (AWS Canada partner program); numbers are always calculated, never generated.</p>
+      <p class="kv"><b>Why it matters:</b> partner managers spend their time with partners instead of in spreadsheets, and every review is consistent and verifiable.</p>
       <div class="tags"><span class="tag">AI workflow redesign</span><span class="tag">Calculate, then generate</span><span class="tag">Quant</span></div>
-      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><div class="acts"><a class="btn" href="demo-01-mbr.html">See the output →</a><a class="btn2" data-path="01-mbr-assistant" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="01-mbr-assistant/mbr.py" href="#">Code</a><a data-file="01-mbr-assistant/SKILL.md" href="#">Claude skill</a><a data-file="01-mbr-assistant/sample/partner_activity_2026-05.csv" href="#">Sample data</a><a data-file="01-mbr-assistant/README.md#solution-path" href="#">Solution path</a><a data-file="01-mbr-assistant/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: JMP = joint marketing plan; MBR = monthly business review; KPI = key performance indicator; LLM = large language model (the AI that writes the draft).</p></div></div>
-    <div class="card"><span class="n">02 · Script + Claude skill</span><h3>Transformation intake prioritizer</h3>
+      <code>python mbr.py --data sample/partner_activity_2026-05.csv</code><div class="acts"><a class="btn" href="demo-01-mbr.html">See the output →</a><a class="btn2" data-path="01-mbr-assistant" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="01-mbr-assistant/mbr.py" href="#">Code</a><a data-file="01-mbr-assistant/SKILL.md" href="#">Claude skill</a><a data-file="01-mbr-assistant/sample/partner_activity_2026-05.csv" href="#">Sample data</a><a data-file="01-mbr-assistant/README.md#solution-path" href="#">Solution path</a><a data-file="01-mbr-assistant/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: JMP = joint marketing plan; MBR = monthly business review; KPI = key performance indicator; LLM = large language model (the AI that writes the draft); ISV = independent software vendor.</p></div></div>
+    <div class="card"><span class="n">02 · Script + Claude skill</span><h3>AI Transformation Request Portfolio</h3>
+      <div class="roles"><i>For roles:</i><span>Sales</span><span>Marketing</span><span>Business Development</span><span>Partner Development</span></div>
       <div class="prob"><b>Problem to solve:</b> consistent MDF pre-approval using the <a href="https://www.ai-fractional.com" target="_blank" rel="noopener">FRACTION gate framework</a>.</div>
-      <p>Free-text AI requests → intake record → forbidden zone, readiness and value gates → ranked portfolio with decision briefs.</p>
-      <div class="tags"><span class="tag">Intake & prioritization</span><span class="tag">Governance</span><span class="tag">Exec briefs</span></div>
-      <code>python prioritize.py --intake sample/intake.csv</code><div class="acts"><a class="btn" href="demo-02-intake.html">See the output →</a><a class="btn2" data-path="02-intake-prioritizer" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="02-intake-prioritizer/prioritize.py" href="#">Code</a><a data-file="02-intake-prioritizer/SKILL.md" href="#">Claude skill</a><a data-file="02-intake-prioritizer/sample/intake.csv" href="#">Sample data</a><a data-file="02-intake-prioritizer/README.md#solution-path" href="#">Solution path</a><a data-file="02-intake-prioritizer/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: MDF = market development funds; FRACTION = AI-Fractional's gate framework for AI use cases.</p></div></div>
-    <div class="card"><span class="n">03 · Scenario model</span><h3>ROI metric tree</h3>
+      <p class="kv"><b>Solution:</b> every AI request from Sales, Marketing, BD and Partner teams passes the same gates (forbidden zone, readiness, value) and gets a ranked decision brief.</p>
+      <p class="kv res"><b>Results:</b> 8 requests in → <b>2</b> business cases to build now, <b>1</b> pilot, <b>2</b> to fix and re-score, <b>2</b> parked, <b>1</b> excluded. Same discipline I used to manage MDF across <b>19 partners</b> (89.6% utilization benchmark).</p>
+      <p class="kv"><b>Why it matters:</b> leaders get a transparent, defensible AI roadmap instead of pet projects, with data and compliance risks caught before anything is built.</p>
+      <div class="tags"><span class="tag">Intake &amp; prioritization</span><span class="tag">Governance</span><span class="tag">Exec briefs</span></div>
+      <code>python prioritize.py --intake sample/intake.csv</code><div class="acts"><a class="btn" href="demo-02-intake.html">See the output →</a><a class="btn2" data-path="02-ai-request-portfolio" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="02-ai-request-portfolio/prioritize.py" href="#">Code</a><a data-file="02-ai-request-portfolio/SKILL.md" href="#">Claude skill</a><a data-file="02-ai-request-portfolio/sample/intake.csv" href="#">Sample data</a><a data-file="02-ai-request-portfolio/README.md#solution-path" href="#">Solution path</a><a data-file="02-ai-request-portfolio/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: MDF = market development funds; BD = business development; FRACTION = AI-Fractional's gate framework for AI use cases.</p></div></div>
+    <div class="card"><span class="n">03 · Scenario model</span><h3>ROI Metric Tree</h3>
+      <div class="roles"><i>For roles:</i><span>Sales &amp; Marketing leaders</span><span>Partner Development</span><span>Revenue Operations</span></div>
       <div class="prob"><b>Problem to solve:</b> an AI investment case with a metric tree, three scenarios, break-even adoption and a pass/fail gate.</div>
-      <p>Metric tree, three scenarios, break-even adoption and a sensitivity grid. Shows a reframe: a broad rollout fails the gate; a focused one passes.</p>
+      <p class="kv"><b>Solution:</b> one assumptions file produces the metric tree, three scenarios, break-even adoption, a sensitivity grid and a go / no-go gate.</p>
+      <p class="kv res"><b>Results:</b> an 80-seat rollout <b>fails</b> (−8.5% ROI); the same tool for 30 power users <b>passes</b> (+38.6% ROI, 29.8-point safety margin).</p>
+      <p class="kv"><b>Why it matters:</b> turns “AI saves time” into a profit-and-loss case a VP or CFO can approve, rescope or stop.</p>
       <div class="tags"><span class="tag">Metric tree</span><span class="tag">Scenarios</span><span class="tag">First principles</span></div>
-      <code>python roi_model.py --config assumptions.json</code><div class="acts"><a class="btn" href="demo-03-roi.html">See the output →</a><a class="btn2" data-path="03-roi-metric-tree" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="03-roi-metric-tree/roi_model.py" href="#">Code</a><a data-file="03-roi-metric-tree/assumptions.json" href="#">Sample data</a><a data-file="03-roi-metric-tree/README.md#solution-path" href="#">Solution path</a><a data-file="03-roi-metric-tree/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: ROI = return on investment.</p></div></div>
-    <div class="card"><span class="n">04 · Data + HTML generator</span><h3>AI capability map: go-to-market</h3>
+      <code>python roi_model.py --config assumptions.json</code><div class="acts"><a class="btn" href="demo-03-roi.html">See the output →</a><a class="btn2" data-path="03-roi-metric-tree" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="03-roi-metric-tree/roi_model.py" href="#">Code</a><a data-file="03-roi-metric-tree/assumptions.json" href="#">Sample data</a><a data-file="03-roi-metric-tree/README.md#solution-path" href="#">Solution path</a><a data-file="03-roi-metric-tree/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: ROI = return on investment; VP = vice president; CFO = chief financial officer.</p></div></div>
+    <div class="card"><span class="n">04 · Data + HTML generator</span><h3>AI Capability Map: Go-to-Market</h3>
+      <div class="roles"><i>For roles:</i><span>Cross-industry roles</span><span>Partnerships</span><span>Marketing</span><span>Sales</span><span>Customer Success</span></div>
       <div class="prob"><b>Problem to solve:</b> going from process pain to AI capability built.</div>
-      <p>18 processes, each with a human / AI / system solution path and, side by side, where I have done that work before and whether I have already rebuilt it with AI.</p>
+      <p class="kv"><b>Solution:</b> 18 go-to-market processes, each with what the human, the AI and the system of record own, and a ranked list of what to redesign next.</p>
+      <p class="kv res"><b>Results:</b> <b>4</b> processes already rebuilt with AI, <b>4</b> AI-assisted, <b>10</b> ranked to redesign next; each tied to a real result such as 60% less review time or 3× LinkedIn conversations.</p>
+      <p class="kv"><b>Why it matters:</b> shows any team, in any industry, where AI helps first and who stays accountable for what.</p>
       <div class="tags"><span class="tag">Capability map</span><span class="tag">Solution paths</span><span class="tag">My track record</span></div>
       <div class="acts"><a class="btn" href="capability_map.html">See the output →</a><a class="btn2" data-path="04-capability-map" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="04-capability-map/build_map.py" href="#">Code</a><a data-file="04-capability-map/capability_map.csv" href="#">Sample data</a><a data-file="04-capability-map/README.md#solution-path" href="#">Solution path</a><a data-file="04-capability-map/README.md#design-choices" href="#">Design choices</a></div></div></div>
-    <div class="card"><span class="n">05 · Claude skill + analyzer</span><h3>Outreach Assistant</h3>
-      <div class="prob"><b>Problem to solve:</b> AI-assisted social selling to increase LinkedIn conversations and lead-to-meeting conversion.</div>
-      <p>A skill drafts personalized outreach under human review; an analyzer compares variants stage by stage and names the weakest stage.</p>
-      <div class="tags"><span class="tag">Team-level redesign</span><span class="tag">Experimentation</span><span class="tag">Guardrails</span></div>
-      <code>python funnel.py --log sample/outreach_log.csv</code><div class="acts"><a class="btn" href="demo-05-outreach.html">See the output →</a><a class="btn2" data-path="05-outreach-assistant" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="05-outreach-assistant/funnel.py" href="#">Code</a><a data-file="05-outreach-assistant/SKILL.md" href="#">Claude skill</a><a data-file="05-outreach-assistant/sample/outreach_log.csv" href="#">Sample data</a><a data-file="05-outreach-assistant/README.md#solution-path" href="#">Solution path</a><a data-file="05-outreach-assistant/README.md#design-choices" href="#">Design choices</a></div></div></div>
+    <div class="card"><span class="n">05 · Scripts + Claude skill + analyzer</span><h3>Outreach Assistant</h3>
+      <div class="roles"><i>For roles:</i><span>Sales</span><span>Marketing</span><span>Demand generation</span><span>Business Development</span></div>
+      <div class="prob"><b>Problem to solve:</b> filling cybersecurity analyst roles at MSPs and MSSPs with neurodivergent talent, scaling a placement firm's outreach on a lean budget.</div>
+      <p class="kv"><b>Solution:</b> accounts scored into waves; AI drafts persona-matched messages that a human sends; events and demos; every stage measured.</p>
+      <p class="kv res"><b>Results:</b> email reach <b>5×</b> to 1,150 contacts at 264 companies; LinkedIn conversations <b>3×</b> to 119; <b>38</b> meetings from 67 qualified calls; demos <b>4.6×</b>; <b>3</b> placement intents worth $340K over 6 months.</p>
+      <p class="kv"><b>Why it matters:</b> more pipeline from the same team and budget, and clear evidence of which persona, segment and channel to invest in.</p>
+      <div class="tags"><span class="tag">AI-augmented demand gen</span><span class="tag">Account scoring</span><span class="tag">Funnel analytics</span><span class="tag">Guardrails</span></div>
+      <code>python funnel.py --data sample/</code><div class="acts"><a class="btn" href="demo-05-outreach.html">See the output →</a><a class="btn2" data-path="05-outreach-assistant" href="#">Open prototype on GitHub →</a><div class="det"><a data-file="05-outreach-assistant/funnel.py" href="#">Code</a><a data-file="05-outreach-assistant/SKILL.md" href="#">Claude skill</a><a data-file="05-outreach-assistant/sample/contacts.csv" href="#">Sample data</a><a data-file="05-outreach-assistant/README.md#solution-path" href="#">Solution path</a><a data-file="05-outreach-assistant/README.md#design-choices" href="#">Design choices</a></div><p class="acr">Acronyms: MSP = managed service provider; MSSP = managed security service provider.</p></div></div>
   </div>
 </div></section>
 
@@ -88,7 +113,7 @@ footer{padding-block:28px;color:var(--smoke);font-size:13px}
   </div>
 </div></section>
 
-<footer><div class="w">All company names and data in these prototypes are fictional. Results from past roles are from my CV; no employer or partner data is included. © 2026 Oscar Farrera · MIT License.</div></footer>
+<footer><div class="w">All company names and data in these prototypes are fictional. Results from past roles are from my CV; no employer or partner data is included. © 2026 Oscar Farrera · All rights reserved.</div></footer>
 <script>
   // Point "Open prototype" links at the repo when served from GitHub Pages (user.github.io/repo/)
   (function(){

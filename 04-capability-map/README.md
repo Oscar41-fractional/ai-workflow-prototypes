@@ -2,9 +2,11 @@
 
 **See the output:** [the live capability map](https://oscar41-fractional.github.io/ai-workflow-prototypes/capability_map.html)
 
+**For roles:** Cross-industry roles in Partnerships, Marketing, Sales and Customer Success
+
 **Problem to solve:** Going from process pain to AI capability built.
 
-**Background (real):** the go-to-market functions I have worked in: Partnerships (AWS Canada partner program via The Channel Company; Hornetsecurity MSSP channel), Marketing and Sales (Neuro Plus, AWS co-marketing), and Customer Success (Hornetsecurity, AI-Fractional).
+**Background (real):** the go-to-market functions I have worked in: Partnerships (AWS Canada partner program via The Channel Company; Hornetsecurity MSSP channel), Marketing and Sales (Clearmind Talent, AWS co-marketing), and Customer Success (Hornetsecurity, AI-Fractional).
 
 **What it is:** a map of 18 processes across Partnerships, Marketing, Sales and Customer Success. For each process it shows:
 - today's pain and the AI pattern (draft, summarize, check, detect, research);

@@ -1,0 +1,9 @@
+id,title,function,requester,problem,volume_per_month,minutes_saved_per_item,hourly_cost,data_class,forbidden,data_ready,process_ready,value,readiness,change_capacity,reusable_pattern,reversible
+T-01,Partner business review drafts,Partner Development,Partner Marketing Lead,Each monthly partner review takes about 3 hours to assemble from spreadsheets,40,120,65,amber,no,4,4,4,4,high,yes,yes
+T-02,Inbound lead research and routing,Sales,Sales Operations Manager,New inbound leads wait up to a day to be researched and routed to the right rep,900,6,55,amber,no,4,4,4,4,medium,no,yes
+T-03,Campaign brief to asset drafts,Marketing,Content Marketing Lead,Each campaign needs 12 asset variants written by hand,60,45,60,green,no,5,4,3,5,high,yes,yes
+T-04,Account research before first call,Business Development,BDR Team Lead,Reps spend 15 minutes per account across many sources before a first call,300,15,50,amber,no,3,3,4,3,medium,yes,yes
+T-05,MDF claim proof-of-execution pre-check,Partner Development,Channel Programs Manager,Proof-of-execution files for each MDF claim are checked by hand against the pre-approval,120,20,65,red,no,3,4,4,3,medium,no,no
+T-06,Mass scraping of LinkedIn profiles for automated outreach,Business Development,Growth Marketing Manager,Wants thousands of profiles scraped and messaged automatically,2000,3,50,red,yes,3,3,3,4,high,no,no
+T-07,Win-loss call summaries,Sales,Sales Enablement Manager,Lessons from lost deals are not captured; calls are recorded inconsistently,80,30,70,amber,no,2,3,4,4,medium,yes,yes
+T-08,Partner recruitment fit scoring,Partner Development,Head of Alliances,Partner fit is judged case by case with no agreed ideal partner profile,50,40,75,amber,no,4,2,4,3,medium,yes,yes
