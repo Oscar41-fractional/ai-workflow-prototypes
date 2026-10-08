@@ -1,9 +1,0 @@
-id,title,function,requester,problem,volume_per_month,minutes_saved_per_item,hourly_cost,data_class,forbidden,data_ready,process_ready,value,readiness,change_capacity,reusable_pattern,reversible
-T-01,Support ticket triage and draft replies,Support,Head of Support,Agents spend first 5 minutes of every ticket classifying and searching the KB,4200,4,45,amber,no,4,4,4,4,high,yes,yes
-T-02,Deal desk quote review assistant,Sales,VP Sales Ops,Non-standard quotes wait 2 days for manual policy checks,320,25,85,amber,no,3,3,4,3,medium,no,yes
-T-03,Contract redline first pass,Legal,General Counsel,Legal reviews every NDA and MSA from scratch,90,40,140,red,no,4,3,4,3,low,no,no
-T-04,Candidate screening ranking,HR,Talent Lead,Recruiters manually screen 600 applications a month,600,6,55,red,yes,3,3,3,3,medium,no,no
-T-05,Monthly board metrics pack,Finance,CFO,Analysts spend 3 days pulling the same metrics each month,1,1200,95,amber,no,2,4,5,2,medium,yes,yes
-T-06,Campaign brief to asset drafts,Marketing,Content Lead,Each campaign needs 12 asset variants written by hand,40,90,60,green,no,5,4,3,5,high,yes,yes
-T-07,Customer health summary before QBRs,CS,VP Customer Success,CSMs assemble account history from 5 tools before every QBR,150,45,70,amber,no,2,3,4,2,high,yes,yes
-T-08,Incident postmortem drafting,Engineering,Eng Manager,Postmortems are late because writing them takes half a day,12,180,120,amber,no,4,4,2,4,medium,yes,yes
